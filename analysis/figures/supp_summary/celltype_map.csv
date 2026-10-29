@@ -1,0 +1,104 @@
+cell_type,germ_layer,qiu_types,candidates,status
+allantoic endothelial progenitor,mesoderm,Hematoendothelial progenitors,Hematoendothelial progenitors;Oligodendrocyte progenitor cells;Naive retinal progenitor cells;Retinal progenitor cells,curated
+allantois,mesoderm,Allantois,Allantois,auto
+amniotic ectoderm,ectoderm,Amniotic ectoderm,Amniotic ectoderm;Amniotic mesoderm;Definitive ectoderm;Surface ectoderm,auto
+anterior mesoderm,mesoderm,,Amniotic mesoderm;Intermediate mesoderm;Nascent mesoderm;Anterior intermediate mesoderm,none
+arterial endothelial cell,mesoderm,Arterial endothelial cells,Arterial endothelial cells;Glomerular endothelial cells;Liver sinusoidal endothelial cells;Corneal epithelial cells,auto
+autonomic neuron,ectoderm,Enteric neurons;Parasympathetic neurons;Sympathetic neurons,Glutamatergic neurons (after E13.0);Enteric neurons;GABAergic neurons (after E13.0);Olfactory sensory neurons,curated
+autonomic progenitor,ectoderm,Neural crest (PNS neurons),T-NK progenitors;Lung progenitor cells;Gonad progenitor cells;Blood progenitors,curated
+axial progenitor,epiblast,CLE and NMPs,Retinal progenitor cells;Neural progenitor cells (Neurod1+);Neural progenitor cells (Ror1+);Lung progenitor cells;Naive retinal progenitor cells,curated
+blood,mesoderm,,,none
+cranial motor neuron,ectoderm,Cranial motor neurons,Cranial motor neurons;Spinal cord motor neurons;Cortical Interneurons (Prox1+),auto
+cranial neural crest,ectoderm,Neural crest,Neural crest;Neural crest (PNS glia);Neural crest (PNS neurons);Cranial motor neurons,curated
+dermomyotome,mesoderm,Dermomyotome,Dermomyotome;Dermatome;Sclerotome,auto
+diencephalon,ectoderm,Diencephalon,Diencephalon;Telencephalon;Dorsal telencephalon,auto
+dorsal root ganglion neuron,ectoderm,Dorsal root ganglion neurons,Dorsal root ganglion neurons;Striatal projection neurons,auto
+dorsal root ganglion progenitor,ectoderm,Neural crest (PNS neurons),Dorsal root ganglion neurons;Spinal cord ventral progenitors (after E13.0);Naive retinal progenitor cells;Lung progenitor cells,curated
+ectoderm,ectoderm,Definitive ectoderm,Trophectoderm;Surface ectoderm;Amniotic ectoderm,curated
+endocardial cell,mesoderm,Endocardial cells,Endocardial cells;Adrenocortical cells,auto
+endoderm,endoderm,Definitive endoderm,Visceral endoderm;Parietal endoderm;Endothelium,curated
+endothelial cell,mesoderm,Endothelium,Mesothelial cells;Endothelium;Arterial endothelial cells;Lens epithelial cells,curated
+endothelial progenitor,mesoderm,Hematoendothelial progenitors,Hematoendothelial progenitors;Retinal progenitor cells;Neural progenitor cells (Neurod1+);Neural progenitor cells (Ror1+);Mesodermal progenitors (Tbx6+),curated
+epiblast,epiblast,Epiblast,Epiblast;Hypoblast;Fibroblasts;Myoblasts,auto
+epibranchial placode,ectoderm,,,none
+epibranchial sensory neuron,ectoderm,,Otic sensory neurons;Cranial motor neurons;Olfactory sensory neurons,none
+epicardium,mesoderm,Proepicardium,Proepicardium,curated
+epidermal progenitor,ectoderm,Pre-epidermal keratinocytes,Mesodermal progenitors (Tbx6+);Neural progenitor cells (Neurod1+);Neural progenitor cells (Ror1+);Retinal progenitor cells;Nephron progenitors,curated
+extraembryonic ectoderm,ectoderm,Extraembryonic ectoderm,Extraembryonic ectoderm;Extraembryonic mesoderm;Extraembryonic visceral endoderm;Amniotic ectoderm,auto
+extraembryonic endoderm,endoderm,Extraembryonic visceral endoderm;Parietal endoderm,Extraembryonic mesoderm;Extraembryonic ectoderm;Extraembryonic visceral endoderm;Embryonic visceral endoderm,curated
+extraembryonic mesoderm,mesoderm,Extraembryonic mesoderm,Extraembryonic mesoderm;Extraembryonic ectoderm;Extraembryonic visceral endoderm;Amniotic mesoderm,auto
+eye field,ectoderm,Eye field,Eye field,auto
+first heart field,mesoderm,First heart field,First heart field;Second heart field,auto
+floor plate,ectoderm,Floor plate,Floor plate;Anterior floor plate,auto
+forebrain,ectoderm,Forebrain,Forebrain,auto
+foregut,endoderm,Foregut epithelial cells,Gut,curated
+forelimb field,mesoderm,Limb mesenchyme progenitors,Eye field,curated
+frontonasal mesenchyme,ectoderm,Facial mesenchyme,Facial mesenchyme;Foregut mesenchyme;Gut mesenchyme;Lung mesenchyme,curated
+gut,endoderm,Gut,Gut,auto
+head paraxial mesoderm,mesoderm,,Paraxial mesoderm (Tbx6+);Paraxial mesoderm (Tbx6-);Parietal endoderm;Intermediate mesoderm,none
+hematopoietic progenitor,mesoderm,,Hematoendothelial progenitors;Hematopoietic stem cells (Cd34+);Hematopoietic stem cells (Mpo+);Adipocyte progenitor cells;Retinal progenitor cells,none
+hemogenic endothelium,mesoderm,,Endothelium,none
+hepatoblast,endoderm,Hepatocytes,Hypoblast;Epiblast;Hepatocytes;Pre-osteoblasts (Sp7+),curated
+hindbrain,ectoderm,Hindbrain,Hindbrain;Midbrain,auto
+hindbrain (isthmic organizer),ectoderm,Midbrain-hindbrain boundary,Hindbrain;Midbrain,curated
+hindbrain (r1),ectoderm,Hindbrain,Hindbrain;Midbrain,auto
+hindbrain (r2-r4),ectoderm,Hindbrain,Hindbrain;Midbrain,auto
+hindbrain (r5-r8),ectoderm,Hindbrain,Hindbrain;Midbrain,auto
+hindgut,endoderm,Midgut/Hindgut epithelial cells,Gut,curated
+hindlimb field,mesoderm,Limb mesenchyme progenitors,,curated
+hypaxial myogenic progenitor,mesoderm,Muscle progenitor cells,Spinal cord ventral progenitors (after E13.0);Limb mesenchyme progenitors;Adipocyte progenitor cells;NMPs and spinal cord progenitors,curated
+hypothalamic neuron,ectoderm,Hypothalamic Sim1 neurons,Hypothalamic Sim1 neurons;Hypothalamus;Hypothalamus (Sim1+);Sympathetic neurons;Thalamic neuronal precursors,curated
+hypothalamus,ectoderm,Hypothalamus,Hypothalamus;Hypothalamus (Sim1+);Hypothalamic Sim1 neurons;Hypoblast,curated
+intermediate mesoderm,mesoderm,Intermediate mesoderm,Intermediate mesoderm;Anterior intermediate mesoderm;Posterior intermediate mesoderm;Lateral plate mesoderm,auto
+juxtacardiac field,mesoderm,,,none
+lateral plate mesoderm,mesoderm,Lateral plate mesoderm,Lateral plate mesoderm;Intermediate mesoderm;Paraxial mesoderm (Tbx6+);Paraxial mesoderm (Tbx6-);Anterior intermediate mesoderm,auto
+lens placode,ectoderm,Lens epithelial cells,,curated
+macrophage,mesoderm,,,none
+megakaryocyte,mesoderm,Megakaryocytes,Megakaryocytes;Melanocyte cells;Astrocytes;Hepatocytes,auto
+mesoderm,mesoderm,Nascent mesoderm,Somatic mesoderm;Nascent mesoderm;Paraxial mesoderm (Tbx6+);Paraxial mesoderm (Tbx6-);Amniotic mesoderm,curated
+mesothelium,mesoderm,Mesothelial cells,Mesothelial cells;Endothelium,curated
+midbrain,ectoderm,Midbrain,Midbrain;Hindbrain,auto
+midbrain neuron,ectoderm,Di/mesencephalon GABAergic neurons;Di/mesencephalon glutamatergic neurons;Midbrain dopaminergic neurons,Midbrain dopaminergic neurons;Midbrain;Sympathetic neurons;Subplate neurons,curated
+midgut,endoderm,Midgut/Hindgut epithelial cells,Gut,curated
+myotome,mesoderm,Myoblasts;Myotubes,Dermomyotome;Myotubes;Dermatome,curated
+nascent somite,mesoderm,Paraxial mesoderm (Tbx6-),Nascent mesoderm,curated
+neural crest,ectoderm,Neural crest,Neural crest;Neural crest (PNS glia);Neural crest (PNS neurons);Neural progenitor cells (Neurod1+);Neural progenitor cells (Ror1+),curated
+neural ectoderm,ectoderm,Definitive ectoderm,Surface ectoderm;Visceral endoderm;Neural progenitor cells (Neurod1+);Neural progenitor cells (Ror1+);Neural crest;Neural crest (PNS glia);Neural crest (PNS neurons),curated
+notochord,mesoderm,Notochord,Notochord,auto
+olfactory placode,ectoderm,Olfactory epithelial cells;Olfactory pit cells,Olfactory pit cells;Olfactory bulb cells,curated
+olfactory sensory neuron,ectoderm,Olfactory sensory neurons,Olfactory sensory neurons;Otic sensory neurons;Olfactory ensheathing cells,auto
+otic placode,ectoderm,Otic epithelial cells,Amniotic ectoderm,curated
+otic sensory neuron,ectoderm,Otic sensory neurons,Otic sensory neurons;Olfactory sensory neurons;Cortical Interneurons (Prox1+);Corticofugal neurons,auto
+paraxial mesoderm,mesoderm,Paraxial mesoderm (Tbx6+);Paraxial mesoderm (Tbx6-),Paraxial mesoderm (Tbx6+);Paraxial mesoderm (Tbx6-);Parietal endoderm;Somatic mesoderm;Lateral plate mesoderm,auto
+parietal endoderm,endoderm,Parietal endoderm,Parietal endoderm;Visceral endoderm;Paraxial mesoderm (Tbx6+);Paraxial mesoderm (Tbx6-);Cardiopharyngeal mesoderm,auto
+periocular mesoderm,mesoderm,,Paraxial mesoderm (Tbx6+);Paraxial mesoderm (Tbx6-);Amniotic mesoderm;Intermediate mesoderm;Splanchnic mesoderm,none
+pharyngeal arch mesenchyme,ectoderm,Facial mesenchyme,Hepatic mesenchyme;Facial mesenchyme;Lung mesenchyme;Cardiopharyngeal mesoderm,curated
+pharyngeal endoderm,endoderm,Foregut epithelial cells,Parietal endoderm;Cardiopharyngeal mesoderm;Visceral endoderm;Paraxial mesoderm (Tbx6+);Paraxial mesoderm (Tbx6-),curated
+pharyngeal mesoderm,mesoderm,Cardiopharyngeal mesoderm,Cardiopharyngeal mesoderm;Paraxial mesoderm (Tbx6+);Paraxial mesoderm (Tbx6-);Parietal endoderm;Cardiogenic mesoderm,curated
+pre-placodal ectoderm,ectoderm,Placodal area,Surface ectoderm,curated
+prechordal plate,mesoderm,,Placodal area;Choroid plexus,none
+presomitic mesoderm,mesoderm,Paraxial mesoderm (Tbx6+),Somatic mesoderm;Amniotic mesoderm;Paraxial mesoderm (Tbx6+);Paraxial mesoderm (Tbx6-);Cardiogenic mesoderm,curated
+primitive erythrocyte,mesoderm,Primitive erythroid cells,Primitive erythroid cells;Primitive streak;Definitive erythroblasts (CD36+);Definitive early erythroblasts (CD36-),curated
+primitive streak,epiblast,Primitive streak,Primitive streak;Anterior primitive streak;Primitive erythroid cells,auto
+primordial germ cell,primordial germ cell,Primordial germ cells,Primordial germ cells,auto
+roof plate,ectoderm,Anterior roof plate;Posterior roof plate,Floor plate;Anterior roof plate;Posterior roof plate;Anterior floor plate,curated
+sacral neural crest,ectoderm,Neural crest,Neural crest;Neural crest (PNS glia);Neural crest (PNS neurons),curated
+sclerotome,mesoderm,Sclerotome,Sclerotome;Dermomyotome;Dermatome,auto
+second heart field,mesoderm,Second heart field,Second heart field;First heart field,auto
+somatic mesoderm,mesoderm,Somatic mesoderm,Somatic mesoderm;Amniotic mesoderm;Splanchnic mesoderm;Nascent mesoderm,auto
+somatic motor neuron,ectoderm,Spinal cord motor neurons,Spinal cord motor neurons;Otic sensory neurons;Cranial motor neurons;Sympathetic neurons,curated
+spinal cord,ectoderm,Spinal cord,Spinal cord;Spinal cord/r7/r8;Spinal cord motor neurons;Pineal gland,auto
+spinal cord (cervical),ectoderm,Spinal cord,Spinal cord;Spinal cord/r7/r8;Spinal cord motor neurons;Pineal gland,auto
+spinal cord (lumbar),ectoderm,Spinal cord,Spinal cord;Spinal cord/r7/r8;Spinal cord motor neurons;Pineal gland,auto
+spinal cord (sacral),ectoderm,Spinal cord,Spinal cord;Spinal cord/r7/r8;Spinal cord motor neurons;Pineal gland,auto
+spinal cord (thoracic),ectoderm,Spinal cord,Spinal cord;Spinal cord/r7/r8;Spinal cord motor neurons;Pineal gland,auto
+spinal cord interneuron,ectoderm,Spinal V0 interneurons;Spinal V1 interneurons;Spinal V2a interneurons;Spinal V2b interneurons;Spinal V3 interneurons;Spinal dI1 interneurons;Spinal dI2 interneurons;Spinal dI3 interneurons;Spinal dI4 interneurons;Spinal dI5 interneurons;Spinal dI6 interneurons,Spinal dI6 interneurons;Spinal dI5 interneurons;Spinal dI4 interneurons;Spinal dI3 interneurons,curated
+splanchnic mesoderm,mesoderm,Splanchnic mesoderm,Splanchnic mesoderm;Somatic mesoderm;Amniotic mesoderm;Nascent mesoderm,auto
+surface ectoderm,ectoderm,Surface ectoderm,Surface ectoderm;Amniotic ectoderm;Definitive ectoderm;Trophectoderm,auto
+telencephalon,ectoderm,Telencephalon,Telencephalon;Diencephalon;Dorsal telencephalon,auto
+trigeminal ganglion neuron,ectoderm,,Dorsal root ganglion neurons;Retinal ganglion cells;Striatal projection neurons;PV-containing retinal ganglion cells,none
+trigeminal placode,ectoderm,,,none
+trigeminal sensory neuron,ectoderm,,Otic sensory neurons;Olfactory sensory neurons;Cranial motor neurons,none
+trunk neural crest,ectoderm,Neural crest,Neural crest;Neural crest (PNS glia);Neural crest (PNS neurons),curated
+vagal neural crest,ectoderm,Neural crest,Neural crest;Neural crest (PNS glia);Neural crest (PNS neurons),curated
+visceral endoderm,endoderm,Visceral endoderm,Visceral endoderm;Embryonic visceral endoderm;Parietal endoderm;Extraembryonic visceral endoderm,auto

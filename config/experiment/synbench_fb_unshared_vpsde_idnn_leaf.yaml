@@ -1,0 +1,62 @@
+# @package _global_
+# Fate-bias context-scaling synthetic analogue of the main grid combo
+# bridge_unshared_vpsde_idnn_leaf_nosa_std_none: unshared pool+split, a
+# DeltaTreeFormer pooler with a VPSDE BridgeDeltaTreeFlow splitter,
+# id/nn-alternating pairing, full-tree split objective, no split aligner, null
+# extender. Adopts the main model recipe but keeps the fate-bias data-side
+# choices (marginal aligner, anchor_time sampler) -- the fate-bias trees are
+# observed at a single time, so the paired-offset sampler / slice aligner of
+# the crossing benchmark do not apply. Sigma-agnostic: sigma comes from the
+# dataset axis (fate_bias_sig0{2,4,6,8}).
+defaults:
+  - override /dataset: fate_bias_multi_seed
+  - override /pooler: delta_tree_former
+  - override /splitter: bridge_delta_tree_flow_vpsde
+  - override /aligner: marginal
+  - override /pairing: id_nn_alt
+  - override /extender: none
+  - override /record_sampler: anchor_time
+  - override /training: default
+
+experiment_name: synbench_fb_unshared_vpsde_idnn_leaf
+seed: 0
+share_pool_split: false
+
+# One-step DeltaTreeFormer pooler (no flow steps / bridge).
+pooler:
+  dim: 1
+  d_internal: 128
+  n_heads: 4
+  n_layers: 4
+  hidden: 512
+  attention_bias_init: 0.0
+  slice_direction: up
+
+# VPSDE BridgeDeltaTreeFlow splitter (bridge geometry inherited from the config).
+splitter:
+  dim: 1
+  d_internal: 128
+  n_heads: 4
+  n_layers: 4
+  hidden: 512
+  n_flow_steps: 8
+  attention_bias_init: 0.0
+  slice_direction: up
+
+# No split aligner.
+objective:
+  split_align_weight: 0
+  leaf_reconstruction_only: false
+
+optimizer:
+  lr: 1e-3
+  warmup_steps: 500
+  weight_decay: 0.01
+  adam_eps: 1e-6
+
+training:
+  n_steps: 20000
+  log_every: 100
+  save_every: 5000
+  n_trees: 128
+  n_records: 2

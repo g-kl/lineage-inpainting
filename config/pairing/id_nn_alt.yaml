@@ -1,0 +1,12 @@
+# Alternating pairing: trainer cycles pairings[t % 2], so half the steps go
+# through IdentityPairing (raw pool->split path) and half go through
+# NearestNeighborPairing (snaps masked nodes to real cells in own/adjacent
+# time bins). Neither side stops the gradient -- the splitter loss still
+# flows back into the pooler in both arms, giving the regulative id signal +
+# the NN signal at the same time.
+- _target_: pairings.pairing.IdentityPairing
+- _target_: pairings.pairing.NearestNeighborPairing
+  time_tolerance: null
+  min_snap_time: null
+  snap_window: 1
+  clonal_reference: false

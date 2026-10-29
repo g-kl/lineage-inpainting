@@ -1,0 +1,12 @@
+source_type,target_type,confidence,reference
+surface ectoderm,pre-placodal ectoderm,high,"Schlosser, 2006, Developmental Biology, doi:10.1016/j.ydbio.2006.03.009; Saint-Jeannet & Moody, 2014, Developmental Biology, doi:10.1016/j.ydbio.2014.02.011"
+surface ectoderm,epidermal progenitor,high,"Li et al., 2013, Development, doi:10.1242/dev.092866; Nakanoh et al., 2024, Science Advances, doi:10.1126/sciadv.adh7748"
+pre-placodal ectoderm,olfactory placode,high,"Moody & Saint-Jeannet, 2014, in Principles of Developmental Genetics (Elsevier); Sjodal et al., 2007, Developmental Biology, doi:10.1016/j.ydbio.2007.07.008"
+pre-placodal ectoderm,lens placode,high,"Schlosser, 2006, Developmental Biology, doi:10.1016/j.ydbio.2006.03.009; Bhattacharyya et al., 2004, Development, doi:10.1242/dev.01037"
+pre-placodal ectoderm,trigeminal placode,high,"Baker & Bronner-Fraser, 2001, Developmental Biology, doi:10.1006/dbio.2001.0156; Schlosser, 2006, Developmental Biology, doi:10.1016/j.ydbio.2006.03.009"
+pre-placodal ectoderm,otic placode,high,"Ladher et al., 2010, Development, doi:10.1242/dev.040055; Ohyama et al., 2006, Developmental Cell, doi:10.1016/j.devcel.2006.02.015"
+pre-placodal ectoderm,epibranchial placode,high,"Ladher et al., 2010, Development, doi:10.1242/dev.040055; Sun et al., 2007, Developmental Biology, doi:10.1016/j.ydbio.2006.11.008"
+trigeminal placode,trigeminal sensory neuron,high,"Lassiter et al., 2010, Developmental Biology, doi:10.1016/j.ydbio.2010.05.514; Fode et al., 1998, Neuron, doi:10.1016/S0896-6273(00)80989-7"
+otic placode,otic sensory neuron,medium,"Maier et al., 2014, Developmental Biology, doi:10.1016/j.ydbio.2014.01.023; Ma et al., 1998, Neuron, doi:10.1016/S0896-6273(00)80988-5"
+epibranchial placode,epibranchial sensory neuron,medium,"Fode et al., 1998, Neuron, doi:10.1016/S0896-6273(00)80989-7; Lassiter et al., 2014, Developmental Biology, doi:10.1016/j.ydbio.2013.12.016"
+olfactory placode,olfactory sensory neuron,low,"Maier et al., 2014, Developmental Biology, doi:10.1016/j.ydbio.2014.01.023; Cau et al., 2002, Development, doi:10.1242/dev.129.8.1871"

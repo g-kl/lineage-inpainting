@@ -1,0 +1,32 @@
+# Slice-feature aligner: reference-bank marginal + root-to-leaf path + common-
+# ancestor triples on the shared slice primitive (aligners/slice.py). Both
+# lineage features read the grid times inside each batch's common window; the
+# marginal stays reference-bank based.
+#   - path: one lineage from the earliest grid time through every later grid
+#     time (root-to-leaf), a single stratum -- never starts at an interior slice.
+#   - common-ancestor: every ordered grid-time pair (t_i < t_j), ancestor at
+#     t_i and two descendants at t_j.
+_target_: aligners.stratified.StratifiedFeatureAligner
+
+loss: "energy"
+p: 2
+min_samples: 8
+
+features:
+  - _target_: aligners.stratified.TimeMarginalFeature
+    n_reference_samples: 4096
+    skip_observed: true
+    time_tolerance: null
+
+  - _target_: aligners.slice.PathFeature
+    time_bins: [7.0, 7.5, 8.0, 8.5, 9.0, 9.5, 10.0]
+    n_samples: 16
+    representation: states
+
+  - _target_: aligners.slice.CommonAncestorFeature
+    time_bins: [7.0, 7.5, 8.0, 8.5, 9.0, 9.5, 10.0]
+    n_descendants: 2
+    n_samples: 16
+    representation: states
+
+weights: [1.0, 0.25, 0.25]

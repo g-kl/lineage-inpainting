@@ -1,0 +1,17 @@
+# Slice-feature aligner: reference-bank marginal only. Same StratifiedFeatureAligner
+# class as slice_marginal_path / slice_marginal_ca so the feature ablation is like-for-like
+# -- the only thing that differs between marg / marg+path / marg+ca is which lineage
+# features are added on top of the shared TimeMarginalFeature.
+_target_: aligners.stratified.StratifiedFeatureAligner
+
+loss: "energy"
+p: 2
+min_samples: 8
+
+features:
+  - _target_: aligners.stratified.TimeMarginalFeature
+    n_reference_samples: 4096
+    skip_observed: true
+    time_tolerance: null
+
+weights: [1.0]

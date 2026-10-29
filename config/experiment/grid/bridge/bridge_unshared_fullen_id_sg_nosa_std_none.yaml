@@ -1,0 +1,37 @@
+# @package _global_
+#
+# Full distributional energy splitter (one-step, no bridge): ablates "through
+# time" integration vs the cfm/vpsde bridge variants. Same pooler + pairing as
+# the main grid; NullExt extender. Inference is always n=1 -- one forward pass
+# already samples the conditional posterior; there is no multi-step rollout.
+defaults:
+  - override /dataset: mouse_embryo
+  - override /pooler: delta_tree_former
+  - override /splitter: full_energy_delta_tree_former
+  - override /aligner: slice_marginal_ca_path
+  - override /pairing: identity_sg
+  - override /extender: none
+  - override /record_sampler: paired_offset_sample_offset
+  - override /training: default
+
+experiment_name: mouse_embryo_grid_bridge_unshared_fullen_id_sg_nosa_std_none
+share_pool_split: false
+
+splitter:
+  n_energy_samples: 2
+
+objective:
+  split_align_weight: 0
+
+optimizer:
+  lr: 1e-3
+  warmup_steps: 500
+  weight_decay: 0.01
+  adam_eps: 1e-6
+
+training:
+  n_steps: 20000
+  log_every: 100
+  save_every: 5000
+  n_trees: 512
+  n_records: 2

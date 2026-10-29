@@ -1,0 +1,64 @@
+# --- external inputs (see README "data") ---
+literature/gnomad_constraints.tsv
+data/
+
+# --- run outputs, caches, launcher logs ---
+cache/
+outputs/
+multirun/
+logs/
+results/
+results_eval/
+analysis/*cache/
+analysis/results/
+analysis/pipelines/commitment/results/
+analysis/pipelines/commitment/index/
+
+# --- generated figure caches + renders ---
+# numerical_results/ is the compute half's output and imgs/ the plot half's; both are regenerable.
+analysis/figures/*/numerical_results/
+analysis/figures/*/imgs/
+synthetic_evals/figure/imgs/
+synthetic_evals/figure_supp/imgs/
+synthetic_evals/*.png
+synthetic_evals/crossing/figures/*.pdf
+synthetic_evals/crossing/figures/*.png
+synthetic_evals/*/figures_*/
+*.mp4
+
+# --- model / result pickles ---
+*_dictionary.pkl
+*_mapping.pkl
+*_results.pkl
+results*.pkl
+*_models.pkl
+*_model.pkl
+*/reannotation.csv
+
+# --- python ---
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+build/
+dist/
+/lib/
+/lib64/
+.pytest_cache/
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+*.log
+
+# --- environments ---
+.env
+.venv/
+venv/
+env/
+
+# --- editors / os ---
+.vscode/
+.idea/
+.DS_Store
+*.claude
+.claude/

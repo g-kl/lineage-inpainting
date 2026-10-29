@@ -1,0 +1,1480 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" width="470.88pt" height="342.72pt" viewBox="0 0 470.88 342.72"><rect x="0" y="0" fill="white" width="470.88" height="342.72" /><svg width="468.00" height="339.84" viewBox="0 0 468 339.84" version="1.1" x="1.44" y="1.44">
+ <metadata>
+  <rdf:RDF>
+   <ns2:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+    <dc:date>2026-10-27T21:40:59.713186</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <ns2:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </ns2:Agent>
+    </dc:creator>
+   </ns2:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="p0_figure_1">
+  <g id="p0_patch_1">
+   <path d="M 0 339.84  L 468 339.84  L 468 0  L 0 0  z " style="fill: #ffffff" />
+  </g>
+  <g id="p0_axes_1">
+   <g id="p0_patch_2">
+    <path d="M 95.04 332.64  L 398.88 332.64  L 398.88 28.8  L 95.04 28.8  z " style="fill: #ffffff" />
+   </g>
+   <g clip-path="url(#p0_p9c3537df3f)">
+    <image xlink:href="data:image/png;base64, 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" id="p0_image7bac1e8161" transform="scale(1 -1) translate(0 -303.84)" x="95.04" y="-28.8" width="303.84" height="303.84" />
+   </g>
+   <g id="p0_matplotlib.axis_1" />
+   <g id="p0_matplotlib.axis_2">
+    <g id="p0_ytick_1">
+     <g id="p0_line2d_1" />
+     <g id="p0_text_1">
+      
+      <g transform="translate(59.186172 36.864167) scale(0.065 -0.065)">
+       <defs>
+        <path id="p0_LMSans10-Regular-69" d="M 998 0  L 998 2842  L 518 2842  L 518 0  L 998 0  z M 1050 3622  L 1050 4192  L 480 4192  L 480 3622  L 1050 3622  z " transform="scale(0.015625)" />
+        <path id="p0_LMSans10-Regular-6d" d="M 4563 0  L 4563 1907  C 4563 2336 4461 2912 3686 2912  C 3302 2912 2970 2733 2733 2387  C 2566 2874 2118 2912 1914 2912  C 1453 2912 1152 2650 979 2419  L 979 2880  L 518 2880  L 518 0  L 1018 0  L 1018 1568  C 1018 2003 1190 2522 1664 2522  C 2259 2522 2291 2106 2291 1862  L 2291 0  L 2790 0  L 2790 1568  C 2790 2003 2963 2522 3437 2522  C 4032 2522 4064 2106 4064 1862  L 4064 0  L 4563 0  z " transform="scale(0.015625)" />
+        <path id="p0_LMSans10-Regular-70" d="M 3072 1427  C 3072 2195 2669 2912 2054 2912  C 1670 2912 1299 2778 1005 2528  L 1005 2842  L 525 2842  L 525 -1242  L 1024 -1242  L 1024 294  C 1222 109 1504 -70 1888 -70  C 2509 -70 3072 557 3072 1427  z M 2573 1427  C 2573 768 2118 320 1638 320  C 1389 320 1216 448 1088 621  C 1024 717 1024 730 1024 845  L 1024 2131  C 1178 2355 1427 2502 1702 2502  C 2189 2502 2573 2016 2573 1427  z " transform="scale(0.015625)" />
+        <path id="p0_LMSans10-Regular-75" d="M 2784 0  L 2784 2842  L 2285 2842  L 2285 986  C 2285 506 1926 282 1517 282  C 1062 282 1018 448 1018 723  L 1018 2842  L 518 2842  L 518 698  C 518 237 666 -70 1197 -70  C 1536 -70 1990 32 2304 307  L 2304 0  L 2784 0  z " transform="scale(0.015625)" />
+        <path id="p0_LMSans10-Regular-74" d="M 2125 173  L 2022 550  C 1856 416 1651 339 1446 339  C 1210 339 1120 531 1120 870  L 1120 2470  L 2022 2470  L 2022 2842  L 1120 2842  L 1120 3654  L 678 3654  L 678 2842  L 122 2842  L 122 2470  L 659 2470  L 659 762  C 659 378 749 -70 1190 -70  C 1638 -70 1965 90 2125 173  z " transform="scale(0.015625)" />
+        <path id="p0_LMSans10-Regular-65" d="M 2650 1402  C 2650 1619 2643 2099 2394 2483  C 2131 2880 1741 2950 1510 2950  C 800 2950 224 2272 224 1446  C 224 602 838 -70 1606 -70  C 2010 -70 2374 83 2624 262  L 2586 678  C 2182 346 1760 320 1613 320  C 1101 320 691 774 672 1402  L 2650 1402  z M 2285 1754  L 704 1754  C 806 2240 1146 2560 1510 2560  C 1843 2560 2202 2342 2285 1754  z " transform="scale(0.015625)" />
+        <path id="p0_LMSans10-Regular-72" d="M 2093 2483  L 2093 2912  C 1523 2906 1171 2592 973 2298  L 973 2880  L 525 2880  L 525 0  L 1005 0  L 1005 1370  C 1005 2010 1466 2470 2093 2483  z " transform="scale(0.015625)" />
+        <path id="p0_LMSans10-Regular-20" transform="scale(0.015625)" />
+        <path id="p0_LMSans10-Regular-28" d="M 2125 -1600  C 1818 -1293 1005 -467 1005 1600  C 1005 1958 1024 2707 1286 3462  C 1549 4205 1914 4589 2125 4800  L 1734 4800  C 1530 4608 1101 4218 806 3430  C 550 2746 506 2067 506 1600  C 506 -467 1427 -1318 1734 -1600  L 2125 -1600  z " transform="scale(0.015625)" />
+        <path id="p0_LMSans10-Regular-73" d="M 2304 819  C 2304 1171 2067 1389 2054 1408  C 1805 1632 1632 1670 1312 1728  C 960 1798 666 1862 666 2176  C 666 2573 1126 2573 1210 2573  C 1414 2573 1754 2547 2118 2330  L 2195 2746  C 1862 2899 1600 2950 1274 2950  C 1114 2950 211 2950 211 2112  C 211 1798 397 1594 557 1472  C 755 1331 896 1306 1248 1235  C 1478 1190 1850 1114 1850 774  C 1850 333 1344 333 1248 333  C 730 333 371 570 256 646  L 179 211  C 384 109 736 -70 1254 -70  C 1370 -70 1722 -70 1997 134  C 2195 288 2304 544 2304 819  z " transform="scale(0.015625)" />
+        <path id="p0_LMSans10-Regular-67" d="M 3104 2509  L 3034 2912  C 2586 2912 2214 2790 2022 2707  C 1888 2816 1670 2912 1414 2912  C 864 2912 397 2451 397 1869  C 397 1632 480 1402 608 1235  C 422 973 422 723 422 691  C 422 525 480 339 589 205  C 256 6 179 -288 179 -454  C 179 -934 813 -1318 1594 -1318  C 2381 -1318 3014 -941 3014 -448  C 3014 442 1946 442 1696 442  L 1133 442  C 1050 442 762 442 762 781  C 762 851 787 954 832 1011  C 966 915 1178 826 1414 826  C 1990 826 2438 1299 2438 1869  C 2438 2176 2298 2413 2227 2509  L 2253 2502  C 2394 2502 2573 2528 2726 2528  C 2842 2528 3104 2509 3104 2509  z M 1990 1869  C 1990 1370 1690 1190 1414 1190  C 1178 1190 845 1338 845 1869  C 845 2400 1178 2547 1414 2547  C 1690 2547 1990 2368 1990 1869  z M 2566 -461  C 2566 -742 2125 -954 1600 -954  C 1082 -954 627 -755 627 -454  C 627 -435 627 -19 1126 -19  L 1702 -19  C 1843 -19 2566 -19 2566 -461  z " transform="scale(0.015625)" />
+        <path id="p0_LMSans10-Regular-29" d="M 1978 1600  C 1978 3667 1056 4518 749 4800  L 358 4800  C 666 4493 1478 3667 1478 1600  C 1478 1242 1459 493 1197 -262  C 934 -1005 570 -1389 358 -1600  L 749 -1600  C 954 -1408 1382 -1018 1677 -230  C 1933 454 1978 1133 1978 1600  z " transform="scale(0.015625)" />
+       </defs>
+       <use xlink:href="#p0_LMSans10-Regular-69" />
+       <use xlink:href="#p0_LMSans10-Regular-6d" transform="translate(23.899994 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-70" transform="translate(103.299988 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-75" transform="translate(154.999985 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-74" transform="translate(206.699982 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(242.799973 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-72" transform="translate(287.199966 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-20" transform="translate(321.399963 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-28" transform="translate(354.699951 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-73" transform="translate(393.599945 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-67" transform="translate(431.899933 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-29" transform="translate(481.899918 0)" />
+      </g>
+     </g>
+    </g>
+    <g id="p0_ytick_2">
+     <g id="p0_line2d_2" />
+     <g id="p0_text_2">
+      
+      <g transform="translate(48.311875 47.935703) scale(0.065 -0.065)">
+       <defs>
+        <path id="p0_LMSans10-Regular-6e" d="M 2784 0  L 2784 1907  C 2784 2330 2688 2912 1907 2912  C 1331 2912 1018 2477 979 2426  L 979 2880  L 518 2880  L 518 0  L 1018 0  L 1018 1568  C 1018 1990 1178 2522 1664 2522  C 2278 2522 2285 2067 2285 1862  L 2285 0  L 2784 0  z " transform="scale(0.015625)" />
+        <path id="p0_LMSans10-Regular-61" d="M 2618 0  L 2618 1850  C 2618 2502 2150 2950 1562 2950  C 1146 2950 858 2848 557 2675  L 595 2253  C 928 2490 1248 2573 1562 2573  C 1862 2573 2118 2317 2118 1843  L 2118 1568  C 1158 1555 346 1286 346 723  C 346 448 518 -70 1075 -70  C 1165 -70 1766 -58 2138 230  L 2138 0  L 2618 0  z M 2118 845  C 2118 723 2118 563 1901 442  C 1715 326 1472 320 1402 320  C 1094 320 806 467 806 736  C 806 1184 1843 1229 2118 1242  L 2118 845  z " transform="scale(0.015625)" />
+        <path id="p0_LMSans10-Regular-68" d="M 2784 0  L 2784 1907  C 2784 2330 2688 2912 1907 2912  C 1510 2912 1203 2714 998 2451  L 998 4442  L 518 4442  L 518 0  L 1018 0  L 1018 1568  C 1018 1990 1178 2522 1664 2522  C 2278 2522 2285 2067 2285 1862  L 2285 0  L 2784 0  z " transform="scale(0.015625)" />
+        <path id="p0_LMSans10-Regular-62" d="M 3072 1427  C 3072 2221 2637 2912 2035 2912  C 1786 2912 1389 2848 1005 2534  L 1005 4442  L 525 4442  L 525 0  L 1024 0  L 1024 294  C 1178 154 1453 -70 1882 -70  C 2522 -70 3072 570 3072 1427  z M 2573 1427  C 2573 595 2035 320 1645 320  C 1395 320 1184 435 1024 730  L 1024 2144  C 1126 2298 1357 2522 1709 2522  C 2086 2522 2573 2246 2573 1427  z " transform="scale(0.015625)" />
+        <path id="p0_LMSans10-Regular-6f" d="M 3002 1408  C 3002 2266 2362 2950 1600 2950  C 813 2950 192 2246 192 1408  C 192 563 845 -70 1594 -70  C 2362 -70 3002 576 3002 1408  z M 2502 1472  C 2502 717 2067 339 1594 339  C 1152 339 691 698 691 1472  C 691 2246 1178 2560 1594 2560  C 2042 2560 2502 2227 2502 1472  z " transform="scale(0.015625)" />
+       </defs>
+       <use xlink:href="#p0_LMSans10-Regular-6e" />
+       <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(51.699997 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-61" transform="translate(96.099991 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-72" transform="translate(144.199982 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(178.399979 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-73" transform="translate(222.799973 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-74" transform="translate(261.09996 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-20" transform="translate(297.199951 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-6e" transform="translate(330.499939 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(382.199936 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-69" transform="translate(426.59993 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-67" transform="translate(450.499924 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-68" transform="translate(500.499908 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-62" transform="translate(552.199905 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-6f" transform="translate(603.899902 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-72" transform="translate(653.899887 0)" />
+      </g>
+     </g>
+    </g>
+    <g id="p0_ytick_3">
+     <g id="p0_line2d_3" />
+     <g id="p0_text_3">
+      
+      <g transform="translate(35.350469 59.370833) scale(0.065 -0.065)">
+       <use xlink:href="#p0_LMSans10-Regular-6e" />
+       <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(51.699997 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-61" transform="translate(96.099991 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-72" transform="translate(144.199982 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(178.399979 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-73" transform="translate(222.799973 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-74" transform="translate(261.09996 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-20" transform="translate(297.199951 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-6e" transform="translate(330.499939 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(382.199936 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-69" transform="translate(426.59993 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-67" transform="translate(450.499924 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-68" transform="translate(500.499908 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-62" transform="translate(552.199905 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-6f" transform="translate(603.899902 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-72" transform="translate(653.899887 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-20" transform="translate(688.099884 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-28" transform="translate(721.399872 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-73" transform="translate(760.299866 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-67" transform="translate(798.599854 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-29" transform="translate(848.599838 0)" />
+      </g>
+     </g>
+    </g>
+    <g id="p0_ytick_4">
+     <g id="p0_line2d_4" />
+     <g id="p0_text_4">
+      
+      <g transform="translate(63.906797 70.44237) scale(0.065 -0.065)">
+       <defs>
+        <path id="p0_LMSans10-Regular-6c" d="M 998 0  L 998 4442  L 518 4442  L 518 0  L 998 0  z " transform="scale(0.015625)" />
+       </defs>
+       <use xlink:href="#p0_LMSans10-Regular-61" />
+       <use xlink:href="#p0_LMSans10-Regular-6c" transform="translate(48.099991 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-74" transform="translate(71.999985 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(108.099976 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-72" transform="translate(152.499969 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-6e" transform="translate(186.699966 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-61" transform="translate(238.399963 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-74" transform="translate(286.499954 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-69" transform="translate(322.599945 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-6e" transform="translate(346.499939 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-67" transform="translate(398.199936 0)" />
+      </g>
+     </g>
+    </g>
+    <g id="p0_ytick_5">
+     <g id="p0_line2d_5" />
+     <g id="p0_text_5">
+      
+      <g transform="translate(72.147578 81.695703) scale(0.065 -0.065)">
+       <use xlink:href="#p0_LMSans10-Regular-69" />
+       <use xlink:href="#p0_LMSans10-Regular-6d" transform="translate(23.899994 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-70" transform="translate(103.299988 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-75" transform="translate(154.999985 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-74" transform="translate(206.699982 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(242.799973 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-72" transform="translate(287.199966 0)" />
+      </g>
+     </g>
+    </g>
+    <g id="p0_ytick_6">
+     <g id="p0_line2d_6" />
+     <g id="p0_text_6">
+      
+      <g transform="translate(59.186172 93.130833) scale(0.065 -0.065)">
+       <use xlink:href="#p0_LMSans10-Regular-69" />
+       <use xlink:href="#p0_LMSans10-Regular-6d" transform="translate(23.899994 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-70" transform="translate(103.299988 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-75" transform="translate(154.999985 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-74" transform="translate(206.699982 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(242.799973 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-72" transform="translate(287.199966 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-20" transform="translate(321.399963 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-28" transform="translate(354.699951 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-73" transform="translate(393.599945 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-67" transform="translate(431.899933 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-29" transform="translate(481.899918 0)" />
+      </g>
+     </g>
+    </g>
+    <g id="p0_ytick_7">
+     <g id="p0_line2d_7" />
+     <g id="p0_text_7">
+      
+      <g transform="translate(48.311875 104.20237) scale(0.065 -0.065)">
+       <use xlink:href="#p0_LMSans10-Regular-6e" />
+       <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(51.699997 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-61" transform="translate(96.099991 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-72" transform="translate(144.199982 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(178.399979 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-73" transform="translate(222.799973 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-74" transform="translate(261.09996 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-20" transform="translate(297.199951 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-6e" transform="translate(330.499939 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(382.199936 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-69" transform="translate(426.59993 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-67" transform="translate(450.499924 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-68" transform="translate(500.499908 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-62" transform="translate(552.199905 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-6f" transform="translate(603.899902 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-72" transform="translate(653.899887 0)" />
+      </g>
+     </g>
+    </g>
+    <g id="p0_ytick_8">
+     <g id="p0_line2d_8" />
+     <g id="p0_text_8">
+      
+      <g transform="translate(35.350469 115.6375) scale(0.065 -0.065)">
+       <use xlink:href="#p0_LMSans10-Regular-6e" />
+       <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(51.699997 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-61" transform="translate(96.099991 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-72" transform="translate(144.199982 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(178.399979 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-73" transform="translate(222.799973 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-74" transform="translate(261.09996 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-20" transform="translate(297.199951 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-6e" transform="translate(330.499939 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(382.199936 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-69" transform="translate(426.59993 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-67" transform="translate(450.499924 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-68" transform="translate(500.499908 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-62" transform="translate(552.199905 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-6f" transform="translate(603.899902 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-72" transform="translate(653.899887 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-20" transform="translate(688.099884 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-28" transform="translate(721.399872 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-73" transform="translate(760.299866 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-67" transform="translate(798.599854 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-29" transform="translate(848.599838 0)" />
+      </g>
+     </g>
+    </g>
+    <g id="p0_ytick_9">
+     <g id="p0_line2d_9" />
+     <g id="p0_text_9">
+      
+      <g transform="translate(63.906797 126.709036) scale(0.065 -0.065)">
+       <use xlink:href="#p0_LMSans10-Regular-61" />
+       <use xlink:href="#p0_LMSans10-Regular-6c" transform="translate(48.099991 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-74" transform="translate(71.999985 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(108.099976 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-72" transform="translate(152.499969 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-6e" transform="translate(186.699966 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-61" transform="translate(238.399963 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-74" transform="translate(286.499954 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-69" transform="translate(322.599945 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-6e" transform="translate(346.499939 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-67" transform="translate(398.199936 0)" />
+      </g>
+     </g>
+    </g>
+    <g id="p0_ytick_10">
+     <g id="p0_line2d_10" />
+     <g id="p0_text_10">
+      
+      <g transform="translate(72.147578 137.96237) scale(0.065 -0.065)">
+       <use xlink:href="#p0_LMSans10-Regular-69" />
+       <use xlink:href="#p0_LMSans10-Regular-6d" transform="translate(23.899994 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-70" transform="translate(103.299988 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-75" transform="translate(154.999985 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-74" transform="translate(206.699982 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(242.799973 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-72" transform="translate(287.199966 0)" />
+      </g>
+     </g>
+    </g>
+    <g id="p0_ytick_11">
+     <g id="p0_line2d_11" />
+     <g id="p0_text_11">
+      
+      <g transform="translate(59.186172 149.3975) scale(0.065 -0.065)">
+       <use xlink:href="#p0_LMSans10-Regular-69" />
+       <use xlink:href="#p0_LMSans10-Regular-6d" transform="translate(23.899994 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-70" transform="translate(103.299988 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-75" transform="translate(154.999985 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-74" transform="translate(206.699982 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(242.799973 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-72" transform="translate(287.199966 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-20" transform="translate(321.399963 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-28" transform="translate(354.699951 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-73" transform="translate(393.599945 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-67" transform="translate(431.899933 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-29" transform="translate(481.899918 0)" />
+      </g>
+     </g>
+    </g>
+    <g id="p0_ytick_12">
+     <g id="p0_line2d_12" />
+     <g id="p0_text_12">
+      
+      <g transform="translate(48.311875 160.469036) scale(0.065 -0.065)">
+       <use xlink:href="#p0_LMSans10-Regular-6e" />
+       <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(51.699997 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-61" transform="translate(96.099991 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-72" transform="translate(144.199982 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(178.399979 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-73" transform="translate(222.799973 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-74" transform="translate(261.09996 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-20" transform="translate(297.199951 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-6e" transform="translate(330.499939 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(382.199936 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-69" transform="translate(426.59993 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-67" transform="translate(450.499924 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-68" transform="translate(500.499908 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-62" transform="translate(552.199905 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-6f" transform="translate(603.899902 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-72" transform="translate(653.899887 0)" />
+      </g>
+     </g>
+    </g>
+    <g id="p0_ytick_13">
+     <g id="p0_line2d_13" />
+     <g id="p0_text_13">
+      
+      <g transform="translate(35.350469 171.904167) scale(0.065 -0.065)">
+       <use xlink:href="#p0_LMSans10-Regular-6e" />
+       <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(51.699997 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-61" transform="translate(96.099991 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-72" transform="translate(144.199982 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(178.399979 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-73" transform="translate(222.799973 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-74" transform="translate(261.09996 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-20" transform="translate(297.199951 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-6e" transform="translate(330.499939 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(382.199936 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-69" transform="translate(426.59993 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-67" transform="translate(450.499924 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-68" transform="translate(500.499908 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-62" transform="translate(552.199905 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-6f" transform="translate(603.899902 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-72" transform="translate(653.899887 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-20" transform="translate(688.099884 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-28" transform="translate(721.399872 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-73" transform="translate(760.299866 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-67" transform="translate(798.599854 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-29" transform="translate(848.599838 0)" />
+      </g>
+     </g>
+    </g>
+    <g id="p0_ytick_14">
+     <g id="p0_line2d_14" />
+     <g id="p0_text_14">
+      
+      <g transform="translate(63.906797 182.975703) scale(0.065 -0.065)">
+       <use xlink:href="#p0_LMSans10-Regular-61" />
+       <use xlink:href="#p0_LMSans10-Regular-6c" transform="translate(48.099991 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-74" transform="translate(71.999985 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(108.099976 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-72" transform="translate(152.499969 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-6e" transform="translate(186.699966 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-61" transform="translate(238.399963 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-74" transform="translate(286.499954 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-69" transform="translate(322.599945 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-6e" transform="translate(346.499939 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-67" transform="translate(398.199936 0)" />
+      </g>
+     </g>
+    </g>
+    <g id="p0_ytick_15">
+     <g id="p0_line2d_15" />
+     <g id="p0_text_15">
+      
+      <g transform="translate(72.147578 194.229036) scale(0.065 -0.065)">
+       <use xlink:href="#p0_LMSans10-Regular-69" />
+       <use xlink:href="#p0_LMSans10-Regular-6d" transform="translate(23.899994 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-70" transform="translate(103.299988 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-75" transform="translate(154.999985 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-74" transform="translate(206.699982 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(242.799973 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-72" transform="translate(287.199966 0)" />
+      </g>
+     </g>
+    </g>
+    <g id="p0_ytick_16">
+     <g id="p0_line2d_16" />
+     <g id="p0_text_16">
+      
+      <g transform="translate(59.186172 205.664167) scale(0.065 -0.065)">
+       <use xlink:href="#p0_LMSans10-Regular-69" />
+       <use xlink:href="#p0_LMSans10-Regular-6d" transform="translate(23.899994 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-70" transform="translate(103.299988 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-75" transform="translate(154.999985 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-74" transform="translate(206.699982 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(242.799973 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-72" transform="translate(287.199966 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-20" transform="translate(321.399963 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-28" transform="translate(354.699951 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-73" transform="translate(393.599945 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-67" transform="translate(431.899933 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-29" transform="translate(481.899918 0)" />
+      </g>
+     </g>
+    </g>
+    <g id="p0_ytick_17">
+     <g id="p0_line2d_17" />
+     <g id="p0_text_17">
+      
+      <g transform="translate(48.311875 216.735703) scale(0.065 -0.065)">
+       <use xlink:href="#p0_LMSans10-Regular-6e" />
+       <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(51.699997 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-61" transform="translate(96.099991 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-72" transform="translate(144.199982 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(178.399979 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-73" transform="translate(222.799973 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-74" transform="translate(261.09996 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-20" transform="translate(297.199951 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-6e" transform="translate(330.499939 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(382.199936 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-69" transform="translate(426.59993 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-67" transform="translate(450.499924 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-68" transform="translate(500.499908 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-62" transform="translate(552.199905 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-6f" transform="translate(603.899902 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-72" transform="translate(653.899887 0)" />
+      </g>
+     </g>
+    </g>
+    <g id="p0_ytick_18">
+     <g id="p0_line2d_18" />
+     <g id="p0_text_18">
+      
+      <g transform="translate(35.350469 228.170833) scale(0.065 -0.065)">
+       <use xlink:href="#p0_LMSans10-Regular-6e" />
+       <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(51.699997 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-61" transform="translate(96.099991 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-72" transform="translate(144.199982 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(178.399979 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-73" transform="translate(222.799973 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-74" transform="translate(261.09996 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-20" transform="translate(297.199951 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-6e" transform="translate(330.499939 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(382.199936 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-69" transform="translate(426.59993 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-67" transform="translate(450.499924 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-68" transform="translate(500.499908 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-62" transform="translate(552.199905 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-6f" transform="translate(603.899902 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-72" transform="translate(653.899887 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-20" transform="translate(688.099884 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-28" transform="translate(721.399872 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-73" transform="translate(760.299866 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-67" transform="translate(798.599854 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-29" transform="translate(848.599838 0)" />
+      </g>
+     </g>
+    </g>
+    <g id="p0_ytick_19">
+     <g id="p0_line2d_19" />
+     <g id="p0_text_19">
+      
+      <g transform="translate(63.906797 239.24237) scale(0.065 -0.065)">
+       <use xlink:href="#p0_LMSans10-Regular-61" />
+       <use xlink:href="#p0_LMSans10-Regular-6c" transform="translate(48.099991 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-74" transform="translate(71.999985 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(108.099976 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-72" transform="translate(152.499969 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-6e" transform="translate(186.699966 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-61" transform="translate(238.399963 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-74" transform="translate(286.499954 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-69" transform="translate(322.599945 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-6e" transform="translate(346.499939 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-67" transform="translate(398.199936 0)" />
+      </g>
+     </g>
+    </g>
+    <g id="p0_ytick_20">
+     <g id="p0_line2d_20" />
+     <g id="p0_text_20">
+      
+      <g transform="translate(72.147578 250.495703) scale(0.065 -0.065)">
+       <use xlink:href="#p0_LMSans10-Regular-69" />
+       <use xlink:href="#p0_LMSans10-Regular-6d" transform="translate(23.899994 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-70" transform="translate(103.299988 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-75" transform="translate(154.999985 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-74" transform="translate(206.699982 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(242.799973 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-72" transform="translate(287.199966 0)" />
+      </g>
+     </g>
+    </g>
+    <g id="p0_ytick_21">
+     <g id="p0_line2d_21" />
+     <g id="p0_text_21">
+      
+      <g transform="translate(59.186172 261.930833) scale(0.065 -0.065)">
+       <use xlink:href="#p0_LMSans10-Regular-69" />
+       <use xlink:href="#p0_LMSans10-Regular-6d" transform="translate(23.899994 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-70" transform="translate(103.299988 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-75" transform="translate(154.999985 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-74" transform="translate(206.699982 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(242.799973 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-72" transform="translate(287.199966 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-20" transform="translate(321.399963 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-28" transform="translate(354.699951 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-73" transform="translate(393.599945 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-67" transform="translate(431.899933 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-29" transform="translate(481.899918 0)" />
+      </g>
+     </g>
+    </g>
+    <g id="p0_ytick_22">
+     <g id="p0_line2d_22" />
+     <g id="p0_text_22">
+      
+      <g transform="translate(48.311875 273.00237) scale(0.065 -0.065)">
+       <use xlink:href="#p0_LMSans10-Regular-6e" />
+       <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(51.699997 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-61" transform="translate(96.099991 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-72" transform="translate(144.199982 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(178.399979 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-73" transform="translate(222.799973 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-74" transform="translate(261.09996 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-20" transform="translate(297.199951 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-6e" transform="translate(330.499939 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(382.199936 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-69" transform="translate(426.59993 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-67" transform="translate(450.499924 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-68" transform="translate(500.499908 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-62" transform="translate(552.199905 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-6f" transform="translate(603.899902 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-72" transform="translate(653.899887 0)" />
+      </g>
+     </g>
+    </g>
+    <g id="p0_ytick_23">
+     <g id="p0_line2d_23" />
+     <g id="p0_text_23">
+      
+      <g transform="translate(35.350469 284.4375) scale(0.065 -0.065)">
+       <use xlink:href="#p0_LMSans10-Regular-6e" />
+       <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(51.699997 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-61" transform="translate(96.099991 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-72" transform="translate(144.199982 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(178.399979 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-73" transform="translate(222.799973 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-74" transform="translate(261.09996 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-20" transform="translate(297.199951 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-6e" transform="translate(330.499939 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(382.199936 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-69" transform="translate(426.59993 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-67" transform="translate(450.499924 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-68" transform="translate(500.499908 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-62" transform="translate(552.199905 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-6f" transform="translate(603.899902 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-72" transform="translate(653.899887 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-20" transform="translate(688.099884 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-28" transform="translate(721.399872 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-73" transform="translate(760.299866 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-67" transform="translate(798.599854 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-29" transform="translate(848.599838 0)" />
+      </g>
+     </g>
+    </g>
+    <g id="p0_ytick_24">
+     <g id="p0_line2d_24" />
+     <g id="p0_text_24">
+      
+      <g transform="translate(63.906797 295.509036) scale(0.065 -0.065)">
+       <use xlink:href="#p0_LMSans10-Regular-61" />
+       <use xlink:href="#p0_LMSans10-Regular-6c" transform="translate(48.099991 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-74" transform="translate(71.999985 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(108.099976 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-72" transform="translate(152.499969 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-6e" transform="translate(186.699966 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-61" transform="translate(238.399963 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-74" transform="translate(286.499954 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-69" transform="translate(322.599945 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-6e" transform="translate(346.499939 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-67" transform="translate(398.199936 0)" />
+      </g>
+     </g>
+    </g>
+    <g id="p0_ytick_25">
+     <g id="p0_line2d_25" />
+     <g id="p0_text_25">
+      
+      <g transform="translate(55.833594 306.76237) scale(0.065 -0.065)">
+       <defs>
+        <path id="p0_LMSans10-Regular-4d" d="M 4954 0  L 4954 4442  L 4224 4442  L 3392 2272  C 3168 1690 2867 896 2797 595  L 2790 595  C 2758 730 2682 966 2586 1235  L 1581 3885  L 1363 4442  L 640 4442  L 640 0  L 1139 0  L 1139 3968  L 1146 3968  C 1184 3763 1440 3066 1606 2630  L 2554 141  L 3021 141  L 3872 2368  L 4179 3181  C 4243 3366 4416 3827 4448 3974  L 4454 3968  L 4454 0  L 4954 0  z " transform="scale(0.015625)" />
+        <path id="p0_LMSans10-Regular-79" d="M 2854 2842  L 2374 2842  C 1542 806 1530 512 1523 365  L 1517 365  C 1478 794 966 1984 941 2042  L 595 2842  L 90 2842  L 1331 0  L 1101 -576  C 934 -947 826 -947 736 -947  C 634 -947 429 -922 237 -845  L 275 -1261  C 416 -1293 595 -1312 736 -1312  C 960 -1312 1197 -1235 1459 -582  L 2854 2842  z " transform="scale(0.015625)" />
+       </defs>
+       <use xlink:href="#p0_LMSans10-Regular-4d" />
+       <use xlink:href="#p0_LMSans10-Regular-61" transform="translate(87.499985 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-72" transform="translate(135.599976 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-67" transform="translate(169.799973 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-69" transform="translate(219.799957 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-6e" transform="translate(243.699951 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-61" transform="translate(295.399948 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-6c" transform="translate(343.499939 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-20" transform="translate(367.399933 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-6f" transform="translate(400.699921 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-6e" transform="translate(450.699905 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-6c" transform="translate(502.399902 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-79" transform="translate(526.299896 0)" />
+      </g>
+     </g>
+    </g>
+    <g id="p0_ytick_26">
+     <g id="p0_line2d_26" />
+     <g id="p0_text_26">
+      
+      <g transform="translate(72.832109 318.015703) scale(0.065 -0.065)">
+       <defs>
+        <path id="p0_LMSans10-Regular-2b" d="M 4614 1600  C 4614 1728 4493 1728 4403 1728  L 2618 1728  L 2618 3520  C 2618 3610 2618 3731 2490 3731  C 2362 3731 2362 3610 2362 3520  L 2362 1728  L 570 1728  C 480 1728 358 1728 358 1600  C 358 1472 480 1472 570 1472  L 2362 1472  L 2362 -320  C 2362 -410 2362 -531 2490 -531  C 2618 -531 2618 -410 2618 -320  L 2618 1472  L 4403 1472  C 4493 1472 4614 1472 4614 1600  z " transform="scale(0.015625)" />
+        <path id="p0_LMSans10-Regular-50" d="M 3725 3149  C 3725 3834 3091 4442 2208 4442  L 614 4442  L 614 0  L 1184 0  L 1184 1850  L 2253 1850  C 3046 1850 3725 2432 3725 3149  z M 3206 3149  C 3206 2643 2803 2221 2067 2221  L 1165 2221  L 1165 4083  L 2067 4083  C 2771 4083 3206 3693 3206 3149  z " transform="scale(0.015625)" />
+       </defs>
+       <use xlink:href="#p0_LMSans10-Regular-2b" />
+       <use xlink:href="#p0_LMSans10-Regular-20" transform="translate(77.799988 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-50" transform="translate(111.099976 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-61" transform="translate(174.999969 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-74" transform="translate(223.09996 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-68" transform="translate(259.199951 0)" />
+      </g>
+     </g>
+    </g>
+    <g id="p0_ytick_27">
+     <g id="p0_line2d_27" />
+     <g id="p0_text_27">
+      
+      <g transform="translate(77.329297 329.269036) scale(0.065 -0.065)">
+       <defs>
+        <path id="p0_LMSans10-Regular-43" d="M 3757 288  L 3718 730  C 3533 602 3347 480 3130 416  C 2925 346 2701 339 2483 339  C 2067 339 1690 563 1427 890  C 1133 1267 992 1741 992 2221  C 992 2701 1133 3181 1427 3558  C 1690 3885 2067 4109 2483 4109  C 2675 4109 2874 4090 3059 4032  C 3251 3974 3430 3878 3597 3763  L 3686 4288  C 3494 4365 3296 4429 3091 4467  C 2893 4506 2688 4518 2483 4518  C 1920 4518 1402 4262 1024 3846  C 627 3398 422 2816 422 2221  C 422 1626 627 1043 1024 602  C 1402 186 1920 -70 2483 -70  C 2707 -70 2931 -64 3149 0  C 3366 58 3565 173 3757 288  z " transform="scale(0.015625)" />
+        <path id="p0_LMSans10-Regular-41" d="M 4083 0  L 2413 4442  L 1850 4442  L 179 0  L 653 0  L 1146 1306  L 3008 1306  L 3494 0  L 4083 0  z M 2867 1664  L 1280 1664  C 1606 2579 1370 1907 1696 2822  C 1830 3200 2029 3744 2074 3981  L 2080 3981  C 2093 3891 2138 3731 2285 3309  L 2867 1664  z " transform="scale(0.015625)" />
+       </defs>
+       <use xlink:href="#p0_LMSans10-Regular-2b" />
+       <use xlink:href="#p0_LMSans10-Regular-20" transform="translate(77.799988 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-43" transform="translate(111.099976 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-41" transform="translate(174.999969 0)" />
+      </g>
+     </g>
+    </g>
+   </g>
+   <g id="p0_line2d_28">
+    <path d="M 95.04 73.813333  L 151.306667 73.813333  " style="fill: none; stroke: #222222; stroke-width: 0.8; stroke-linecap: round" />
+   </g>
+   <g id="p0_line2d_29">
+    <path d="M 151.306667 73.813333  L 151.306667 332.64  " style="fill: none; stroke: #222222; stroke-width: 0.8; stroke-linecap: round" />
+   </g>
+   <g id="p0_line2d_30">
+    <path d="M 95.04 130.08  L 207.573333 130.08  " style="fill: none; stroke-dasharray: 0.75,0.75; stroke-dashoffset: 0; stroke: #ffffff; stroke-width: 0.5" />
+   </g>
+   <g id="p0_line2d_31">
+    <path d="M 207.573333 130.08  L 207.573333 332.64  " style="fill: none; stroke-dasharray: 0.75,0.75; stroke-dashoffset: 0; stroke: #ffffff; stroke-width: 0.5" />
+   </g>
+   <g id="p0_line2d_32">
+    <path d="M 95.04 186.346667  L 263.84 186.346667  " style="fill: none; stroke: #222222; stroke-width: 0.8; stroke-linecap: round" />
+   </g>
+   <g id="p0_line2d_33">
+    <path d="M 263.84 186.346667  L 263.84 332.64  " style="fill: none; stroke: #222222; stroke-width: 0.8; stroke-linecap: round" />
+   </g>
+   <g id="p0_line2d_34">
+    <path d="M 95.04 242.613333  L 320.106667 242.613333  " style="fill: none; stroke-dasharray: 0.75,0.75; stroke-dashoffset: 0; stroke: #ffffff; stroke-width: 0.5" />
+   </g>
+   <g id="p0_line2d_35">
+    <path d="M 320.106667 242.613333  L 320.106667 332.64  " style="fill: none; stroke-dasharray: 0.75,0.75; stroke-dashoffset: 0; stroke: #ffffff; stroke-width: 0.5" />
+   </g>
+   <g id="p0_line2d_36">
+    <path d="M 95.04 298.88  L 376.373333 298.88  " style="fill: none; stroke: #222222; stroke-width: 0.8; stroke-linecap: round" />
+   </g>
+   <g id="p0_line2d_37">
+    <path d="M 376.373333 298.88  L 376.373333 332.64  " style="fill: none; stroke: #222222; stroke-width: 0.8; stroke-linecap: round" />
+   </g>
+   <g id="p0_line2d_38">
+    <path d="M 28.8 31.050667  L 28.8 71.562667  " style="fill: none; stroke: #222222; stroke-width: 0.8; stroke-linecap: round" />
+   </g>
+   <g id="p0_line2d_39">
+    <path d="M 28.8 76.064  L 28.8 127.829333  " style="fill: none; stroke: #222222; stroke-width: 0.8; stroke-linecap: round" />
+   </g>
+   <g id="p0_line2d_40">
+    <path d="M 28.8 132.330667  L 28.8 184.096  " style="fill: none; stroke: #222222; stroke-width: 0.8; stroke-linecap: round" />
+   </g>
+   <g id="p0_line2d_41">
+    <path d="M 28.8 188.597333  L 28.8 240.362667  " style="fill: none; stroke: #222222; stroke-width: 0.8; stroke-linecap: round" />
+   </g>
+   <g id="p0_line2d_42">
+    <path d="M 28.8 244.864  L 28.8 296.629333  " style="fill: none; stroke: #222222; stroke-width: 0.8; stroke-linecap: round" />
+   </g>
+   <g id="p0_line2d_43">
+    <path d="M 15.84 31.050667  L 15.84 71.562667  " style="fill: none; stroke: #222222; stroke-width: 0.8; stroke-linecap: round" />
+   </g>
+   <g id="p0_line2d_44">
+    <path d="M 15.84 76.064  L 15.84 184.096  " style="fill: none; stroke: #222222; stroke-width: 0.8; stroke-linecap: round" />
+   </g>
+   <g id="p0_line2d_45">
+    <path d="M 15.84 188.597333  L 15.84 296.629333  " style="fill: none; stroke: #222222; stroke-width: 0.8; stroke-linecap: round" />
+   </g>
+   <g id="p0_line2d_46">
+    <path d="M 15.84 301.130667  L 15.84 330.389333  " style="fill: none; stroke: #222222; stroke-width: 0.8; stroke-linecap: round" />
+   </g>
+   <g id="p0_text_28">
+    
+    <g style="fill: #222222" transform="translate(107.981333 36.051667) scale(0.065 -0.065)">
+     <use xlink:href="#p0_LMSans10-Regular-69" />
+     <use xlink:href="#p0_LMSans10-Regular-6d" transform="translate(23.899994 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-70" transform="translate(103.299988 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-75" transform="translate(154.999985 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-74" transform="translate(206.699982 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(242.799973 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-72" transform="translate(287.199966 0)" />
+    </g>
+   </g>
+   <g id="p0_text_29">
+    
+    <g style="fill: #222222" transform="translate(119.234667 47.305) scale(0.065 -0.065)">
+     <use xlink:href="#p0_LMSans10-Regular-69" />
+     <use xlink:href="#p0_LMSans10-Regular-6d" transform="translate(23.899994 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-70" transform="translate(103.299988 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-75" transform="translate(154.999985 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-74" transform="translate(206.699982 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(242.799973 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-72" transform="translate(287.199966 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-20" transform="translate(321.399963 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-28" transform="translate(354.699951 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-73" transform="translate(393.599945 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-67" transform="translate(431.899933 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-29" transform="translate(481.899918 0)" />
+    </g>
+   </g>
+   <g id="p0_text_30">
+    
+    <g style="fill: #222222" transform="translate(130.488 58.51974) scale(0.065 -0.065)">
+     <use xlink:href="#p0_LMSans10-Regular-6e" />
+     <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(51.699997 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-61" transform="translate(96.099991 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-72" transform="translate(144.199982 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(178.399979 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-73" transform="translate(222.799973 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-74" transform="translate(261.09996 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-20" transform="translate(297.199951 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-6e" transform="translate(330.499939 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(382.199936 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-69" transform="translate(426.59993 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-67" transform="translate(450.499924 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-68" transform="translate(500.499908 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-62" transform="translate(552.199905 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-6f" transform="translate(603.899902 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-72" transform="translate(653.899887 0)" />
+    </g>
+   </g>
+   <g id="p0_text_31">
+    
+    <g style="fill: #222222" transform="translate(141.741333 69.811667) scale(0.065 -0.065)">
+     <use xlink:href="#p0_LMSans10-Regular-6e" />
+     <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(51.699997 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-61" transform="translate(96.099991 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-72" transform="translate(144.199982 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(178.399979 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-73" transform="translate(222.799973 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-74" transform="translate(261.09996 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-20" transform="translate(297.199951 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-6e" transform="translate(330.499939 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(382.199936 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-69" transform="translate(426.59993 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-67" transform="translate(450.499924 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-68" transform="translate(500.499908 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-62" transform="translate(552.199905 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-6f" transform="translate(603.899902 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-72" transform="translate(653.899887 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-20" transform="translate(688.099884 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-28" transform="translate(721.399872 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-73" transform="translate(760.299866 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-67" transform="translate(798.599854 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-29" transform="translate(848.599838 0)" />
+    </g>
+   </g>
+   <g id="p0_text_32">
+    
+    <g style="fill: #222222" transform="translate(152.994667 81.026406) scale(0.065 -0.065)">
+     <use xlink:href="#p0_LMSans10-Regular-61" />
+     <use xlink:href="#p0_LMSans10-Regular-6c" transform="translate(48.099991 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-74" transform="translate(71.999985 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(108.099976 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-72" transform="translate(152.499969 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-6e" transform="translate(186.699966 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-61" transform="translate(238.399963 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-74" transform="translate(286.499954 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-69" transform="translate(322.599945 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-6e" transform="translate(346.499939 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-67" transform="translate(398.199936 0)" />
+    </g>
+   </g>
+   <g id="p0_text_33">
+    
+    <g style="fill: #222222" transform="translate(164.248 92.318333) scale(0.065 -0.065)">
+     <use xlink:href="#p0_LMSans10-Regular-69" />
+     <use xlink:href="#p0_LMSans10-Regular-6d" transform="translate(23.899994 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-70" transform="translate(103.299988 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-75" transform="translate(154.999985 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-74" transform="translate(206.699982 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(242.799973 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-72" transform="translate(287.199966 0)" />
+    </g>
+   </g>
+   <g id="p0_text_34">
+    
+    <g style="fill: #222222" transform="translate(175.501333 103.571667) scale(0.065 -0.065)">
+     <use xlink:href="#p0_LMSans10-Regular-69" />
+     <use xlink:href="#p0_LMSans10-Regular-6d" transform="translate(23.899994 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-70" transform="translate(103.299988 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-75" transform="translate(154.999985 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-74" transform="translate(206.699982 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(242.799973 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-72" transform="translate(287.199966 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-20" transform="translate(321.399963 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-28" transform="translate(354.699951 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-73" transform="translate(393.599945 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-67" transform="translate(431.899933 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-29" transform="translate(481.899918 0)" />
+    </g>
+   </g>
+   <g id="p0_text_35">
+    
+    <g style="fill: #222222" transform="translate(186.754667 114.786406) scale(0.065 -0.065)">
+     <use xlink:href="#p0_LMSans10-Regular-6e" />
+     <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(51.699997 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-61" transform="translate(96.099991 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-72" transform="translate(144.199982 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(178.399979 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-73" transform="translate(222.799973 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-74" transform="translate(261.09996 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-20" transform="translate(297.199951 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-6e" transform="translate(330.499939 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(382.199936 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-69" transform="translate(426.59993 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-67" transform="translate(450.499924 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-68" transform="translate(500.499908 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-62" transform="translate(552.199905 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-6f" transform="translate(603.899902 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-72" transform="translate(653.899887 0)" />
+    </g>
+   </g>
+   <g id="p0_text_36">
+    
+    <g style="fill: #222222" transform="translate(198.008 126.078333) scale(0.065 -0.065)">
+     <use xlink:href="#p0_LMSans10-Regular-6e" />
+     <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(51.699997 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-61" transform="translate(96.099991 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-72" transform="translate(144.199982 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(178.399979 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-73" transform="translate(222.799973 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-74" transform="translate(261.09996 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-20" transform="translate(297.199951 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-6e" transform="translate(330.499939 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(382.199936 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-69" transform="translate(426.59993 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-67" transform="translate(450.499924 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-68" transform="translate(500.499908 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-62" transform="translate(552.199905 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-6f" transform="translate(603.899902 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-72" transform="translate(653.899887 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-20" transform="translate(688.099884 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-28" transform="translate(721.399872 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-73" transform="translate(760.299866 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-67" transform="translate(798.599854 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-29" transform="translate(848.599838 0)" />
+    </g>
+   </g>
+   <g id="p0_text_37">
+    
+    <g style="fill: #222222" transform="translate(209.261333 137.293073) scale(0.065 -0.065)">
+     <use xlink:href="#p0_LMSans10-Regular-61" />
+     <use xlink:href="#p0_LMSans10-Regular-6c" transform="translate(48.099991 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-74" transform="translate(71.999985 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(108.099976 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-72" transform="translate(152.499969 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-6e" transform="translate(186.699966 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-61" transform="translate(238.399963 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-74" transform="translate(286.499954 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-69" transform="translate(322.599945 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-6e" transform="translate(346.499939 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-67" transform="translate(398.199936 0)" />
+    </g>
+   </g>
+   <g id="p0_text_38">
+    
+    <g style="fill: #222222" transform="translate(220.514667 148.585) scale(0.065 -0.065)">
+     <use xlink:href="#p0_LMSans10-Regular-69" />
+     <use xlink:href="#p0_LMSans10-Regular-6d" transform="translate(23.899994 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-70" transform="translate(103.299988 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-75" transform="translate(154.999985 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-74" transform="translate(206.699982 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(242.799973 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-72" transform="translate(287.199966 0)" />
+    </g>
+   </g>
+   <g id="p0_text_39">
+    
+    <g style="fill: #222222" transform="translate(231.768 159.838333) scale(0.065 -0.065)">
+     <use xlink:href="#p0_LMSans10-Regular-69" />
+     <use xlink:href="#p0_LMSans10-Regular-6d" transform="translate(23.899994 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-70" transform="translate(103.299988 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-75" transform="translate(154.999985 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-74" transform="translate(206.699982 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(242.799973 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-72" transform="translate(287.199966 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-20" transform="translate(321.399963 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-28" transform="translate(354.699951 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-73" transform="translate(393.599945 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-67" transform="translate(431.899933 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-29" transform="translate(481.899918 0)" />
+    </g>
+   </g>
+   <g id="p0_text_40">
+    
+    <g style="fill: #222222" transform="translate(243.021333 171.053073) scale(0.065 -0.065)">
+     <use xlink:href="#p0_LMSans10-Regular-6e" />
+     <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(51.699997 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-61" transform="translate(96.099991 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-72" transform="translate(144.199982 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(178.399979 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-73" transform="translate(222.799973 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-74" transform="translate(261.09996 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-20" transform="translate(297.199951 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-6e" transform="translate(330.499939 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(382.199936 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-69" transform="translate(426.59993 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-67" transform="translate(450.499924 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-68" transform="translate(500.499908 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-62" transform="translate(552.199905 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-6f" transform="translate(603.899902 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-72" transform="translate(653.899887 0)" />
+    </g>
+   </g>
+   <g id="p0_text_41">
+    
+    <g style="fill: #222222" transform="translate(254.274667 182.345) scale(0.065 -0.065)">
+     <use xlink:href="#p0_LMSans10-Regular-6e" />
+     <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(51.699997 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-61" transform="translate(96.099991 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-72" transform="translate(144.199982 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(178.399979 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-73" transform="translate(222.799973 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-74" transform="translate(261.09996 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-20" transform="translate(297.199951 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-6e" transform="translate(330.499939 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(382.199936 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-69" transform="translate(426.59993 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-67" transform="translate(450.499924 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-68" transform="translate(500.499908 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-62" transform="translate(552.199905 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-6f" transform="translate(603.899902 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-72" transform="translate(653.899887 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-20" transform="translate(688.099884 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-28" transform="translate(721.399872 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-73" transform="translate(760.299866 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-67" transform="translate(798.599854 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-29" transform="translate(848.599838 0)" />
+    </g>
+   </g>
+   <g id="p0_text_42">
+    
+    <g style="fill: #222222" transform="translate(265.528 193.55974) scale(0.065 -0.065)">
+     <use xlink:href="#p0_LMSans10-Regular-61" />
+     <use xlink:href="#p0_LMSans10-Regular-6c" transform="translate(48.099991 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-74" transform="translate(71.999985 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(108.099976 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-72" transform="translate(152.499969 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-6e" transform="translate(186.699966 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-61" transform="translate(238.399963 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-74" transform="translate(286.499954 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-69" transform="translate(322.599945 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-6e" transform="translate(346.499939 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-67" transform="translate(398.199936 0)" />
+    </g>
+   </g>
+   <g id="p0_text_43">
+    
+    <g style="fill: #222222" transform="translate(276.781333 204.851667) scale(0.065 -0.065)">
+     <use xlink:href="#p0_LMSans10-Regular-69" />
+     <use xlink:href="#p0_LMSans10-Regular-6d" transform="translate(23.899994 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-70" transform="translate(103.299988 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-75" transform="translate(154.999985 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-74" transform="translate(206.699982 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(242.799973 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-72" transform="translate(287.199966 0)" />
+    </g>
+   </g>
+   <g id="p0_text_44">
+    
+    <g style="fill: #222222" transform="translate(288.034667 216.105) scale(0.065 -0.065)">
+     <use xlink:href="#p0_LMSans10-Regular-69" />
+     <use xlink:href="#p0_LMSans10-Regular-6d" transform="translate(23.899994 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-70" transform="translate(103.299988 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-75" transform="translate(154.999985 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-74" transform="translate(206.699982 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(242.799973 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-72" transform="translate(287.199966 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-20" transform="translate(321.399963 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-28" transform="translate(354.699951 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-73" transform="translate(393.599945 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-67" transform="translate(431.899933 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-29" transform="translate(481.899918 0)" />
+    </g>
+   </g>
+   <g id="p0_text_45">
+    
+    <g style="fill: #222222" transform="translate(299.288 227.31974) scale(0.065 -0.065)">
+     <use xlink:href="#p0_LMSans10-Regular-6e" />
+     <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(51.699997 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-61" transform="translate(96.099991 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-72" transform="translate(144.199982 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(178.399979 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-73" transform="translate(222.799973 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-74" transform="translate(261.09996 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-20" transform="translate(297.199951 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-6e" transform="translate(330.499939 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(382.199936 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-69" transform="translate(426.59993 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-67" transform="translate(450.499924 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-68" transform="translate(500.499908 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-62" transform="translate(552.199905 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-6f" transform="translate(603.899902 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-72" transform="translate(653.899887 0)" />
+    </g>
+   </g>
+   <g id="p0_text_46">
+    
+    <g style="fill: #222222" transform="translate(310.541333 238.611667) scale(0.065 -0.065)">
+     <use xlink:href="#p0_LMSans10-Regular-6e" />
+     <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(51.699997 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-61" transform="translate(96.099991 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-72" transform="translate(144.199982 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(178.399979 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-73" transform="translate(222.799973 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-74" transform="translate(261.09996 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-20" transform="translate(297.199951 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-6e" transform="translate(330.499939 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(382.199936 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-69" transform="translate(426.59993 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-67" transform="translate(450.499924 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-68" transform="translate(500.499908 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-62" transform="translate(552.199905 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-6f" transform="translate(603.899902 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-72" transform="translate(653.899887 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-20" transform="translate(688.099884 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-28" transform="translate(721.399872 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-73" transform="translate(760.299866 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-67" transform="translate(798.599854 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-29" transform="translate(848.599838 0)" />
+    </g>
+   </g>
+   <g id="p0_text_47">
+    
+    <g style="fill: #222222" transform="translate(321.794667 249.826406) scale(0.065 -0.065)">
+     <use xlink:href="#p0_LMSans10-Regular-61" />
+     <use xlink:href="#p0_LMSans10-Regular-6c" transform="translate(48.099991 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-74" transform="translate(71.999985 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(108.099976 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-72" transform="translate(152.499969 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-6e" transform="translate(186.699966 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-61" transform="translate(238.399963 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-74" transform="translate(286.499954 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-69" transform="translate(322.599945 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-6e" transform="translate(346.499939 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-67" transform="translate(398.199936 0)" />
+    </g>
+   </g>
+   <g id="p0_text_48">
+    
+    <g style="fill: #222222" transform="translate(333.048 261.118333) scale(0.065 -0.065)">
+     <use xlink:href="#p0_LMSans10-Regular-69" />
+     <use xlink:href="#p0_LMSans10-Regular-6d" transform="translate(23.899994 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-70" transform="translate(103.299988 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-75" transform="translate(154.999985 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-74" transform="translate(206.699982 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(242.799973 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-72" transform="translate(287.199966 0)" />
+    </g>
+   </g>
+   <g id="p0_text_49">
+    
+    <g style="fill: #222222" transform="translate(344.301333 272.371667) scale(0.065 -0.065)">
+     <use xlink:href="#p0_LMSans10-Regular-69" />
+     <use xlink:href="#p0_LMSans10-Regular-6d" transform="translate(23.899994 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-70" transform="translate(103.299988 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-75" transform="translate(154.999985 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-74" transform="translate(206.699982 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(242.799973 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-72" transform="translate(287.199966 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-20" transform="translate(321.399963 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-28" transform="translate(354.699951 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-73" transform="translate(393.599945 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-67" transform="translate(431.899933 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-29" transform="translate(481.899918 0)" />
+    </g>
+   </g>
+   <g id="p0_text_50">
+    
+    <g style="fill: #222222" transform="translate(355.554667 283.586406) scale(0.065 -0.065)">
+     <use xlink:href="#p0_LMSans10-Regular-6e" />
+     <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(51.699997 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-61" transform="translate(96.099991 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-72" transform="translate(144.199982 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(178.399979 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-73" transform="translate(222.799973 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-74" transform="translate(261.09996 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-20" transform="translate(297.199951 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-6e" transform="translate(330.499939 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(382.199936 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-69" transform="translate(426.59993 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-67" transform="translate(450.499924 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-68" transform="translate(500.499908 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-62" transform="translate(552.199905 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-6f" transform="translate(603.899902 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-72" transform="translate(653.899887 0)" />
+    </g>
+   </g>
+   <g id="p0_text_51">
+    
+    <g style="fill: #222222" transform="translate(366.808 294.878333) scale(0.065 -0.065)">
+     <use xlink:href="#p0_LMSans10-Regular-6e" />
+     <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(51.699997 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-61" transform="translate(96.099991 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-72" transform="translate(144.199982 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(178.399979 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-73" transform="translate(222.799973 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-74" transform="translate(261.09996 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-20" transform="translate(297.199951 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-6e" transform="translate(330.499939 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(382.199936 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-69" transform="translate(426.59993 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-67" transform="translate(450.499924 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-68" transform="translate(500.499908 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-62" transform="translate(552.199905 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-6f" transform="translate(603.899902 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-72" transform="translate(653.899887 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-20" transform="translate(688.099884 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-28" transform="translate(721.399872 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-73" transform="translate(760.299866 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-67" transform="translate(798.599854 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-29" transform="translate(848.599838 0)" />
+    </g>
+   </g>
+   <g id="p0_text_52">
+    
+    <g style="fill: #222222" transform="translate(378.061333 306.093073) scale(0.065 -0.065)">
+     <use xlink:href="#p0_LMSans10-Regular-61" />
+     <use xlink:href="#p0_LMSans10-Regular-6c" transform="translate(48.099991 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-74" transform="translate(71.999985 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(108.099976 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-72" transform="translate(152.499969 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-6e" transform="translate(186.699966 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-61" transform="translate(238.399963 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-74" transform="translate(286.499954 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-69" transform="translate(322.599945 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-6e" transform="translate(346.499939 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-67" transform="translate(398.199936 0)" />
+    </g>
+   </g>
+   <g id="p0_text_53">
+    
+    <g style="fill: #222222" transform="translate(389.314667 317.346406) scale(0.065 -0.065)">
+     <use xlink:href="#p0_LMSans10-Regular-4d" />
+     <use xlink:href="#p0_LMSans10-Regular-61" transform="translate(87.499985 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-72" transform="translate(135.599976 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-67" transform="translate(169.799973 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-69" transform="translate(219.799957 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-6e" transform="translate(243.699951 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-61" transform="translate(295.399948 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-6c" transform="translate(343.499939 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-20" transform="translate(367.399933 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-6f" transform="translate(400.699921 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-6e" transform="translate(450.699905 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-6c" transform="translate(502.399902 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-79" transform="translate(526.299896 0)" />
+    </g>
+   </g>
+   <g id="p0_text_54">
+    
+    <g style="fill: #222222" transform="translate(400.568 328.638333) scale(0.065 -0.065)">
+     <use xlink:href="#p0_LMSans10-Regular-2b" />
+     <use xlink:href="#p0_LMSans10-Regular-20" transform="translate(77.799988 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-50" transform="translate(111.099976 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-61" transform="translate(174.999969 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-74" transform="translate(223.09996 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-68" transform="translate(259.199951 0)" />
+    </g>
+   </g>
+   <g id="p0_text_55">
+    
+    <g style="fill: #222222" transform="translate(26.825 77.61237) rotate(-90) scale(0.065 -0.065)">
+     <defs>
+      <path id="p0_LMSans10-Regular-54" d="M 4122 3987  L 4122 4403  L 230 4403  L 230 3987  L 1088 3987  C 1165 3987 1242 3994 1318 3994  L 1894 3994  L 1894 0  L 2464 0  L 2464 3994  L 3034 3994  C 3110 3994 3187 3987 3264 3987  L 4122 3987  z " transform="scale(0.015625)" />
+      <path id="p0_LMSans10-Regular-78" d="M 2944 0  L 1664 1466  L 2835 2842  L 2310 2842  L 1453 1786  L 570 2842  L 38 2842  L 1242 1466  L 0 0  L 525 0  L 1453 1203  L 2413 0  L 2944 0  z " transform="scale(0.015625)" />
+     </defs>
+     <use xlink:href="#p0_LMSans10-Regular-54" />
+     <use xlink:href="#p0_LMSans10-Regular-72" transform="translate(68.099991 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(102.299988 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(146.699982 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-20" transform="translate(191.099976 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-54" transform="translate(224.399963 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-78" transform="translate(292.499954 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-20" transform="translate(338.599945 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-2b" transform="translate(371.899933 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-20" transform="translate(449.699921 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-62" transform="translate(482.999908 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-61" transform="translate(534.699905 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-73" transform="translate(582.799896 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(621.099884 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-6c" transform="translate(665.499878 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-69" transform="translate(689.399872 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-6e" transform="translate(713.299866 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(764.999863 0)" />
+    </g>
+   </g>
+   <g id="p0_text_56">
+    
+    <g style="fill: #222222" transform="translate(26.825 112.950964) rotate(-90) scale(0.065 -0.065)">
+     <use xlink:href="#p0_LMSans10-Regular-54" />
+     <use xlink:href="#p0_LMSans10-Regular-72" transform="translate(68.099991 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(102.299988 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(146.699982 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-20" transform="translate(191.099976 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-54" transform="translate(224.399963 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-78" transform="translate(292.499954 0)" />
+    </g>
+   </g>
+   <g id="p0_text_57">
+    
+    <g style="fill: #222222" transform="translate(26.825 184.519036) rotate(-90) scale(0.065 -0.065)">
+     <use xlink:href="#p0_LMSans10-Regular-54" />
+     <use xlink:href="#p0_LMSans10-Regular-72" transform="translate(68.099991 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(102.299988 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(146.699982 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-20" transform="translate(191.099976 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-54" transform="translate(224.399963 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-78" transform="translate(292.499954 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-20" transform="translate(338.599945 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-2b" transform="translate(371.899933 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-20" transform="translate(449.699921 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-62" transform="translate(482.999908 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-61" transform="translate(534.699905 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-73" transform="translate(582.799896 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(621.099884 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-6c" transform="translate(665.499878 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-69" transform="translate(689.399872 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-6e" transform="translate(713.299866 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(764.999863 0)" />
+    </g>
+   </g>
+   <g id="p0_text_58">
+    
+    <g style="fill: #222222" transform="translate(26.825 225.484297) rotate(-90) scale(0.065 -0.065)">
+     <use xlink:href="#p0_LMSans10-Regular-54" />
+     <use xlink:href="#p0_LMSans10-Regular-72" transform="translate(68.099991 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(102.299988 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(146.699982 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-20" transform="translate(191.099976 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-54" transform="translate(224.399963 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-78" transform="translate(292.499954 0)" />
+    </g>
+   </g>
+   <g id="p0_text_59">
+    
+    <g style="fill: #222222" transform="translate(26.825 297.05237) rotate(-90) scale(0.065 -0.065)">
+     <use xlink:href="#p0_LMSans10-Regular-54" />
+     <use xlink:href="#p0_LMSans10-Regular-72" transform="translate(68.099991 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(102.299988 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(146.699982 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-20" transform="translate(191.099976 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-54" transform="translate(224.399963 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-78" transform="translate(292.499954 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-20" transform="translate(338.599945 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-2b" transform="translate(371.899933 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-20" transform="translate(449.699921 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-62" transform="translate(482.999908 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-61" transform="translate(534.699905 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-73" transform="translate(582.799896 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(621.099884 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-6c" transform="translate(665.499878 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-69" transform="translate(689.399872 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-6e" transform="translate(713.299866 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(764.999863 0)" />
+    </g>
+   </g>
+   <g id="p0_text_60">
+    
+    <g style="fill: #222222" transform="translate(14.066563 64.379167) rotate(-90) scale(0.07 -0.07)">
+     <defs>
+      <path id="p0_LMSans10-Regular-4f" d="M 4346 2208  C 4346 3552 3418 4582 2355 4582  C 1267 4582 358 3539 358 2208  C 358 851 1306 -141 2349 -141  C 3418 -141 4346 864 4346 2208  z M 3776 2304  C 3776 1056 3085 275 2355 275  C 1600 275 928 1075 928 2304  C 928 3475 1632 4173 2349 4173  C 3091 4173 3776 3450 3776 2304  z " transform="scale(0.015625)" />
+      <path id="p0_LMSans10-Regular-2d" d="M 1766 1235  L 1766 1606  L 70 1606  L 70 1235  L 1766 1235  z " transform="scale(0.015625)" />
+     </defs>
+     <use xlink:href="#p0_LMSans10-Regular-4f" />
+     <use xlink:href="#p0_LMSans10-Regular-6e" transform="translate(73.599991 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(125.299988 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-2d" transform="translate(169.699982 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-73" transform="translate(202.999969 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-74" transform="translate(241.299957 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(277.399948 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-70" transform="translate(321.799942 0)" />
+    </g>
+   </g>
+   <g id="p0_text_61">
+    
+    <g style="fill: #222222" transform="translate(13.99 137.370937) rotate(-90) scale(0.07 -0.07)">
+     <defs>
+      <path id="p0_LMSans10-Regular-46" d="M 3366 4006  L 3366 4422  L 602 4422  L 602 0  L 1171 0  L 1171 2016  L 3104 2016  L 3104 2406  L 1171 2406  L 1171 4013  L 2010 4013  C 2086 4013 2163 4006 2240 4006  L 3366 4006  z " transform="scale(0.015625)" />
+     </defs>
+     <use xlink:href="#p0_LMSans10-Regular-43" />
+     <use xlink:href="#p0_LMSans10-Regular-46" transform="translate(63.899994 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-4d" transform="translate(120.799988 0)" />
+    </g>
+   </g>
+   <g id="p0_text_62">
+    
+    <g style="fill: #222222" transform="translate(13.99 254.912552) rotate(-90) scale(0.07 -0.07)">
+     <defs>
+      <path id="p0_LMSans10-Regular-56" d="M 4173 4442  L 3674 4442  L 2822 2253  C 2720 1990 2240 755 2182 461  L 2176 461  C 2125 717 1850 1421 1792 1574  L 685 4442  L 90 4442  L 1837 0  L 2426 0  L 4173 4442  z " transform="scale(0.015625)" />
+      <path id="p0_LMSans10-Regular-53" d="M 3194 1210  C 3194 1626 2995 1933 2854 2086  C 2554 2406 2342 2464 1754 2611  C 1382 2701 1280 2726 1088 2893  C 1043 2931 864 3117 864 3398  C 864 3776 1210 4160 1798 4160  C 2336 4160 2643 3949 2880 3750  L 2976 4262  C 2624 4474 2272 4582 1805 4582  C 915 4582 358 3955 358 3322  C 358 3046 448 2778 704 2509  C 973 2221 1254 2144 1632 2054  C 2176 1920 2240 1901 2419 1741  C 2547 1632 2688 1421 2688 1146  C 2688 723 2336 301 1754 301  C 1491 301 915 365 378 819  L 282 301  C 845 -51 1357 -141 1760 -141  C 2605 -141 3194 506 3194 1210  z " transform="scale(0.015625)" />
+      <path id="p0_LMSans10-Regular-44" d="M 4256 2182  C 4256 3424 3392 4442 2291 4442  L 614 4442  L 614 0  L 2298 0  C 3386 0 4256 973 4256 2182  z M 3706 2182  C 3706 1094 3040 358 2144 358  L 1165 358  L 1165 4083  L 2144 4083  C 3040 4083 3706 3309 3706 2182  z " transform="scale(0.015625)" />
+      <path id="p0_LMSans10-Regular-45" d="M 3546 0  L 3546 454  L 2739 454  C 2662 454 2586 448 2509 448  L 1171 448  L 1171 2106  L 3283 2106  L 3283 2496  L 1171 2496  L 1171 4013  L 2054 4013  C 2131 4013 2208 4006 2285 4006  L 3456 4006  L 3456 4422  L 602 4422  L 602 0  L 3546 0  z " transform="scale(0.015625)" />
+     </defs>
+     <use xlink:href="#p0_LMSans10-Regular-56" />
+     <use xlink:href="#p0_LMSans10-Regular-50" transform="translate(66.699997 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-2d" transform="translate(130.599991 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-53" transform="translate(163.899979 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-44" transform="translate(219.499969 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-45" transform="translate(291.699951 0)" />
+    </g>
+   </g>
+   <g id="p0_text_63">
+    
+    <g style="fill: #222222" transform="translate(13.948438 338.265547) rotate(-90) scale(0.07 -0.07)">
+     <use xlink:href="#p0_LMSans10-Regular-61" />
+     <use xlink:href="#p0_LMSans10-Regular-6c" transform="translate(48.099991 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-69" transform="translate(71.999985 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-67" transform="translate(95.899979 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-6e" transform="translate(145.899963 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(197.59996 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-72" transform="translate(241.999954 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-20" transform="translate(276.199951 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-61" transform="translate(309.499939 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-62" transform="translate(357.59993 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-6c" transform="translate(409.299927 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-61" transform="translate(433.199921 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-74" transform="translate(481.299911 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-69" transform="translate(517.399902 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-6f" transform="translate(541.299896 0)" />
+     <use xlink:href="#p0_LMSans10-Regular-6e" transform="translate(591.299881 0)" />
+    </g>
+   </g>
+   <g id="p0_axes_2">
+    <g id="p0_patch_3">
+     <path d="M 319.8816 132.1056  L 330.516 132.1056  L 330.516 40.9536  L 319.8816 40.9536  z " style="fill: #ffffff" />
+    </g>
+    <image xlink:href="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAACwAAAF7CAYAAACpeGn6AAAC9ElEQVR4nO3c0W3bQAAEUSpg/0gTKSctWa7hPhaHB8xUsFjMLU+U7M+//3+/D8T7peI+z5/bAU55v8/ndoYjOCXen9sJDgEd1pTA8qbEHC4wqMTtBIekxJqUWOMpod3WUmJNK7EmJdakxJqUWJMSa1JiTdfLNZ4SWsPcrKXEmpRYkxJrPCV+sIpTYk0rsYZrGHT4doJDUmKNp4T2aE6JNa3EGlEJK3JKrGkl1nANcw6nxJqUWJMSa1JiTUqsSYk1KbGGCwwqcTvBISmxJiXWpMSa98ESg0pgDXsOaw2DDt9OcEhKrEmJNZ4S2l2Cc9hTQjt0KbGGU4JrmAvMKcEFBpW4neCQlFjDBU6JNVzD3Kx5SvQhdIynhLYSXMNcYE4JLjCoxO0Eh7wP5kRKrGkl1nS9XJPDa7jAKbGmhtdwgTkluCedp4R3+cECe0pgBXsOp8SaXqSs4XaYc9hTQtvhlFjjrYTmMKjE7QSHcA5zSnCBU2KNtxI9OMZwh+59MCdSYk2ztiaH13AOe0pohy4l1ngroTkMKnE7wSGcw5wSXOCUWPN+sSHuwbGmQ7eGC8wpwV1+PCW0HeYc9pTACvYcTok1KbGG22HOYU8J7dBxn5pTYg03a5wSXOCUWMMF5pTgdhhU4naCQ1JiDReYmzWvYe0vFrlZE5W4HeEMLjCnBBe4B8caLnArsaaG13CB3y82xDm8hgucEmtqeA0XmFOCe5HCKcEF5hz2Gv7cTnBISqzhGub+XQPXcA6v4RrmAr8fTInuw2u4wM3aGq5h7gIvKmE5wTnMKcEF5i4/XsPaSnANc4G5HW4l1vSqao2nhHboUmJNK7HGU8JbCcwJTwmsYM9hUAnMiRxek8NrOIdBJbCG308vA7dwgTmHvYY7dGO4wNyXMq3EGu73EpzDnhLaoUuJNeJK3I5whqdEh24MF5j7xNFKrOEa5l63psSannRrul6u8ZTQDl1KrOEC5/AaTwnt9xLdh9dwh44LLCphVZwSa7jAvxI5RZ3gP4VrAAAAAElFTkSuQmCC" id="p0_image7c62d4c9d4" transform="scale(1 -1) translate(0 -90.96)" x="319.92" y="-41.04" width="10.56" height="90.96" />
+    <g id="p0_matplotlib.axis_3" />
+    <g id="p0_matplotlib.axis_4">
+     <g id="p0_ytick_28">
+      <g id="p0_line2d_47">
+       <defs>
+        <path id="p0_mc00257cc2e" d="M 0 0  L 2 0  " style="stroke: #000000; stroke-width: 0.6" />
+       </defs>
+       <g>
+        <use xlink:href="#p0_mc00257cc2e" x="330.516" y="124.125911" style="stroke: #000000; stroke-width: 0.6" />
+       </g>
+      </g>
+      <g id="p0_text_64">
+       
+       <g transform="translate(336.016 126.381614) scale(0.065 -0.065)">
+        <defs>
+         <path id="p0_LMSans10-Regular-30" d="M 2925 2086  C 2925 2592 2899 3187 2630 3706  C 2368 4186 1926 4339 1600 4339  C 1222 4339 774 4166 512 3597  C 301 3130 269 2598 269 2086  C 269 1581 294 1114 486 646  C 742 32 1229 -141 1594 -141  C 2061 -141 2464 122 2669 563  C 2861 979 2925 1402 2925 2086  z M 2426 2163  C 2426 1741 2426 1338 2310 934  C 2144 352 1805 250 1600 250  C 1267 250 1005 493 877 954  C 774 1318 768 1664 768 2163  C 768 2566 768 2950 877 3302  C 915 3424 1075 3949 1594 3949  C 2093 3949 2259 3462 2304 3347  C 2426 2989 2426 2560 2426 2163  z " transform="scale(0.015625)" />
+         <path id="p0_LMSans10-Regular-2e" d="M 1152 0  L 1152 531  L 621 531  L 621 0  L 1152 0  z " transform="scale(0.015625)" />
+         <path id="p0_LMSans10-Regular-35" d="M 2874 1299  C 2874 2099 2323 2733 1664 2733  C 1408 2733 1165 2637 979 2470  L 979 3789  L 2662 3789  L 2662 4198  L 518 4198  L 518 1837  L 941 1837  C 1050 2093 1286 2342 1658 2342  C 1958 2342 2304 2080 2304 1312  C 2304 250 1523 250 1466 250  C 1037 250 646 499 461 845  L 250 486  C 512 122 954 -141 1472 -141  C 2234 -141 2874 493 2874 1299  z " transform="scale(0.015625)" />
+        </defs>
+        <use xlink:href="#p0_LMSans10-Regular-30" />
+        <use xlink:href="#p0_LMSans10-Regular-2e" transform="translate(49.999985 0)" />
+        <use xlink:href="#p0_LMSans10-Regular-35" transform="translate(77.799973 0)" />
+       </g>
+      </g>
+     </g>
+     <g id="p0_ytick_29">
+      <g id="p0_line2d_48">
+       <g>
+        <use xlink:href="#p0_mc00257cc2e" x="330.516" y="96.680578" style="stroke: #000000; stroke-width: 0.6" />
+       </g>
+      </g>
+      <g id="p0_text_65">
+       
+       <g transform="translate(336.016 98.936281) scale(0.065 -0.065)">
+        <defs>
+         <path id="p0_LMSans10-Regular-39" d="M 2925 2144  C 2925 3936 2163 4339 1619 4339  C 1171 4339 909 4147 685 3910  C 282 3475 269 3053 269 2778  C 269 1958 691 1242 1306 1242  C 1702 1242 2112 1427 2387 1773  C 2317 742 1824 250 1318 250  C 1101 250 890 301 659 493  L 461 154  C 678 -6 915 -141 1312 -141  C 2150 -141 2925 749 2925 2144  z M 2374 2630  C 2374 2106 2061 1632 1555 1632  C 1254 1632 1075 1779 941 2016  C 800 2266 794 2502 794 2778  C 794 3059 800 3322 979 3603  C 1107 3789 1286 3968 1619 3968  C 2246 3968 2355 3098 2368 2784  C 2374 2739 2374 2675 2374 2630  z " transform="scale(0.015625)" />
+        </defs>
+        <use xlink:href="#p0_LMSans10-Regular-30" />
+        <use xlink:href="#p0_LMSans10-Regular-2e" transform="translate(49.999985 0)" />
+        <use xlink:href="#p0_LMSans10-Regular-39" transform="translate(77.799973 0)" />
+       </g>
+      </g>
+     </g>
+     <g id="p0_ytick_30">
+      <g id="p0_line2d_49">
+       <g>
+        <use xlink:href="#p0_mc00257cc2e" x="330.516" y="57.415183" style="stroke: #000000; stroke-width: 0.6" />
+       </g>
+      </g>
+      <g id="p0_text_66">
+       
+       <g transform="translate(336.016 59.670886) scale(0.065 -0.065)">
+        <use xlink:href="#p0_LMSans10-Regular-30" />
+        <use xlink:href="#p0_LMSans10-Regular-2e" transform="translate(49.999985 0)" />
+        <use xlink:href="#p0_LMSans10-Regular-39" transform="translate(77.799973 0)" />
+        <use xlink:href="#p0_LMSans10-Regular-39" transform="translate(127.799957 0)" />
+       </g>
+      </g>
+     </g>
+     <g id="p0_text_67">
+      
+      <g style="fill: #222222" transform="translate(356.431234 109.763584) rotate(-90) scale(0.07 -0.07)">
+       <defs>
+        <path id="p0_LMSans10-Regular-63" d="M 2656 256  L 2618 685  C 2291 429 1946 339 1619 339  C 1088 339 730 800 730 1427  C 730 1926 966 2541 1645 2541  C 1978 2541 2195 2490 2547 2259  L 2624 2675  C 2246 2893 2029 2950 1638 2950  C 749 2950 230 2176 230 1421  C 230 627 813 -70 1613 -70  C 1958 -70 2310 19 2656 256  z " transform="scale(0.015625)" />
+       </defs>
+       <use xlink:href="#p0_LMSans10-Regular-63" />
+       <use xlink:href="#p0_LMSans10-Regular-6f" transform="translate(44.399994 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-73" transform="translate(94.399979 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-69" transform="translate(132.699966 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-6e" transform="translate(156.59996 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-65" transform="translate(208.299957 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-20" transform="translate(252.699951 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-73" transform="translate(285.999939 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-69" transform="translate(324.299927 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-6d" transform="translate(348.199921 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-69" transform="translate(427.599915 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-6c" transform="translate(451.499908 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-61" transform="translate(475.399902 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-72" transform="translate(523.499893 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-69" transform="translate(557.69989 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-74" transform="translate(581.599884 0)" />
+       <use xlink:href="#p0_LMSans10-Regular-79" transform="translate(617.699875 0)" />
+      </g>
+     </g>
+    </g>
+    <g id="p0_LineCollection_1" />
+    <g id="p0_patch_4">
+     <path d="M 319.8816 132.1056  L 325.1988 132.1056  L 330.516 132.1056  L 330.516 40.9536  L 325.1988 40.9536  L 319.8816 40.9536  L 319.8816 132.1056  z " style="fill: none; stroke: #000000; stroke-width: 0.6; stroke-linejoin: miter; stroke-linecap: square" />
+    </g>
+   </g>
+  </g>
+  <g id="p0_text_68">
+   
+   <g style="fill: #222222" transform="translate(4.32 7.7125) scale(0.08 -0.08)">
+    <use xlink:href="#p0_LMSans10-Regular-74" />
+    <use xlink:href="#p0_LMSans10-Regular-72" transform="translate(36.099991 0)" />
+    <use xlink:href="#p0_LMSans10-Regular-61" transform="translate(70.299988 0)" />
+    <use xlink:href="#p0_LMSans10-Regular-6e" transform="translate(118.399979 0)" />
+    <use xlink:href="#p0_LMSans10-Regular-73" transform="translate(170.099976 0)" />
+    <use xlink:href="#p0_LMSans10-Regular-69" transform="translate(208.399963 0)" />
+    <use xlink:href="#p0_LMSans10-Regular-74" transform="translate(232.299957 0)" />
+    <use xlink:href="#p0_LMSans10-Regular-69" transform="translate(268.399948 0)" />
+    <use xlink:href="#p0_LMSans10-Regular-6f" transform="translate(292.299942 0)" />
+    <use xlink:href="#p0_LMSans10-Regular-6e" transform="translate(342.299927 0)" />
+    <use xlink:href="#p0_LMSans10-Regular-2d" transform="translate(393.999924 0)" />
+    <use xlink:href="#p0_LMSans10-Regular-67" transform="translate(427.299911 0)" />
+    <use xlink:href="#p0_LMSans10-Regular-72" transform="translate(477.299896 0)" />
+    <use xlink:href="#p0_LMSans10-Regular-61" transform="translate(511.499893 0)" />
+    <use xlink:href="#p0_LMSans10-Regular-70" transform="translate(559.599884 0)" />
+    <use xlink:href="#p0_LMSans10-Regular-68" transform="translate(611.299881 0)" />
+    <use xlink:href="#p0_LMSans10-Regular-20" transform="translate(662.999878 0)" />
+    <use xlink:href="#p0_LMSans10-Regular-73" transform="translate(696.299866 0)" />
+    <use xlink:href="#p0_LMSans10-Regular-69" transform="translate(734.599854 0)" />
+    <use xlink:href="#p0_LMSans10-Regular-6d" transform="translate(758.499847 0)" />
+    <use xlink:href="#p0_LMSans10-Regular-69" transform="translate(837.899841 0)" />
+    <use xlink:href="#p0_LMSans10-Regular-6c" transform="translate(861.799835 0)" />
+    <use xlink:href="#p0_LMSans10-Regular-61" transform="translate(885.699829 0)" />
+    <use xlink:href="#p0_LMSans10-Regular-72" transform="translate(933.79982 0)" />
+    <use xlink:href="#p0_LMSans10-Regular-69" transform="translate(967.999817 0)" />
+    <use xlink:href="#p0_LMSans10-Regular-74" transform="translate(991.899811 0)" />
+    <use xlink:href="#p0_LMSans10-Regular-79" transform="translate(1027.999802 0)" />
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p0_p9c3537df3f">
+   <rect x="95.04" y="28.8" width="303.84" height="303.84" />
+  </clipPath>
+ </defs>
+</svg></svg>

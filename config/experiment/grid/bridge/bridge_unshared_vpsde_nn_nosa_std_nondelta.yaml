@@ -1,0 +1,35 @@
+# @package _global_
+#
+# Non-delta (absolute-frame) pooler + splitter pair, NullExt extender.
+# Mirrors bridge_unshared_vpsde_nn_nosa_std_none but with the
+# residual-frame Delta machinery dropped from both the pooler and the splitter
+# (pool: tree_former vs delta_tree_former; split: bridge_tree_flow_vpsde vs
+# bridge_delta_tree_flow_vpsde).
+defaults:
+  - override /dataset: mouse_embryo
+  - override /pooler: tree_former
+  - override /splitter: bridge_tree_flow_vpsde
+  - override /aligner: slice_marginal_ca_path
+  - override /pairing: nearest_neighbor
+  - override /extender: none
+  - override /record_sampler: paired_offset_sample_offset
+  - override /training: default
+
+experiment_name: mouse_embryo_grid_bridge_unshared_vpsde_nn_nosa_std_nondelta
+share_pool_split: false
+
+objective:
+  split_align_weight: 0
+
+optimizer:
+  lr: 1e-3
+  warmup_steps: 500
+  weight_decay: 0.01
+  adam_eps: 1e-6
+
+training:
+  n_steps: 20000
+  log_every: 100
+  save_every: 5000
+  n_trees: 1024
+  n_records: 2

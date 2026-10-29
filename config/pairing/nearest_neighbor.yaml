@@ -1,0 +1,5 @@
+_target_: pairings.pairing.NearestNeighborPairing
+time_tolerance: null
+min_snap_time: null      # below this node time, leave unpaired (null = pair all)
+snap_window: 1           # snap within nearest time bin +/- this many bins (1 = own + adjacent, matches eval coupling)
+clonal_reference: false  # restrict reference bank to clonally-tracked cells

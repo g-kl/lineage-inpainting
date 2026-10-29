@@ -1,0 +1,126 @@
+# @package _global_
+#
+# the model used across main text figures
+
+defaults:
+  - override /dataset: null
+  - override /pooler: null
+  - override /splitter: null
+  - override /aligner: null
+  - override /pairing: null
+  - override /extender: null
+  - override /record_sampler: null
+  - override /objective: null
+  - override /optimizer: null
+  - override /training: null
+
+# experiment_name matches grid/bridge/bridge_unshared_vpsde_idnn_leaf_nosa_std_none
+experiment_name: mouse_embryo_grid_bridge_unshared_vpsde_idnn_leaf_nosa_std_none
+seed: 42
+share_pool_split: false
+
+dataset:
+  _target_: datasets.mouse_embryo.MouseEmbryoDataset
+  states_filename: qiu24_integrated_hvgs_and_scvi.h5ad
+  embedding_key: X_scvi
+  max_size: 1024 # only subtrees with <= 1024 leaves are indexed
+
+# pool: one-step tree transformer. observed leaves are clamped, masked nodes
+# start as noise, and the whole tree is predicted in a single pass, as a residual
+# from a per-node baseline.
+pooler:
+  _target_: splitters.tree_former.DeltaTreeFormer
+  dim: 50
+  d_internal: 128
+  n_heads: 4
+  n_layers: 4
+  hidden: 512
+  attention_bias_init: 0.0
+  slice_direction: up
+
+# split: same architecture, trained as a bridge from noise to complete tree
+splitter:
+  _target_: splitters.bridge_tree_flow.BridgeDeltaTreeFlow
+  dim: 50
+  d_internal: 128
+  n_heads: 4
+  n_layers: 4
+  hidden: 512
+  n_flow_steps: 8
+  attention_bias_init: 0.0
+  slice_direction: up
+  bridge:
+    _target_: splitters.bridges.vpsde.DiffusionBridge
+    beta_min: 0.1
+    beta_max: 20.0
+
+# aligner on the pooled states: energy distance per feature, weighted sum
+aligner:
+  _target_: aligners.stratified.StratifiedFeatureAligner
+  loss: energy
+  p: 2
+  min_samples: 8
+  features:
+    # inferred ancestors at each observed time vs real cells observed then
+    - _target_: aligners.stratified.TimeMarginalFeature
+      n_reference_samples: 4096
+      skip_observed: true       # only anchor predicted nodes, not observed ones
+      time_tolerance: null
+    # root-to-leaf paths across the time grid
+    - _target_: aligners.slice.PathFeature
+      time_bins: [7.0, 7.5, 8.0, 8.5, 9.0, 9.5, 10.0]
+      n_samples: 16             # draws per tree per stratum
+      representation: states
+    # an ancestor at t_i plus two descendants at t_j, for every t_i < t_j
+    - _target_: aligners.slice.CommonAncestorFeature
+      time_bins: [7.0, 7.5, 8.0, 8.5, 9.0, 9.5, 10.0]
+      n_descendants: 2
+      n_samples: 16
+      representation: states
+  weights: [1.0, 0.25, 0.25]  # marginal, path, common ancestor
+
+# the trainer alternates id, nn snapping
+pairing:
+  - _target_: pairings.pairing.IdentityPairing
+  - _target_: pairings.pairing.NearestNeighborPairing
+    time_tolerance: null
+    min_snap_time: null
+    snap_window: 1              # search the node's own time bin and one on each side
+    clonal_reference: false     # bank = all real cells, not just lineage-traced ones
+
+# no extending
+extender:
+  _target_: extenders.graft.NullExtender
+
+# each step: two records whose leaf times differ by 0.5 days
+record_sampler:
+  _target_: record_samplers.record_samplers.PairedOffsetSampler
+  target_gap: 0.5             # wanted leaf-time gap between the two records
+  tol: 0.1                    # accepted slack on that gap
+  sample_time_gap: 0.5        # subtree roots sampled up to 0.5 before the earlier leaf time
+
+objective:
+  split_weight: 1
+  align_weight: 1
+  split_align_weight: 0
+  leaf_reconstruction_only: false
+
+optimizer:
+  lr: 0.001
+  weight_decay: 0.01
+  adam_eps: 1.0e-06
+  warmup_steps: 500
+  max_grad_norm: 4.0
+  ema_decay: 0.999            # analysis loads the ema weights ({pool,split}_ema_step*.pt)
+
+# run control. not hashed: changing anything here keeps the same run dir
+training:
+  _target_: trainer.trainer.Trainer
+  n_trees: 1024 # subtrees drawn per record per step
+  n_records: 2
+  align_only_steps: 0
+  device: cuda
+  log_window: 100
+  n_steps: 20000
+  log_every: 100
+  save_every: 5000

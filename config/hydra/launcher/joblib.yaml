@@ -1,0 +1,6 @@
+# @package hydra.launcher
+#
+# Pack several pool-split multirun jobs onto one GPU at once.
+_target_: hydra_plugins.hydra_joblib_launcher.joblib_launcher.JoblibLauncher
+n_jobs: 4          # concurrent jobs on the GPU
+backend: loky      # separate processes => separate CUDA contexts

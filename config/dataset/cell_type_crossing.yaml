@@ -1,0 +1,26 @@
+# Real-cell crossing-strength dataset (single-progenitor, binary split).
+#
+# cranial NC anterior(8.5) -> {frontonasal mesenchyme, hindbrain r1} mids(9.0)
+# -> {anchor, inner} children(9.5). Coupling imposed at 9.0->9.5 with strength
+# `alpha`; marginals fixed across alpha. Recoverable motif (both alpha=1
+# crossing pools land on the correct mid) so a hidden-ancestor model can
+# identify it. See datasets/cell_type_crossing.py.
+_target_: datasets.cell_type_crossing.CellTypeCrossingDataset
+
+data_dir: ../data/embryos
+states_filename: qiu24_integrated_hvgs_and_scvi.h5ad
+embedding_key: X_scvi
+
+times: [8.5, 9.0, 9.5]                         # t_root, t_src, t_tgt
+root_type: "cranial neural crest (anterior)"   # hidden common ancestor of the two mids
+parent_types: ["frontonasal mesenchyme", "hindbrain (r1)"]
+child_types:
+  - ["frontonasal mesenchyme", "pharyngeal arch mesenchyme (p1-p2)"]   # P_A: [anchor, inner]
+  - ["hindbrain (r5-r8)", "hindbrain (r1)"]                            # P_B: [inner, anchor]
+
+alpha: 0.0
+
+n_trees: 600
+n_marginal: 600
+max_size: 128
+seed: 0

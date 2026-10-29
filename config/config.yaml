@@ -1,0 +1,21 @@
+defaults:
+  - _self_
+  - dataset: mouse_embryo
+  - pooler: delta_tree_former
+  - splitter: bridge_delta_tree_flow_vpsde
+  - aligner: slice_marginal_ca_path
+  - pairing: identity
+  - extender: none
+  - record_sampler: paired_offset_sample_offset
+  - objective: default
+  - optimizer: default
+  - training: default
+  - optional experiment: null
+  - override hydra/launcher: local
+
+seed: 212121
+device: cuda
+
+hydra:
+  job:
+    chdir: false

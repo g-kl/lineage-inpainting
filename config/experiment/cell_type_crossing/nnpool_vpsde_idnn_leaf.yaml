@@ -1,0 +1,82 @@
+# @package _global_
+#
+# Pooler ablation of cell_type_crossing/unshared_vpsde_idnn_leaf.
+# Identical splitter / aligner / objective / optimizer / schedule; only the
+# pooler changes, to NNSnappedMeanPool -- the mean, then each ancestor snapped to its
+# nearest real cell.
+# Isolates what the learned bottom-up aggregator contributes.
+defaults:
+  - override /dataset: cell_type_crossing
+  - override /pooler: nn_mean_pool
+  - override /splitter: bridge_delta_tree_flow_vpsde
+  - override /aligner: slice_marginal_ca_path
+  - override /pairing: id_nn_alt
+  - override /extender: none
+  - override /record_sampler: paired_offset_sample_offset
+  - override /training: default
+
+experiment_name: cell_type_crossing_nnpool_vpsde_idnn_leaf
+share_pool_split: false
+
+# scVI latent dimension (fixed; the real dataset has no proj_dim).
+pooler:
+  dim: 50
+  max_children: 128
+  snap_leaves: false
+
+splitter:
+  dim: 50
+  d_internal: 128
+  n_heads: 4
+  n_layers: 4
+  hidden: 512
+  n_flow_steps: 8
+  attention_bias_init: 0.0
+  slice_direction: up
+
+# Slice lineage features re-gridded to the two real obs_times. The time-marginal
+# feature (anchoring inferred ancestors to the real t_src marginal) is the load-
+# bearing one for a 2-layer motif; path / common-ancestor span [9.0, 9.5].
+aligner:
+  features:
+    - _target_: aligners.stratified.TimeMarginalFeature
+      n_reference_samples: 4096
+      skip_observed: true
+      time_tolerance: null
+      clonal_reference: false
+
+    - _target_: aligners.slice.PathFeature
+      time_bins: [8.5, 9.0, 9.5]
+      n_samples: 16
+      representation: states
+
+    - _target_: aligners.slice.CommonAncestorFeature
+      time_bins: [8.5, 9.0, 9.5]
+      n_descendants: 2
+      n_samples: 16
+      representation: states
+
+# No split aligner.
+objective:
+  split_align_weight: 0
+  leaf_reconstruction_only: false
+
+optimizer:
+  lr: 1e-3
+  warmup_steps: 500
+  weight_decay: 0.01
+  adam_eps: 1e-6
+
+training:
+  n_steps: 20000
+  log_every: 200
+  save_every: 10000
+  n_trees: 1024
+  n_records: 2
+
+# Two real timepoints 0.5 apart; sample exactly at t_src (sample_time_gap=0)
+# so subtrees pull from the t_src bin cleanly.
+record_sampler:
+  target_gap: 0.5
+  tol: 0.1
+  sample_time_gap: 0.0

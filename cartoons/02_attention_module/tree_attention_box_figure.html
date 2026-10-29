@@ -1,0 +1,430 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tree-structured attention</title>
+  <script>
+    window.MathJax = {
+      tex: { inlineMath: [['\\(', '\\)'], ['$', '$']] },
+      svg: { fontCache: 'global' },
+      startup: { typeset: true }
+    };
+  </script>
+  <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+  <style>
+    :root {
+      --ink: #202124;
+      --muted: #667085;
+      --paper: #ffffff;
+      --panel: #ffffff;
+      --edge: #d7dce4;
+      --line: #7f8794;
+      --query: #d89436;
+      --anchor: #6b5ed8;
+      --gold: #d89436;
+      --teal: #2a8f93;
+    }
+
+    html,
+    body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    .figure {
+      position: relative;
+      width: 810px;
+      height: 572px;
+      overflow: hidden;
+      background: #ffffff;
+    }
+
+    svg.canvas {
+      position: absolute;
+      inset: 0;
+      width: 810px;
+      height: 572px;
+    }
+
+    .math {
+      position: absolute;
+      color: var(--ink);
+      font-size: 31px;
+      line-height: 1;
+      pointer-events: none;
+    }
+
+    .math.small { font-size: 25px; }
+    .math.tiny { font-size: 21px; color: var(--muted); }
+    .math.large { font-size: 39px; }
+
+    .math mjx-container svg {
+      position: static;
+      width: auto;
+      height: auto;
+    }
+
+    .panel {
+      fill: var(--panel);
+      stroke: #d9dde5;
+      stroke-width: 1.5;
+    }
+
+    .edge {
+      fill: none;
+      stroke: #cfd5df;
+      stroke-width: 3.7;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      opacity: 1;
+    }
+
+    .edge.light {
+      stroke: #cfd5df;
+      stroke-width: 3.7;
+      opacity: 1;
+    }
+
+    .brace {
+      fill: none;
+      stroke: #8a93a3;
+      stroke-width: 2.2;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    .node {
+      stroke: rgba(255, 255, 255, 0.98);
+      stroke-width: 7;
+    }
+
+    .anchor-ring {
+      fill: none;
+      stroke: var(--anchor);
+      stroke-width: 4.2;
+      opacity: 0.94;
+    }
+
+    .teal-ring {
+      fill: none;
+      stroke: #168f80;
+      stroke-width: 3.5;
+      opacity: 0.95;
+    }
+
+    .query-ring {
+      fill: none;
+      stroke: var(--query);
+      stroke-width: 4.4;
+      opacity: 0.96;
+    }
+
+    .axis-dot {
+      stroke: rgba(255, 255, 255, 0.98);
+      stroke-width: 3;
+    }
+
+    .axis-dot-ring {
+      fill: none;
+      stroke: #168f80;
+      stroke-width: 3;
+      opacity: 0.92;
+    }
+
+    .matrix-cell {
+      stroke: #ffffff;
+      stroke-width: 1.45;
+    }
+
+    .row-highlight {
+      fill: none;
+      stroke: var(--query);
+      stroke-width: 2.6;
+      opacity: 0.95;
+    }
+
+    .col-highlight {
+      fill: none;
+      stroke: var(--anchor);
+      stroke-width: 2.2;
+      opacity: 0.85;
+    }
+
+  </style>
+</head>
+<body>
+<div class="figure" id="figure">
+  <svg class="canvas" viewBox="0 0 810 572" role="img" aria-label="Tree-structured attention and attention matrix">
+    <rect x="0" y="0" width="810" height="572" fill="#ffffff"></rect>
+    <rect class="panel" x="12" y="28" width="418" height="516" rx="10"></rect>
+    <rect class="panel" x="440" y="28" width="334" height="516" rx="10"></rect>
+
+    <g id="tree-r"></g>
+    <g id="attention-matrix"></g>
+  </svg>
+
+  <div class="math tiny" style="left: 15px; top: 252px; width: 100px; text-align: center; font-size: 31px;">\(\substack{\text{input}\\\text{condition}}\)</div>
+
+  <div class="math small" style="left: 569px; top: 46px;">\(\text{keys }j\)</div>
+  <div class="math small" style="left: 450px; top: 377px; transform: rotate(-90deg); transform-origin: left top;">\(\text{queries }i\)</div>
+  <div class="math small" style="left: 738px; top: 136px; transform: rotate(90deg); transform-origin: left top;">\(\gamma^{(\ell,h)}\cdot d_{\mathrm{tree}}\)</div>
+  <div class="math small" style="left: 738px; top: 396px; transform: rotate(90deg); transform-origin: left top;">\(A^{(\ell,h)}\)</div>
+</div>
+
+<script>
+(() => {
+  const NS = 'http://www.w3.org/2000/svg';
+  const svg = document.querySelector('svg.canvas');
+
+  const record = {
+    group: '#tree-r',
+    query: 'rA2',
+    key: 'rA',
+    nodes: [
+      { id: 'r0', parent: null, time: 0, x: 245, y: 80, color: '#5146a6' },
+      { id: 'rA', parent: 'r0', time: 0.92, x: 168, y: 272, color: '#6b5ed8' },
+      { id: 'rB', parent: 'r0', time: 1.18, x: 336, y: 272, color: '#8d80e6' },
+      { id: 'rA1', parent: 'rA', time: 2.42, x: 132, y: 484, color: '#c95f45' },
+      { id: 'rA2', parent: 'rA', time: 2.72, x: 204, y: 484, color: '#d89436' },
+      { id: 'rB1', parent: 'rB', time: 2.28, x: 276, y: 484, color: '#9f9a3d' },
+      { id: 'rB2', parent: 'rB', time: 2.66, x: 336, y: 484, color: '#4f9a66' },
+      { id: 'rB3', parent: 'rB', time: 3.00, x: 396, y: 484, color: '#2f8fa4' }
+    ]
+  };
+
+  const nodeOrder = ['r0', 'rA', 'rB', 'rA1', 'rA2', 'rB1', 'rB2', 'rB3'];
+  const observedIds = new Set(['rA', 'rB']);
+  const queryIndex = nodeOrder.indexOf(record.query);
+  const keyIndex = nodeOrder.indexOf(record.key);
+
+  function el(tag, attrs = {}, parent = svg) {
+    const node = document.createElementNS(NS, tag);
+    for (const [key, value] of Object.entries(attrs)) {
+      node.setAttribute(key, value);
+    }
+    parent.appendChild(node);
+    return node;
+  }
+
+  function index(rec) {
+    const byId = new Map(rec.nodes.map(node => [node.id, node]));
+    const children = new Map(rec.nodes.map(node => [node.id, []]));
+    for (const node of rec.nodes) {
+      if (node.parent) children.get(node.parent).push(node.id);
+    }
+    return { byId, children };
+  }
+
+  function curve(a, b) {
+    const mid = (a.y + b.y) / 2;
+    return `M ${a.x} ${a.y} C ${a.x} ${mid}, ${b.x} ${mid}, ${b.x} ${b.y}`;
+  }
+
+  function drawEdge(a, b, parent, className = 'edge') {
+    return el('path', { class: className, d: curve(a, b) }, parent);
+  }
+
+  // Vertical curly brace with its end-points on the line x=xBody, spanning
+  // [yT, yB]. dir = -1 -> cusp points left (label to the left); the end-prongs
+  // reach toward xBody (the bracketed content on the right).
+  function braceV(yT, yB, xBody, depth, dir) {
+    const ym = (yT + yB) / 2;
+    const q = Math.min(16, (yB - yT) * 0.16);
+    const xt = xBody + depth * dir;
+    const xc = xt + 7 * dir;
+    return `M ${xBody} ${yT}`
+      + ` Q ${xt} ${yT} ${xt} ${yT + q}`
+      + ` L ${xt} ${ym - 6}`
+      + ` Q ${xt} ${ym} ${xc} ${ym}`
+      + ` Q ${xt} ${ym} ${xt} ${ym + 6}`
+      + ` L ${xt} ${yB - q}`
+      + ` Q ${xt} ${yB} ${xBody} ${yB}`;
+  }
+
+  function drawTree(rec) {
+    const group = document.querySelector(rec.group);
+    const { byId } = index(rec);
+
+    for (const node of rec.nodes) {
+      if (!node.parent) continue;
+      const parent = byId.get(node.parent);
+      drawEdge(parent, node, group, 'edge');
+    }
+
+    for (const node of rec.nodes) {
+      // Teal ring (r=21) marks the observed nodes -- matching the teal-ringed
+      // observed dots on the attention-matrix axes. On the key node it sits
+      // concentrically inside the larger purple anchor ring (r=25).
+      if (observedIds.has(node.id)) {
+        el('circle', { class: 'teal-ring', cx: node.x, cy: node.y, r: 25 }, group);
+      }
+      if (node.id === rec.key) {
+        el('circle', { class: 'anchor-ring', cx: node.x, cy: node.y, r: 31 }, group);
+      }
+      el('circle', {
+        class: 'node',
+        cx: node.x,
+        cy: node.y,
+        r: 15,
+        fill: node.color,
+        opacity: 1
+      }, group);
+      if (node.id === rec.query) {
+        el('circle', { class: 'query-ring', cx: node.x, cy: node.y, r: 31 }, group);
+      }
+    }
+
+    // Vertical brace to the left of the second-layer (observed) nodes, marking
+    // them as the input condition the sampler attends from.
+    const a = byId.get('rA');
+    el('path', { class: 'brace', d: braceV(a.y - 38, a.y + 38, a.x - 27, 12, -1) }, group);
+  }
+
+  function ancestors(byId, id) {
+    const out = [];
+    let current = byId.get(id);
+    while (current) {
+      out.push(current);
+      current = current.parent ? byId.get(current.parent) : null;
+    }
+    return out;
+  }
+
+  function mrcaTime(byId, aId, bId) {
+    const aAnc = ancestors(byId, aId);
+    const bSet = new Set(ancestors(byId, bId).map(node => node.id));
+    const m = aAnc.find(node => bSet.has(node.id));
+    return m ? m.time : 0;
+  }
+
+  function softmax(row) {
+    const maxVal = Math.max(...row);
+    const exp = row.map(v => Math.exp(v - maxVal));
+    const total = exp.reduce((a, b) => a + b, 0);
+    return exp.map(v => v / total);
+  }
+
+  function colorRamp(value, lo, hi, curve = 0.78) {
+    const t = Math.min(1, Math.max(0, Math.pow(value, curve)));
+    const rgb = lo.map((v, i) => Math.round(v + t * (hi[i] - v)));
+    return `rgb(${rgb[0]}, ${rgb[1]}, ${rgb[2]})`;
+  }
+
+  function colorForTreeBias(value) {
+    const display = value > 0.995 ? 0.78 : value;
+    return colorRamp(display, [230, 226, 243], [92, 81, 174], .3);
+  }
+
+  function colorForCombined(value) {
+    return colorRamp(value / 0.7, [244, 241, 240], [201, 95, 69], 0.76);
+  }
+
+  // The observed-pull layer is no longer drawn, but it still feeds the combined
+  // attention: queries concentrate weight on the observed (input-condition) keys.
+  function observedPullLayer(nodes) {
+    return nodes.map(queryNode => nodes.map(keyNode => {
+      if (observedIds.has(keyNode.id)) return 0.96;
+      if (queryNode.id === keyNode.id) return 0.035;
+      return 0.015;
+    }));
+  }
+
+  function treeBiasLayer(nodes, byId) {
+    const raw = nodes.map(a => nodes.map(b => {
+      const dist = a.time + b.time - 2 * mrcaTime(byId, a.id, b.id);
+      return Math.exp(-1.35 * dist);
+    }));
+    const maxVal = Math.max(...raw.flat());
+    return raw.map(row => row.map(value => value / maxVal));
+  }
+
+  function combinedAttentionLayer(nodes, observedPull, treeBias) {
+    const logits = nodes.map((queryNode, i) => nodes.map((keyNode, j) => {
+      const parentBoost = keyNode.id === queryNode.parent ? 1.25 : 0;
+      const rootObservedBoost = queryNode.id === 'r0' && observedIds.has(keyNode.id) ? 1.15 : 0;
+      return 2.35 * observedPull[i][j] + 2.2 * treeBias[i][j] + parentBoost + rootObservedBoost;
+    }));
+    return logits.map(softmax);
+  }
+
+  function drawMiniAxes(group, nodes, x0, y0, cell, gap) {
+    nodes.forEach((node, i) => {
+      const observed = observedIds.has(node.id);
+      const opacity = observed ? 1 : 0.52;
+      const r = observed ? 5.5 : 4.4;
+      const cx = x0 + i * (cell + gap) + cell / 2;
+      const cy = y0 + i * (cell + gap) + cell / 2;
+
+      el('circle', { class: 'axis-dot', cx, cy: y0 - 24, r, fill: node.color, opacity }, group);
+      el('circle', { class: 'axis-dot', cx: x0 - 24, cy, r, fill: node.color, opacity }, group);
+      if (observed) {
+        el('circle', { class: 'axis-dot-ring', cx, cy: y0 - 24, r: r + 3.7 }, group);
+        el('circle', { class: 'axis-dot-ring', cx: x0 - 24, cy, r: r + 3.7 }, group);
+      }
+    });
+  }
+
+  function drawMiniMatrix(group, nodes, x0, y0, cell, gap, values, colorForValue, highlight = false) {
+    drawMiniAxes(group, nodes, x0, y0, cell, gap);
+
+    values.forEach((row, i) => {
+      row.forEach((value, j) => {
+        el('rect', {
+          class: 'matrix-cell',
+          x: x0 + j * (cell + gap),
+          y: y0 + i * (cell + gap),
+          width: cell,
+          height: cell,
+          rx: 4.5,
+          fill: colorForValue(value)
+        }, group);
+      });
+    });
+
+    if (!highlight) return;
+
+    const size = nodes.length * (cell + gap) - gap;
+    el('rect', {
+      class: 'row-highlight',
+      x: x0 - 3,
+      y: y0 + queryIndex * (cell + gap) - 3,
+      width: size + 6,
+      height: cell + 6,
+      rx: 6
+    }, group);
+
+    el('rect', {
+      class: 'col-highlight',
+      x: x0 + keyIndex * (cell + gap) - 3,
+      y: y0 - 3,
+      width: cell + 6,
+      height: size + 6,
+      rx: 6
+    }, group);
+  }
+
+  function drawAttentionLayers(rec) {
+    const group = document.querySelector('#attention-matrix');
+    const { byId } = index(rec);
+    const nodes = nodeOrder.map(id => byId.get(id));
+    const x0 = 520;
+    const y0s = [122, 344];
+    const cell = 18;
+    const gap = 4;
+    const observedPull = observedPullLayer(nodes);
+    const treeBias = treeBiasLayer(nodes, byId);
+    const combinedAttention = combinedAttentionLayer(nodes, observedPull, treeBias);
+
+    drawMiniMatrix(group, nodes, x0, y0s[0], cell, gap, treeBias, colorForTreeBias);
+    drawMiniMatrix(group, nodes, x0, y0s[1], cell, gap, combinedAttention, colorForCombined, true);
+  }
+
+  drawTree(record);
+  drawAttentionLayers(record);
+})();
+</script>
+</body>
+</html>

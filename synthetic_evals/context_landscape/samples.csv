@@ -1,0 +1,11 @@
+root_type,A,C,B,seed,cfg
+floor plate (posterior),spinal cord interneuron progenitor,presomitic mesoderm,extraembryonic mesoderm,0,context_landscape/cfg00
+amniotic ectoderm,megakaryocyte,midgut,trigeminal placode,1,context_landscape/cfg01
+hindbrain (r2-r4),eye field,spinal cord (thoracic),forelimb field,2,context_landscape/cfg02
+endocardial cell,cranial neural crest (posterior),spinal cord (cervical),epicardium,3,context_landscape/cfg03
+telencephalon (dorsal),roof plate (posterior),trigeminal placode,midbrain GABAergic neuron,4,context_landscape/cfg04
+hypothalamus,spinal cord (cervical),primitive erythrocyte,spinal cord (sacral),5,context_landscape/cfg05
+telencephalon (dorsal),juxtacardiac field,nascent somite,hindbrain (isthmic organizer),6,context_landscape/cfg06
+nascent somite,telencephalon (dorsal),pharyngeal mesoderm,subthalamic nucleus neuron,7,context_landscape/cfg07
+diencephalon,hindbrain (isthmic organizer),roof plate (anterior),vagal neural crest,8,context_landscape/cfg08
+axial progenitor,intermediate mesoderm (duct-associated),splanchnic mesoderm,facial branchiomotor neuron,9,context_landscape/cfg09

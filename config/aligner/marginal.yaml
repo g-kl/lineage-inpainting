@@ -1,0 +1,4 @@
+_target_: aligners.aligner.ObservedMarginalAligner
+p: 2
+time_tolerance: 0.5
+loss: "energy"

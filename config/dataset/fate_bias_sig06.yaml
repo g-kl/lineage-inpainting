@@ -1,0 +1,7 @@
+# Fate-bias dataset, sigma=0.6. Sigma scan as a dataset axis (symmetric with
+# the crossing/noncrossing dataset variants); synbench_fb_unshared_vpsde_idnn_leaf
+# is the model recipe and stays sigma-agnostic.
+defaults:
+  - fate_bias_multi_seed
+  - _self_
+sigma: 0.6

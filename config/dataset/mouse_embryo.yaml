@@ -1,0 +1,5 @@
+_target_: datasets.mouse_embryo.MouseEmbryoDataset
+
+states_filename: qiu24_integrated_hvgs_and_scvi.h5ad
+embedding_key: X_scvi
+max_size: 1024

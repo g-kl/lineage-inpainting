@@ -1,0 +1,2 @@
+_target_: record_samplers.record_samplers.AnchorTimeSampler
+end_anchor: 10.0

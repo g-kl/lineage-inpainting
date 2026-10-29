@@ -1,0 +1,6 @@
+_target_: extenders.conditional.ConditionalGraftExtender
+count_sampler:
+  _target_: extenders.count.ConditionalCountSampler
+  model_path: outputs/mouse_embryo_ftx_tree_flow_attn_bias_dist_path_3c8b873b646fa45df3fc37c880f6eafa/extender_count_energy.pt
+min_root_out_degree: 2
+min_post_cut_gap: 0.05

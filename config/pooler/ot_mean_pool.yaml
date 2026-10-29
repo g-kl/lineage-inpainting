@@ -1,0 +1,5 @@
+_target_: poolers.ot_snapped_mean_pool.OTSnappedMeanPool
+
+dim: 50
+max_children: 128
+snap_leaves: False

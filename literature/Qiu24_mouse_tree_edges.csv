@@ -1,0 +1,339 @@
+source_id,target_id,source,target,source_node_id,target_node_id,edge_type,subsystem
+1,2,Oocyte,1-cell,PGa_M1,PGa_M2,Developmental progression,Pre_gastrulation
+2,3,1-cell,2-cell,PGa_M2,PGa_M3,Developmental progression,Pre_gastrulation
+3,4,2-cell,4-cell,PGa_M3,PGa_M4,Developmental progression,Pre_gastrulation
+4,5,4-cell,8-cell,PGa_M4,PGa_M5,Developmental progression,Pre_gastrulation
+5,6,8-cell,Morula,PGa_M5,PGa_M6,Developmental progression,Pre_gastrulation
+6,7,Morula,Inner cell mass,PGa_M6,PGa_M7,Developmental progression,Pre_gastrulation
+6,8,Morula,Trophectoderm,PGa_M6,PGa_M8,Developmental progression,Pre_gastrulation
+7,10,Inner cell mass,Hypoblast,PGa_M7,PGa_M10,Developmental progression,Pre_gastrulation
+7,15,Inner cell mass,Epiblast,PGa_M7,PGa_M15,Developmental progression,Pre_gastrulation
+8,9,Trophectoderm,Extraembryonic ectoderm,PGa_M8,PGa_M9,Developmental progression,Pre_gastrulation
+10,11,Hypoblast,Parietal endoderm,PGa_M10,PGa_M11,Developmental progression,Pre_gastrulation
+10,12,Hypoblast,Visceral endoderm,PGa_M10,PGa_M12,Developmental progression,Pre_gastrulation
+12,13,Visceral endoderm,Extraembryonic visceral endoderm,PGa_M12,PGa_M13,Developmental progression,Pre_gastrulation
+12,14,Visceral endoderm,Embryonic visceral endoderm,PGa_M12,PGa_M14,Developmental progression,Pre_gastrulation
+14,31,Embryonic visceral endoderm,Gut,PGa_M14,Ga_M21,Developmental progression,Gastrulation
+15,16,Epiblast,Primitive streak,PGa_M15,PGa_M16,Developmental progression,Pre_gastrulation
+15,25,Epiblast,Definitive ectoderm,PGa_M15,Ga_M15,Developmental progression,Gastrulation
+16,20,Primitive streak,Anterior primitive streak,PGa_M16,Ga_M10,Developmental progression,Gastrulation
+16,38,Primitive streak,Nascent mesoderm,PGa_M16,Ga_M28,Developmental progression,Gastrulation
+16,44,Primitive streak,Primordial germ cells,PGa_M16,Ga_M34,Developmental progression,Gastrulation
+17,33,Allantois,Hematoendothelial progenitors,Ga_M7,Ga_M23,Developmental progression,Gastrulation
+20,26,Anterior primitive streak,Definitive endoderm,Ga_M10,Ga_M16,Developmental progression,Gastrulation
+20,40,Anterior primitive streak,Notochord,Ga_M10,Ga_M30,Developmental progression,Gastrulation
+21,43,Blood progenitors,Primitive erythroid cells,Ga_M11,Ga_M33,Developmental progression,Gastrulation
+21,166,Blood progenitors,Hematopoietic stem cells (Cd34+),Ga_M11,B_M11,Dataset equivalence,Gastrulation_E8.5b
+22,154,Cardiogenic mesoderm,Second heart field,Ga_M12,L_M22,Dataset equivalence,Gastrulation_E8.5b
+22,162,Cardiogenic mesoderm,First heart field,Ga_M12,L_M8,Dataset equivalence,Gastrulation_E8.5b
+23,42,Cardiopharyngeal mesoderm,Paraxial mesoderm (Tbx6-),Ga_M13,Ga_M32,Developmental progression,Gastrulation
+24,41,CLE and NMPs,Paraxial mesoderm (Tbx6+),Ga_M14,Ga_M31,Developmental progression,Gastrulation
+24,44,CLE and NMPs,Primordial germ cells,Ga_M14,Ga_M34,Developmental progression,Gastrulation
+24,45,CLE and NMPs,Spinal cord,Ga_M14,Ga_M35,Developmental progression,Gastrulation
+24,212,CLE and NMPs,NMPs and spinal cord progenitors,Ga_M14,BS_M31,Dataset equivalence,Gastrulation_E8.5b
+25,30,Definitive ectoderm,Forebrain,Ga_M15,Ga_M20,Developmental progression,Gastrulation
+25,34,Definitive ectoderm,Hindbrain,Ga_M15,Ga_M24,Developmental progression,Gastrulation
+25,37,Definitive ectoderm,Midbrain,Ga_M15,Ga_M27,Developmental progression,Gastrulation
+25,39,Definitive ectoderm,Neural crest,Ga_M15,Ga_M29,Developmental progression,Gastrulation
+25,44,Definitive ectoderm,Primordial germ cells,Ga_M15,Ga_M34,Developmental progression,Gastrulation
+25,45,Definitive ectoderm,Spinal cord,Ga_M15,Ga_M35,Developmental progression,Gastrulation
+25,46,Definitive ectoderm,Surface ectoderm,Ga_M15,Ga_M36,Developmental progression,Gastrulation
+26,31,Definitive endoderm,Gut,Ga_M16,Ga_M21,Developmental progression,Gastrulation
+27,47,Endothelium,Arterial endothelial cells,Ga_M17,En_M1,Dataset equivalence,Gastrulation_E8.5b
+27,48,Endothelium,Microvascular endothelial cells,Ga_M17,En_M10,Developmental progression,Endothelium
+27,49,Endothelium,Pericytes,Ga_M17,En_M11,Developmental progression,Endothelium
+27,50,Endothelium,Venous and capillary endothelial cells,Ga_M17,En_M12,Developmental progression,Endothelium
+27,51,Endothelium,Brain capillary endothelial cells,Ga_M17,En_M2,Developmental progression,Endothelium
+27,53,Endothelium,Endocardial cells,Ga_M17,En_M4,Developmental progression,Endothelium
+27,54,Endothelium,Glomerular endothelial cells,Ga_M17,En_M6,Developmental progression,Endothelium
+27,55,Endothelium,Liver sinusoidal endothelial cells,Ga_M17,En_M8,Developmental progression,Endothelium
+27,56,Endothelium,Lymphatic vessel endothelial cells,Ga_M17,En_M9,Developmental progression,Endothelium
+28,17,Extraembryonic mesoderm,Allantois,Ga_M18,Ga_M7,Developmental progression,Gastrulation
+28,19,Extraembryonic mesoderm,Amniotic mesoderm,Ga_M18,Ga_M9,Developmental progression,Gastrulation
+28,32,Extraembryonic mesoderm,Gut mesenchyme,Ga_M18,Ga_M22,Developmental progression,Gastrulation
+28,147,Extraembryonic mesoderm,Limb mesenchyme progenitors,Ga_M18,L_M16,Developmental progression,Lateral_plate_mesoderm
+29,190,Floor plate,Anterior floor plate,Ga_M19,BS_M1,Dataset equivalence,Gastrulation_E8.5b
+29,215,Floor plate,Floorplate and p3 domain,Ga_M19,BS_M34,Dataset equivalence,Gastrulation_E8.5b
+30,96,Forebrain,Eye field,Ga_M20,Ey_M7,Dataset equivalence,Gastrulation_E8.5b
+30,195,Forebrain,Diencephalon,Ga_M20,BS_M14,Dataset equivalence,Gastrulation_E8.5b
+30,203,Forebrain,Hypothalamus,Ga_M20,BS_M22,Dataset equivalence,Gastrulation_E8.5b
+30,237,Forebrain,Telencephalon,Ga_M20,BS_M54,Dataset equivalence,Gastrulation_E8.5b
+31,103,Gut,Lung progenitor cells,Ga_M21,G_M13,Developmental progression,Gut
+31,104,Gut,Midgut/Hindgut epithelial cells,Ga_M21,G_M14,Developmental progression,Gut
+31,105,Gut,Pancreatic acinar cells,Ga_M21,G_M15,Developmental progression,Gut
+31,106,Gut,Pancreatic islets,Ga_M21,G_M16,Developmental progression,Gut
+31,110,Gut,Biliary epithelial cells,Ga_M21,G_M5,Developmental progression,Gut
+31,111,Gut,Foregut epithelial cells,Ga_M21,G_M7,Developmental progression,Gut
+31,112,Gut,Hepatocytes,Ga_M21,G_M9,Developmental progression,Gut
+32,142,Gut mesenchyme,Gastrointestinal smooth muscle cells,Ga_M22,L_M10,Developmental progression,Lateral_plate_mesoderm
+33,21,Hematoendothelial progenitors,Blood progenitors,Ga_M23,Ga_M11,Developmental progression,Gastrulation
+33,27,Hematoendothelial progenitors,Endothelium,Ga_M23,Ga_M17,Developmental progression,Gastrulation
+34,201,Hindbrain,Anterior roof plate,Ga_M24,BS_M2,Dataset equivalence,Gastrulation_E8.5b
+34,210,Hindbrain,Astrocytes,Ga_M24,BS_M3,Developmental progression,Brain_spinal_cord
+34,211,Hindbrain,Neural progenitor cells (Ror1+),Ga_M24,BS_M30,Developmental progression,Brain_spinal_cord
+34,214,Hindbrain,Oligodendrocyte progenitor cells,Ga_M24,BS_M33,Developmental progression,Brain_spinal_cord
+34,215,Hindbrain,Floorplate and p3 domain,Ga_M24,BS_M34,Developmental progression,Brain_spinal_cord
+34,223,Hindbrain,Spinal dI1 interneurons,Ga_M24,BS_M41,Developmental progression,Brain_spinal_cord
+34,240,Hindbrain,Cerebellum-related cells,Ga_M24,BS_M6,Developmental progression,Brain_spinal_cord
+35,127,Intermediate mesoderm,Anterior intermediate mesoderm,Ga_M25,R_M1,Dataset equivalence,Gastrulation_E8.5b
+35,128,Intermediate mesoderm,Posterior intermediate mesoderm,Ga_M25,R_M10,Dataset equivalence,Gastrulation_E8.5b
+36,19,Lateral plate mesoderm,Amniotic mesoderm,Ga_M26,Ga_M9,Developmental progression,Gastrulation
+36,22,Lateral plate mesoderm,Cardiogenic mesoderm,Ga_M26,Ga_M12,Developmental progression,Gastrulation
+36,32,Lateral plate mesoderm,Gut mesenchyme,Ga_M26,Ga_M22,Developmental progression,Gastrulation
+36,35,Lateral plate mesoderm,Intermediate mesoderm,Ga_M26,Ga_M25,Developmental progression,Gastrulation
+36,154,Lateral plate mesoderm,Second heart field,Ga_M26,L_M22,Dataset equivalence,Gastrulation_E8.5b
+36,156,Lateral plate mesoderm,Somatic mesoderm,Ga_M26,L_M24,Dataset equivalence,Gastrulation_E8.5b
+36,157,Lateral plate mesoderm,Splanchnic mesoderm,Ga_M26,L_M25,Dataset equivalence,Gastrulation_E8.5b
+36,162,Lateral plate mesoderm,First heart field,Ga_M26,L_M8,Dataset equivalence,Gastrulation_E8.5b
+37,193,Midbrain,Di/mesencephalon GABAergic neurons,Ga_M27,BS_M12,Developmental progression,Brain_spinal_cord
+37,194,Midbrain,Di/mesencephalon glutamatergic neurons,Ga_M27,BS_M13,Developmental progression,Brain_spinal_cord
+37,204,Midbrain,Hypothalamus (Sim1+),Ga_M27,BS_M23,Developmental progression,Brain_spinal_cord
+37,207,Midbrain,Midbrain-hindbrain boundary,Ga_M27,BS_M27,Dataset equivalence,Gastrulation_E8.5b
+37,235,Midbrain,Striatal projection neurons,Ga_M27,BS_M52,Developmental progression,Brain_spinal_cord
+38,23,Nascent mesoderm,Cardiopharyngeal mesoderm,Ga_M28,Ga_M13,Developmental progression,Gastrulation
+38,28,Nascent mesoderm,Extraembryonic mesoderm,Ga_M28,Ga_M18,Developmental progression,Gastrulation
+38,33,Nascent mesoderm,Hematoendothelial progenitors,Ga_M28,Ga_M23,Developmental progression,Gastrulation
+38,36,Nascent mesoderm,Lateral plate mesoderm,Ga_M28,Ga_M26,Developmental progression,Gastrulation
+38,41,Nascent mesoderm,Paraxial mesoderm (Tbx6+),Ga_M28,Ga_M31,Developmental progression,Gastrulation
+38,42,Nascent mesoderm,Paraxial mesoderm (Tbx6-),Ga_M28,Ga_M32,Developmental progression,Gastrulation
+38,44,Nascent mesoderm,Primordial germ cells,Ga_M28,Ga_M34,Developmental progression,Gastrulation
+39,116,Neural crest,Neural crest (PNS glia),Ga_M29,PG_M4,Dataset equivalence,Gastrulation_E8.5b
+39,122,Neural crest,Neural crest (PNS neurons),Ga_M29,PN_M4,Dataset equivalence,Gastrulation_E8.5b
+39,261,Neural crest,Facial mesenchyme,Ga_M29,M_M9,Dataset equivalence,Gastrulation_E8.5b
+40,262,Notochord,Ciliated nodal cells,Ga_M30,No_M2,Developmental progression,Notochord
+41,35,Paraxial mesoderm (Tbx6+),Intermediate mesoderm,Ga_M31,Ga_M25,Developmental progression,Gastrulation
+41,246,Paraxial mesoderm (Tbx6+),Mesodermal progenitors (Tbx6+),Ga_M31,M_M11,Dataset equivalence,Gastrulation_E8.5b
+42,253,Paraxial mesoderm (Tbx6-),Sclerotome,Ga_M32,M_M18,Dataset equivalence,Gastrulation_E8.5b
+42,259,Paraxial mesoderm (Tbx6-),Dermomyotome,Ga_M32,M_M7,Dataset equivalence,Gastrulation_E8.5b
+42,261,Paraxial mesoderm (Tbx6-),Facial mesenchyme,Ga_M32,M_M9,Dataset equivalence,Gastrulation_E8.5b
+45,29,Spinal cord,Floor plate,Ga_M35,Ga_M19,Developmental progression,Gastrulation
+45,216,Spinal cord,Posterior roof plate,Ga_M35,BS_M35,Dataset equivalence,Gastrulation_E8.5b
+45,222,Spinal cord,Spinal cord/r7/r8,Ga_M35,BS_M40,Dataset equivalence,Gastrulation_E8.5b
+46,18,Surface ectoderm,Amniotic ectoderm,Ga_M36,Ga_M8,Developmental progression,Gastrulation
+46,24,Surface ectoderm,CLE and NMPs,Ga_M36,Ga_M14,Developmental progression,Gastrulation
+46,61,Surface ectoderm,Olfactory epithelial cells,Ga_M36,Ep_M14,Dataset equivalence,Gastrulation_E8.5b
+46,63,Surface ectoderm,Otic epithelial cells,Ga_M36,Ep_M16,Dataset equivalence,Gastrulation_E8.5b
+46,69,Surface ectoderm,Placodal area,Ga_M36,Ep_M21,Dataset equivalence,Gastrulation_E8.5b
+46,70,Surface ectoderm,Pre-epidermal keratinocytes,Ga_M36,Ep_M22,Dataset equivalence,Gastrulation_E8.5b
+51,52,Brain capillary endothelial cells,Brain pericytes,En_M2,En_M3,Developmental progression,Endothelium
+57,75,Granular keratinocytes,Bladder urothelial cells,Ep_M10,Ep_M4,Developmental progression,Epithelial_cells
+57,78,Granular keratinocytes,Conjunctival goblet cells,Ep_M10,Ep_M7,Developmental progression,Epithelial_cells
+57,79,Granular keratinocytes,Corneal epithelial cells,Ep_M10,Ep_M8,Developmental progression,Epithelial_cells
+61,60,Olfactory epithelial cells,Olfactory bulb cells,Ep_M14,Ep_M13,Developmental progression,Epithelial_cells
+62,58,Olfactory pit cells,Lens epithelial cells,Ep_M15,Ep_M11,Developmental progression,Epithelial_cells
+63,77,Otic epithelial cells,Cochlear hair cells,Ep_M16,Ep_M6,Developmental progression,Epithelial_cells
+68,65,Pituitary/Pineal gland progenitors,Pineal gland,Ep_M20,Ep_M18,Developmental progression,Epithelial_cells
+68,66,Pituitary/Pineal gland progenitors,Pituitary gland cells,Ep_M20,Ep_M19,Developmental progression,Epithelial_cells
+69,59,Placodal area,Nonsensory cochlear epithelium,Ep_M21,Ep_M12,Developmental progression,Epithelial_cells
+69,61,Placodal area,Olfactory epithelial cells,Ep_M21,Ep_M14,Developmental progression,Epithelial_cells
+69,62,Placodal area,Olfactory pit cells,Ep_M21,Ep_M15,Developmental progression,Epithelial_cells
+69,63,Placodal area,Otic epithelial cells,Ep_M21,Ep_M16,Developmental progression,Epithelial_cells
+69,64,Placodal area,Parathyroid epithelial cells,Ep_M21,Ep_M17,Developmental progression,Epithelial_cells
+69,68,Placodal area,Pituitary/Pineal gland progenitors,Ep_M21,Ep_M20,Developmental progression,Epithelial_cells
+69,71,Placodal area,Thymic epithelial cells,Ep_M21,Ep_M24,Developmental progression,Epithelial_cells
+69,72,Placodal area,Thyroid gland cells,Ep_M21,Ep_M25,Developmental progression,Epithelial_cells
+69,76,Placodal area,Branchial arch epithelium,Ep_M21,Ep_M5,Developmental progression,Epithelial_cells
+70,57,Pre-epidermal keratinocytes,Granular keratinocytes,Ep_M22,Ep_M10,Developmental progression,Epithelial_cells
+70,67,Pre-epidermal keratinocytes,Apical ectodermal ridge,Ep_M22,Ep_M2,Developmental progression,Epithelial_cells
+70,74,Pre-epidermal keratinocytes,Basal keratinocytes,Ep_M22,Ep_M3,Developmental progression,Epithelial_cells
+71,76,Thymic epithelial cells,Branchial arch epithelium,Ep_M24,Ep_M5,Developmental progression,Epithelial_cells
+76,64,Branchial arch epithelium,Parathyroid epithelial cells,Ep_M5,Ep_M17,Developmental progression,Epithelial_cells
+76,73,Branchial arch epithelium,Tooth junctional epithelium,Ep_M5,Ep_M26,Developmental progression,Epithelial_cells
+76,80,Branchial arch epithelium,Dental epithelial cells,Ep_M5,Ep_M9,Developmental progression,Epithelial_cells
+81,93,Amacrine cells,Cholinergic amacrine cells,Ey_M1,Ey_M4,Developmental progression,Eye
+82,88,Naive retinal progenitor cells,Retinal progenitor cells,Ey_M10,Ey_M16,Developmental progression,Eye
+82,94,Naive retinal progenitor cells,Ciliary margin cells,Ey_M10,Ey_M5,Developmental progression,Eye
+83,90,Optic stalk,Suprachiasmatic nucleus,Ey_M11,Ey_M18,Developmental progression,Eye
+84,89,Photoreceptor precursor cells,Rod precursor cells,Ey_M12,Ey_M17,Developmental progression,Eye
+84,95,Photoreceptor precursor cells,Cone precursor cells,Ey_M12,Ey_M6,Developmental progression,Eye
+86,85,Retinal ganglion cells,PV-containing retinal ganglion cells,Ey_M14,Ey_M13,Developmental progression,Eye
+88,84,Retinal progenitor cells,Photoreceptor precursor cells,Ey_M16,Ey_M12,Developmental progression,Eye
+88,86,Retinal progenitor cells,Retinal ganglion cells,Ey_M16,Ey_M14,Developmental progression,Eye
+88,91,Retinal progenitor cells,Amacrine/Horizontal precursor cells,Ey_M16,Ey_M2,Developmental progression,Eye
+88,92,Retinal progenitor cells,Bipolar precursor cells,Ey_M16,Ey_M3,Developmental progression,Eye
+88,95,Retinal progenitor cells,Cone precursor cells,Ey_M16,Ey_M6,Developmental progression,Eye
+91,81,Amacrine/Horizontal precursor cells,Amacrine cells,Ey_M2,Ey_M1,Developmental progression,Eye
+91,97,Amacrine/Horizontal precursor cells,Horizontal cells,Ey_M2,Ey_M8,Developmental progression,Eye
+94,98,Ciliary margin cells,Iris pigment epithelium,Ey_M5,Ey_M9,Developmental progression,Eye
+96,82,Eye field,Naive retinal progenitor cells,Ey_M7,Ey_M10,Developmental progression,Eye
+96,83,Eye field,Optic stalk,Ey_M7,Ey_M11,Developmental progression,Eye
+96,87,Eye field,Retinal pigment cells,Ey_M7,Ey_M15,Developmental progression,Eye
+96,88,Eye field,Retinal progenitor cells,Ey_M7,Ey_M16,Developmental progression,Eye
+96,94,Eye field,Ciliary margin cells,Ey_M7,Ey_M5,Developmental progression,Eye
+99,107,Airway club cells,Airway goblet cells,G_M1,G_M2,Developmental progression,Gut
+103,99,Lung progenitor cells,Airway club cells,G_M13,G_M1,Developmental progression,Gut
+103,107,Lung progenitor cells,Airway goblet cells,G_M13,G_M2,Developmental progression,Gut
+103,108,Lung progenitor cells,Alveolar Type 1 cells,G_M13,G_M3,Developmental progression,Gut
+103,109,Lung progenitor cells,Alveolar Type 2 cells,G_M13,G_M4,Developmental progression,Gut
+104,100,Midgut/Hindgut epithelial cells,Intestinal enteroendocrine cells,G_M14,G_M10,Developmental progression,Gut
+104,101,Midgut/Hindgut epithelial cells,Intestinal goblet cells,G_M14,G_M11,Developmental progression,Gut
+108,102,Alveolar Type 1 cells,Lung cells (Eln+),G_M3,G_M12,Developmental progression,Gut
+112,110,Hepatocytes,Biliary epithelial cells,G_M9,G_M5,Developmental progression,Gut
+114,117,Myelinating Schwann cells,Olfactory ensheathing cells,PG_M2,PG_M5,Developmental progression,PNS_glia
+116,113,Neural crest (PNS glia),Melanocyte cells,PG_M4,PG_M1,Developmental progression,PNS_glia
+116,114,Neural crest (PNS glia),Myelinating Schwann cells,PG_M4,PG_M2,Developmental progression,PNS_glia
+116,115,Neural crest (PNS glia),Myelinating Schwann cells (Tgfb2+),PG_M4,PG_M3,Developmental progression,PNS_glia
+116,117,Neural crest (PNS glia),Olfactory ensheathing cells,PG_M4,PG_M5,Developmental progression,PNS_glia
+116,118,Neural crest (PNS glia),Satellite glial cells,PG_M4,PG_M6,Developmental progression,PNS_glia
+122,119,Neural crest (PNS neurons),Corticofugal neurons,PN_M4,PN_M1,Developmental progression,PNS_neurons
+122,120,Neural crest (PNS neurons),Dorsal root ganglion neurons,PN_M4,PN_M2,Developmental progression,PNS_neurons
+122,121,Neural crest (PNS neurons),Enteric neurons,PN_M4,PN_M3,Developmental progression,PNS_neurons
+122,123,Neural crest (PNS neurons),Olfactory sensory neurons,PN_M4,PN_M5,Developmental progression,PNS_neurons
+122,124,Neural crest (PNS neurons),Otic sensory neurons,PN_M4,PN_M6,Developmental progression,PNS_neurons
+122,125,Neural crest (PNS neurons),Parasympathetic neurons,PN_M4,PN_M7,Developmental progression,PNS_neurons
+122,126,Neural crest (PNS neurons),Sympathetic neurons,PN_M4,PN_M8,Developmental progression,PNS_neurons
+123,119,Olfactory sensory neurons,Corticofugal neurons,PN_M5,PN_M1,Developmental progression,PNS_neurons
+127,128,Anterior intermediate mesoderm,Posterior intermediate mesoderm,R_M1,R_M10,Developmental progression,Renal
+127,131,Anterior intermediate mesoderm,Ureteric bud,R_M1,R_M13,Developmental progression,Renal
+127,139,Anterior intermediate mesoderm,Nephron progenitors,R_M1,R_M8,Developmental progression,Renal
+128,130,Posterior intermediate mesoderm,Renal pericytes and mesangial cells,R_M10,R_M12,Developmental progression,Renal
+128,138,Posterior intermediate mesoderm,Metanephric mesenchyme,R_M10,R_M7,Developmental progression,Renal
+131,132,Ureteric bud,Ureteric bud stalk,R_M13,R_M14,Developmental progression,Renal
+131,135,Ureteric bud,Collecting duct principal cells,R_M13,R_M4,Developmental progression,Renal
+135,134,Collecting duct principal cells,Collecting duct intercalated cells,R_M4,R_M3,Developmental progression,Renal
+136,134,Connecting tubule,Collecting duct intercalated cells,R_M5,R_M3,Developmental progression,Renal
+138,139,Metanephric mesenchyme,Nephron progenitors,R_M7,R_M8,Developmental progression,Renal
+139,129,Nephron progenitors,Proximal tubule cells,R_M8,R_M11,Developmental progression,Renal
+139,133,Nephron progenitors,Ascending loop of Henle,R_M8,R_M2,Developmental progression,Renal
+139,136,Nephron progenitors,Connecting tubule,R_M8,R_M5,Developmental progression,Renal
+139,137,Nephron progenitors,Distal convoluted tubule,R_M8,R_M6,Developmental progression,Renal
+139,140,Nephron progenitors,Podocytes,R_M8,R_M9,Developmental progression,Renal
+143,141,Gonad progenitor cells,Adrenocortical cells,L_M11,L_M1,Developmental progression,Lateral_plate_mesoderm
+143,144,Gonad progenitor cells,Granulosa cells,L_M11,L_M12,Developmental progression,Lateral_plate_mesoderm
+143,146,Gonad progenitor cells,Leydig cells,L_M11,L_M15,Developmental progression,Lateral_plate_mesoderm
+143,155,Gonad progenitor cells,Sertoli cells,L_M11,L_M23,Developmental progression,Lateral_plate_mesoderm
+156,147,Somatic mesoderm,Limb mesenchyme progenitors,L_M24,L_M16,Developmental progression,Lateral_plate_mesoderm
+156,150,Somatic mesoderm,Mesothelial cells,L_M24,L_M19,Developmental progression,Lateral_plate_mesoderm
+156,152,Somatic mesoderm,Proepicardium,L_M24,L_M20,Developmental progression,Lateral_plate_mesoderm
+156,154,Somatic mesoderm,Second heart field,L_M24,L_M22,Developmental progression,Lateral_plate_mesoderm
+157,143,Splanchnic mesoderm,Gonad progenitor cells,L_M25,L_M11,Developmental progression,Lateral_plate_mesoderm
+157,145,Splanchnic mesoderm,Hepatic mesenchyme,L_M25,L_M14,Developmental progression,Lateral_plate_mesoderm
+157,148,Splanchnic mesoderm,Lung mesenchyme,L_M25,L_M17,Developmental progression,Lateral_plate_mesoderm
+157,150,Splanchnic mesoderm,Mesothelial cells,L_M25,L_M19,Developmental progression,Lateral_plate_mesoderm
+157,152,Splanchnic mesoderm,Proepicardium,L_M25,L_M20,Developmental progression,Lateral_plate_mesoderm
+157,153,Splanchnic mesoderm,Renal stromal cells,L_M25,L_M21,Developmental progression,Lateral_plate_mesoderm
+157,158,Splanchnic mesoderm,Vascular smooth muscle cells,L_M25,L_M26,Developmental progression,Lateral_plate_mesoderm
+157,162,Splanchnic mesoderm,First heart field,L_M25,L_M8,Developmental progression,Lateral_plate_mesoderm
+157,163,Splanchnic mesoderm,Foregut mesenchyme,L_M25,L_M9,Developmental progression,Lateral_plate_mesoderm
+158,149,Vascular smooth muscle cells,Meninges,L_M26,L_M18,Developmental progression,Lateral_plate_mesoderm
+158,151,Vascular smooth muscle cells,Airway smooth muscle cells,L_M26,L_M2,Developmental progression,Lateral_plate_mesoderm
+158,159,Vascular smooth muscle cells,Vascular smooth muscle cells (Pparg+),L_M26,L_M27,Developmental progression,Lateral_plate_mesoderm
+162,160,First heart field,Ventricular cardiomyocytes,L_M8,L_M28,Developmental progression,Lateral_plate_mesoderm
+162,161,First heart field,Atrial cardiomyocytes,L_M8,L_M5,Developmental progression,Lateral_plate_mesoderm
+166,165,Hematopoietic stem cells (Cd34+),Granulocytes,B_M11,B_M10,Developmental progression,Blood
+166,167,Hematopoietic stem cells (Cd34+),Hematopoietic stem cells (Mpo+),B_M11,B_M12,Developmental progression,Blood
+166,169,Hematopoietic stem cells (Cd34+),Mast cells,B_M11,B_M14,Developmental progression,Blood
+166,170,Hematopoietic stem cells (Cd34+),Megakaryocyte-erythroid progenitors,B_M11,B_M15,Developmental progression,Blood
+166,173,Hematopoietic stem cells (Cd34+),Monocytes,B_M11,B_M18,Developmental progression,Blood
+166,178,Hematopoietic stem cells (Cd34+),Plasmacytoid dendritic cells,B_M11,B_M22,Developmental progression,Blood
+166,180,Hematopoietic stem cells (Cd34+),Regulatory T cells,B_M11,B_M25,Developmental progression,Blood
+166,182,Hematopoietic stem cells (Cd34+),T-NK progenitors,B_M11,B_M27,Developmental progression,Blood
+166,183,Hematopoietic stem cells (Cd34+),B cell progenitors,B_M11,B_M3,Developmental progression,Blood
+166,185,Hematopoietic stem cells (Cd34+),Border-associated macrophages,B_M11,B_M5,Developmental progression,Blood
+166,187,Hematopoietic stem cells (Cd34+),Conventional dendritic cells,B_M11,B_M7,Developmental progression,Blood
+166,188,Hematopoietic stem cells (Cd34+),Definitive early erythroblasts (CD36-),B_M11,B_M8,Developmental progression,Blood
+167,174,Hematopoietic stem cells (Mpo+),Monocytic myeloid-derived suppressor cells,B_M12,B_M19,Developmental progression,Blood
+170,171,Megakaryocyte-erythroid progenitors,Megakaryocytes,B_M15,B_M16,Developmental progression,Blood
+170,188,Megakaryocyte-erythroid progenitors,Definitive early erythroblasts (CD36-),B_M15,B_M8,Developmental progression,Blood
+173,175,Monocytes,Adipose tissue macrophages,B_M18,B_M2,Developmental progression,Blood
+173,187,Monocytes,Conventional dendritic cells,B_M18,B_M7,Developmental progression,Blood
+174,179,Monocytic myeloid-derived suppressor cells,PMN myeloid-derived suppressor cells,B_M19,B_M23,Developmental progression,Blood
+180,181,Regulatory T cells,T cells,B_M25,B_M26,Developmental progression,Blood
+181,164,T cells,Activated T cells,B_M26,B_M1,Developmental progression,Blood
+182,176,T-NK progenitors,Natural killer cells,B_M27,B_M20,Developmental progression,Blood
+182,180,T-NK progenitors,Regulatory T cells,B_M27,B_M25,Developmental progression,Blood
+182,181,T-NK progenitors,T cells,B_M27,B_M26,Developmental progression,Blood
+183,184,B cell progenitors,B cells,B_M3,B_M4,Developmental progression,Blood
+185,168,Border-associated macrophages,Kupffer cells,B_M5,B_M13,Developmental progression,Blood
+185,172,Border-associated macrophages,Microglia,B_M5,B_M17,Developmental progression,Blood
+185,177,Border-associated macrophages,Osteoclasts,B_M5,B_M21,Developmental progression,Blood
+185,186,Border-associated macrophages,Border-associated macrophages (Ms4a8a+),B_M5,B_M6,Developmental progression,Blood
+188,189,Definitive early erythroblasts (CD36-),Definitive erythroblasts (CD36+),B_M8,B_M9,Developmental progression,Blood
+190,206,Anterior floor plate,Midbrain dopaminergic neurons,BS_M1,BS_M26,Developmental progression,Brain_spinal_cord
+192,236,Deep-layer neurons,Subplate neurons,BS_M11,BS_M53,Developmental progression,Brain_spinal_cord
+193,199,Di/mesencephalon GABAergic neurons,GABAergic neurons (after E13.0),BS_M12,BS_M18,Developmental progression,Brain_spinal_cord
+194,200,Di/mesencephalon glutamatergic neurons,Glutamatergic neurons (after E13.0),BS_M13,BS_M19,Developmental progression,Brain_spinal_cord
+195,196,Diencephalon,Dorsal telencephalon,BS_M14,BS_M15,Developmental progression,Brain_spinal_cord
+195,204,Diencephalon,Hypothalamus (Sim1+),BS_M14,BS_M23,Developmental progression,Brain_spinal_cord
+195,238,Diencephalon,Thalamic neuronal precursors,BS_M14,BS_M55,Developmental progression,Brain_spinal_cord
+196,241,Dorsal telencephalon,Choroid plexus,BS_M15,BS_M7,Developmental progression,Brain_spinal_cord
+198,199,GABAergic cortical interneurons,GABAergic neurons (after E13.0),BS_M17,BS_M18,Developmental progression,Brain_spinal_cord
+201,241,Anterior roof plate,Choroid plexus,BS_M2,BS_M7,Developmental progression,Brain_spinal_cord
+202,200,Hypothalamic Sim1 neurons,Glutamatergic neurons (after E13.0),BS_M21,BS_M19,Developmental progression,Brain_spinal_cord
+202,217,Hypothalamic Sim1 neurons,Precerebellar neurons,BS_M21,BS_M36,Developmental progression,Brain_spinal_cord
+203,204,Hypothalamus,Hypothalamus (Sim1+),BS_M22,BS_M23,Developmental progression,Brain_spinal_cord
+204,202,Hypothalamus (Sim1+),Hypothalamic Sim1 neurons,BS_M23,BS_M21,Developmental progression,Brain_spinal_cord
+205,192,Intermediate neuronal progenitors,Deep-layer neurons,BS_M24,BS_M11,Developmental progression,Brain_spinal_cord
+205,239,Intermediate neuronal progenitors,Upper-layer neurons,BS_M24,BS_M56,Developmental progression,Brain_spinal_cord
+205,243,Intermediate neuronal progenitors,Cortical Interneurons (Prox1+),BS_M24,BS_M9,Developmental progression,Brain_spinal_cord
+206,200,Midbrain dopaminergic neurons,Glutamatergic neurons (after E13.0),BS_M26,BS_M19,Developmental progression,Brain_spinal_cord
+207,201,Midbrain-hindbrain boundary,Anterior roof plate,BS_M27,BS_M2,Developmental progression,Brain_spinal_cord
+207,215,Midbrain-hindbrain boundary,Floorplate and p3 domain,BS_M27,BS_M34,Developmental progression,Brain_spinal_cord
+210,208,Astrocytes,Multiciliated ependymal cells,BS_M3,BS_M28,Developmental progression,Brain_spinal_cord
+210,214,Astrocytes,Oligodendrocyte progenitor cells,BS_M3,BS_M33,Developmental progression,Brain_spinal_cord
+212,222,NMPs and spinal cord progenitors,Spinal cord/r7/r8,BS_M31,BS_M40,Developmental progression,Brain_spinal_cord
+214,242,Oligodendrocyte progenitor cells,Committed oligodendrocyte precursors,BS_M33,BS_M8,Developmental progression,Brain_spinal_cord
+215,191,Floorplate and p3 domain,Cranial motor neurons,BS_M34,BS_M10,Developmental progression,Brain_spinal_cord
+215,208,Floorplate and p3 domain,Multiciliated ependymal cells,BS_M34,BS_M28,Developmental progression,Brain_spinal_cord
+215,213,Floorplate and p3 domain,Neurons (Slc17a8+),BS_M34,BS_M32,Developmental progression,Brain_spinal_cord
+218,199,Spinal cord dorsal progenitors (after E13.0),GABAergic neurons (after E13.0),BS_M37,BS_M18,Spatial continuity,Brain_spinal_cord
+218,200,Spinal cord dorsal progenitors (after E13.0),Glutamatergic neurons (after E13.0),BS_M37,BS_M19,Spatial continuity,Brain_spinal_cord
+220,199,Spinal cord ventral progenitors (after E13.0),GABAergic neurons (after E13.0),BS_M39,BS_M18,Spatial continuity,Brain_spinal_cord
+220,200,Spinal cord ventral progenitors (after E13.0),Glutamatergic neurons (after E13.0),BS_M39,BS_M19,Spatial continuity,Brain_spinal_cord
+222,209,Spinal cord/r7/r8,Neural progenitor cells (Neurod1+),BS_M40,BS_M29,Developmental progression,Brain_spinal_cord
+222,210,Spinal cord/r7/r8,Astrocytes,BS_M40,BS_M3,Developmental progression,Brain_spinal_cord
+222,215,Spinal cord/r7/r8,Floorplate and p3 domain,BS_M40,BS_M34,Developmental progression,Brain_spinal_cord
+222,216,Spinal cord/r7/r8,Posterior roof plate,BS_M40,BS_M35,Developmental progression,Brain_spinal_cord
+222,219,Spinal cord/r7/r8,Spinal cord motor neurons,BS_M40,BS_M38,Developmental progression,Brain_spinal_cord
+222,224,Spinal cord/r7/r8,Spinal dI2 interneurons,BS_M40,BS_M42,Developmental progression,Brain_spinal_cord
+222,226,Spinal cord/r7/r8,Spinal dI4 interneurons,BS_M40,BS_M44,Developmental progression,Brain_spinal_cord
+222,227,Spinal cord/r7/r8,Spinal dI5 interneurons,BS_M40,BS_M45,Developmental progression,Brain_spinal_cord
+222,230,Spinal cord/r7/r8,Spinal V1 interneurons,BS_M40,BS_M48,Developmental progression,Brain_spinal_cord
+222,231,Spinal cord/r7/r8,Spinal V2a interneurons,BS_M40,BS_M49,Developmental progression,Brain_spinal_cord
+222,233,Spinal cord/r7/r8,Spinal V2b interneurons,BS_M40,BS_M50,Developmental progression,Brain_spinal_cord
+222,234,Spinal cord/r7/r8,Spinal V3 interneurons,BS_M40,BS_M51,Developmental progression,Brain_spinal_cord
+223,200,Spinal dI1 interneurons,Glutamatergic neurons (after E13.0),BS_M41,BS_M19,Developmental progression,Brain_spinal_cord
+224,200,Spinal dI2 interneurons,Glutamatergic neurons (after E13.0),BS_M42,BS_M19,Developmental progression,Brain_spinal_cord
+224,229,Spinal dI2 interneurons,Spinal V0 interneurons,BS_M42,BS_M47,Developmental progression,Brain_spinal_cord
+224,232,Spinal dI2 interneurons,Cerebellar Purkinje cells,BS_M42,BS_M5,Developmental progression,Brain_spinal_cord
+225,200,Spinal dI3 interneurons,Glutamatergic neurons (after E13.0),BS_M43,BS_M19,Developmental progression,Brain_spinal_cord
+226,199,Spinal dI4 interneurons,GABAergic neurons (after E13.0),BS_M44,BS_M18,Developmental progression,Brain_spinal_cord
+227,200,Spinal dI5 interneurons,Glutamatergic neurons (after E13.0),BS_M45,BS_M19,Developmental progression,Brain_spinal_cord
+227,225,Spinal dI5 interneurons,Spinal dI3 interneurons,BS_M45,BS_M43,Developmental progression,Brain_spinal_cord
+228,199,Spinal dI6 interneurons,GABAergic neurons (after E13.0),BS_M46,BS_M18,Developmental progression,Brain_spinal_cord
+229,200,Spinal V0 interneurons,Glutamatergic neurons (after E13.0),BS_M47,BS_M19,Developmental progression,Brain_spinal_cord
+229,217,Spinal V0 interneurons,Precerebellar neurons,BS_M47,BS_M36,Developmental progression,Brain_spinal_cord
+230,199,Spinal V1 interneurons,GABAergic neurons (after E13.0),BS_M48,BS_M18,Developmental progression,Brain_spinal_cord
+230,228,Spinal V1 interneurons,Spinal dI6 interneurons,BS_M48,BS_M46,Developmental progression,Brain_spinal_cord
+231,200,Spinal V2a interneurons,Glutamatergic neurons (after E13.0),BS_M49,BS_M19,Developmental progression,Brain_spinal_cord
+233,199,Spinal V2b interneurons,GABAergic neurons (after E13.0),BS_M50,BS_M18,Developmental progression,Brain_spinal_cord
+234,200,Spinal V3 interneurons,Glutamatergic neurons (after E13.0),BS_M51,BS_M19,Developmental progression,Brain_spinal_cord
+235,200,Striatal projection neurons,Glutamatergic neurons (after E13.0),BS_M52,BS_M19,Developmental progression,Brain_spinal_cord
+237,196,Telencephalon,Dorsal telencephalon,BS_M54,BS_M15,Developmental progression,Brain_spinal_cord
+237,198,Telencephalon,GABAergic cortical interneurons,BS_M54,BS_M17,Developmental progression,Brain_spinal_cord
+237,205,Telencephalon,Intermediate neuronal progenitors,BS_M54,BS_M24,Developmental progression,Brain_spinal_cord
+237,210,Telencephalon,Astrocytes,BS_M54,BS_M3,Developmental progression,Brain_spinal_cord
+237,214,Telencephalon,Oligodendrocyte progenitor cells,BS_M54,BS_M33,Developmental progression,Brain_spinal_cord
+237,221,Telencephalon,Cajal-Retzius cells,BS_M54,BS_M4,Developmental progression,Brain_spinal_cord
+239,236,Upper-layer neurons,Subplate neurons,BS_M56,BS_M53,Developmental progression,Brain_spinal_cord
+240,208,Cerebellum-related cells,Multiciliated ependymal cells,BS_M6,BS_M28,Developmental progression,Brain_spinal_cord
+241,197,Choroid plexus,Ependymal cells,BS_M7,BS_M16,Developmental progression,Brain_spinal_cord
+245,252,Fibroblasts,Pre-osteoblasts (Sp7+),M_M10,M_M17,Developmental progression,Mesoderm
+245,254,Fibroblasts,Adipocyte progenitor cells,M_M10,M_M2,Developmental progression,Mesoderm
+246,259,Mesodermal progenitors (Tbx6+),Dermomyotome,M_M11,M_M7,Developmental progression,Mesoderm
+246,261,Mesodermal progenitors (Tbx6+),Facial mesenchyme,M_M11,M_M9,Developmental progression,Mesoderm
+247,248,Muscle progenitor cells,Muscle progenitor cells (Prdm1+),M_M12,M_M13,Developmental progression,Mesoderm
+247,249,Muscle progenitor cells,Myoblasts,M_M12,M_M14,Developmental progression,Mesoderm
+248,250,Muscle progenitor cells (Prdm1+),Myofibroblasts,M_M13,M_M15,Developmental progression,Mesoderm
+249,251,Myoblasts,Myotubes,M_M14,M_M16,Developmental progression,Mesoderm
+253,245,Sclerotome,Fibroblasts,M_M18,M_M10,Developmental progression,Mesoderm
+253,256,Sclerotome,Chondrocytes (Atp1a2+),M_M18,M_M4,Developmental progression,Mesoderm
+253,260,Sclerotome,Early chondrocytes,M_M18,M_M8,Developmental progression,Mesoderm
+254,244,Adipocyte progenitor cells,Adipocyte cells (Cyp2e1+),M_M2,M_M1,Developmental progression,Mesoderm
+254,255,Adipocyte progenitor cells,Brown adipocyte cells,M_M2,M_M3,Developmental progression,Mesoderm
+256,257,Chondrocytes (Atp1a2+),Chondrocytes (Otor+),M_M4,M_M5,Developmental progression,Mesoderm
+259,247,Dermomyotome,Muscle progenitor cells,M_M7,M_M12,Developmental progression,Mesoderm
+259,249,Dermomyotome,Myoblasts,M_M7,M_M14,Developmental progression,Mesoderm
+259,258,Dermomyotome,Dermatome,M_M7,M_M6,Developmental progression,Mesoderm
+261,252,Facial mesenchyme,Pre-osteoblasts (Sp7+),M_M9,M_M17,Developmental progression,Mesoderm
+261,260,Facial mesenchyme,Early chondrocytes,M_M9,M_M8,Developmental progression,Mesoderm

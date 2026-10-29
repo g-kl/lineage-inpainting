@@ -1,0 +1,12 @@
+_target_: splitters.tree_former.DeltaTreeFormer
+
+# Pure one-step residual-frame tree predictor (no flow): baseline + role
+# embedding as in bridge_delta_tree_flow, minus flow-time / interpolant /
+# rollout / bridge.
+dim: 50
+d_internal: 128
+n_heads: 4
+n_layers: 4
+hidden: 512
+attention_bias_init: 0.0
+slice_direction: up

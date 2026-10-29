@@ -1,0 +1,10 @@
+_target_: trainer.trainer.Trainer
+n_trees: 2048
+n_records: 2
+align_only_steps: 0   # phased warmup: train only pool->aligner for the first N steps
+device: 'cuda'
+log_window: 100
+
+n_steps: 20000
+log_every: 100
+save_every: 5000

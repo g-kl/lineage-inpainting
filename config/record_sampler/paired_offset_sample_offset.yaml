@@ -1,0 +1,5 @@
+_target_: record_samplers.record_samplers.PairedOffsetSampler
+
+target_gap: 0.5
+tol: 0.1
+sample_time_gap: 0.5

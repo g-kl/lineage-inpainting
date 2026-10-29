@@ -1,0 +1,33 @@
+# @package _global_
+#
+# Aligner ablation on vpsde + idnn_leaf: marginal + CommonAncestor
+# (slice_marginal_ca). Adds the CA triple feature on top of the marginal-only
+# baseline. The 3rd point of the marginal / marginal+path / marginal+ca trio.
+defaults:
+  - override /dataset: mouse_embryo
+  - override /pooler: delta_tree_former
+  - override /splitter: bridge_delta_tree_flow_vpsde
+  - override /aligner: slice_marginal_ca
+  - override /pairing: id_nn_alt
+  - override /extender: conditional_graft
+  - override /record_sampler: paired_offset_sample_offset
+  - override /training: default
+
+experiment_name: mouse_embryo_grid_bridge_unshared_vpsde_idnn_leaf_nosa_std_alignca
+share_pool_split: false
+
+objective:
+  split_align_weight: 0
+
+optimizer:
+  lr: 1e-3
+  warmup_steps: 500
+  weight_decay: 0.01
+  adam_eps: 1e-6
+
+training:
+  n_steps: 20000
+  log_every: 100
+  save_every: 5000
+  n_trees: 1024
+  n_records: 2

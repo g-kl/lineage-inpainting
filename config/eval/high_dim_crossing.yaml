@@ -1,0 +1,28 @@
+# @package eval
+# Crossing-family benchmark across dimensions. One model (--experiment) is
+# evaluated on the crossing/noncrossing dataset axis. Native 1-D is just
+# dataset.proj_dim=1 dataset.proj_noise=0; sweep the ambient dim per run:
+#   python synthetic_evals/eval.py --eval high_dim_crossing \
+#       --experiment high_dim_crossing/unshared_vpsde_idnn_leaf dataset.proj_dim=64
+kind: crossing
+datasets:
+  - high_dim_crossing/hierarchical_ou_crossing
+  - high_dim_crossing/hierarchical_ou_noncrossing
+labels: [crossing, noncrossing]      # result keys read by the plotter
+dims: [1, 4, 16, 64]                 # default sweep for the cross-dim scaling plot
+eval_seed: 10000
+n_samples: 4
+n_flow_steps: 32
+baselines:
+  genot: true
+  coupling_mode: precomputed
+  fgw_n_tree_pairings: 1
+  fm_steps: 20000
+  fm_hidden: 256
+  fm_layers: 4
+  genot_steps: 20000
+  force_retrain: false
+  moscot: true           # Waddington-OT + moslin (no training; one OT solve per pair)
+  moscot_epsilon: 0.01   # entropic regularization
+  moslin_alpha: 0.5      # moslin fused weight: 0 = expression only, 1 = lineage only
+  moscot_max_cells: 2048 # cap per timepoint; the transport plan is dense

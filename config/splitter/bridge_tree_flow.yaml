@@ -1,0 +1,16 @@
+_target_: splitters.bridge_tree_flow.BridgeTreeFlow
+
+# Ambient-space BridgeTreeFlow: the flow runs in `dim` (data) space and the
+# flow geometry is owned by the bridge. Structure enters through the
+# patristic-distance attention bias only.
+dim: 50
+d_internal: 128
+n_heads: 4
+n_layers: 4
+hidden: 512
+n_flow_steps: 8
+attention_bias_init: 0.0
+slice_direction: up
+bridge:
+  _target_: splitters.bridges.flow_matching.CFMBridge
+  sigma: 0.0

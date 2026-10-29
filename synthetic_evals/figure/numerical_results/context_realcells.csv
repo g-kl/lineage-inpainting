@@ -1,0 +1,101 @@
+cfg,seed,method,mse,mse_ambiguous,mse_unambiguous,type_acc,type_acc_ambiguous,type_acc_unambiguous,root_type,A,C,B
+context_landscape/cfg00,0,ours,39.28363227844238,37.46622276306152,41.101036071777344,1.0,1.0,1.0,floor plate (posterior),spinal cord interneuron progenitor,presomitic mesoderm,extraembryonic mesoderm
+context_landscape/cfg00,0,gs,40.5347785949707,49.81072235107422,31.258832931518555,0.7737499999999999,0.5475,1.0,floor plate (posterior),spinal cord interneuron progenitor,presomitic mesoderm,extraembryonic mesoderm
+context_landscape/cfg00,0,gf,42.7191333770752,43.65570068359375,41.78256607055664,0.5062500000000001,0.4675,0.5449999999999999,floor plate (posterior),spinal cord interneuron progenitor,presomitic mesoderm,extraembryonic mesoderm
+context_landscape/cfg00,0,fm,68.19819259643555,66.8503532409668,69.54602813720703,0.47625,0.5475,0.405,floor plate (posterior),spinal cord interneuron progenitor,presomitic mesoderm,extraembryonic mesoderm
+context_landscape/cfg00,0,wot,47.19410514831543,59.53806495666504,34.85014247894287,0.7625,0.525,1.0,floor plate (posterior),spinal cord interneuron progenitor,presomitic mesoderm,extraembryonic mesoderm
+context_landscape/cfg00,0,moslin,42.62256240844727,45.062211990356445,40.182918548583984,0.935,0.87,1.0,floor plate (posterior),spinal cord interneuron progenitor,presomitic mesoderm,extraembryonic mesoderm
+context_landscape/cfg00,0,ours_meanpool,88.39525985717773,132.58141326904297,44.20909881591797,0.75,0.5,1.0,floor plate (posterior),spinal cord interneuron progenitor,presomitic mesoderm,extraembryonic mesoderm
+context_landscape/cfg00,0,ours_nnpool,88.39525985717773,132.58141326904297,44.20909881591797,0.75,0.5,1.0,floor plate (posterior),spinal cord interneuron progenitor,presomitic mesoderm,extraembryonic mesoderm
+context_landscape/cfg00,0,oracle,38.95340919494629,38.82966041564941,39.07715606689453,1.0,1.0,1.0,floor plate (posterior),spinal cord interneuron progenitor,presomitic mesoderm,extraembryonic mesoderm
+context_landscape/cfg00,0,marg,73.47347259521484,73.41439819335938,73.53253936767578,0.504453125,0.509375,0.49953125,floor plate (posterior),spinal cord interneuron progenitor,presomitic mesoderm,extraembryonic mesoderm
+context_landscape/cfg01,1,ours,40.395612716674805,41.72521781921387,39.06600856781006,1.0,1.0,1.0,amniotic ectoderm,megakaryocyte,midgut,trigeminal placode
+context_landscape/cfg01,1,gs,61.34943962097168,90.39275360107422,32.30612373352051,0.7350000000000001,0.47,1.0,amniotic ectoderm,megakaryocyte,midgut,trigeminal placode
+context_landscape/cfg01,1,gf,69.28315162658691,71.0886287689209,67.47767448425293,0.47875,0.44,0.5175000000000001,amniotic ectoderm,megakaryocyte,midgut,trigeminal placode
+context_landscape/cfg01,1,fm,109.92375564575195,108.3638801574707,111.48362350463869,0.48125,0.5375,0.425,amniotic ectoderm,megakaryocyte,midgut,trigeminal placode
+context_landscape/cfg01,1,wot,68.89985084533691,102.57907104492188,35.22063636779785,0.74375,0.4875,1.0,amniotic ectoderm,megakaryocyte,midgut,trigeminal placode
+context_landscape/cfg01,1,moslin,57.50986289978027,72.16973114013672,42.84999561309815,0.8987499999999999,0.7975000000000001,1.0,amniotic ectoderm,megakaryocyte,midgut,trigeminal placode
+context_landscape/cfg01,1,ours_meanpool,94.27571105957033,145.76946258544922,42.78195190429688,0.75,0.5,1.0,amniotic ectoderm,megakaryocyte,midgut,trigeminal placode
+context_landscape/cfg01,1,ours_nnpool,94.27571105957033,145.76946258544922,42.78195190429688,0.75,0.5,1.0,amniotic ectoderm,megakaryocyte,midgut,trigeminal placode
+context_landscape/cfg01,1,oracle,43.585679054260254,43.99159717559815,43.17976474761963,1.0,1.0,1.0,amniotic ectoderm,megakaryocyte,midgut,trigeminal placode
+context_landscape/cfg01,1,marg,118.03401184082033,118.41012573242188,117.65790939331056,0.504453125,0.509375,0.49953125,amniotic ectoderm,megakaryocyte,midgut,trigeminal placode
+context_landscape/cfg02,2,ours,38.66530799865723,41.28421211242676,36.04640197753906,0.9525,0.905,1.0,hindbrain (r2-r4),eye field,spinal cord (thoracic),forelimb field
+context_landscape/cfg02,2,gs,35.43555450439453,41.34271240234375,29.52839756011963,0.73,0.5249999999999999,0.935,hindbrain (r2-r4),eye field,spinal cord (thoracic),forelimb field
+context_landscape/cfg02,2,gf,33.58429145812988,33.45505905151367,33.71352195739746,0.5075000000000001,0.495,0.52,hindbrain (r2-r4),eye field,spinal cord (thoracic),forelimb field
+context_landscape/cfg02,2,fm,50.88150405883789,51.69066429138184,50.072343826293945,0.51875,0.5225,0.515,hindbrain (r2-r4),eye field,spinal cord (thoracic),forelimb field
+context_landscape/cfg02,2,wot,39.92617034912109,46.22685623168945,33.6254825592041,0.7250000000000001,0.525,0.925,hindbrain (r2-r4),eye field,spinal cord (thoracic),forelimb field
+context_landscape/cfg02,2,moslin,42.54096984863281,45.3637580871582,39.71817970275879,0.8225,0.7225,0.9225,hindbrain (r2-r4),eye field,spinal cord (thoracic),forelimb field
+context_landscape/cfg02,2,ours_meanpool,60.169315338134766,80.8840103149414,39.45461463928223,0.75,0.5,1.0,hindbrain (r2-r4),eye field,spinal cord (thoracic),forelimb field
+context_landscape/cfg02,2,ours_nnpool,60.169315338134766,80.8840103149414,39.45461463928223,0.75,0.5,1.0,hindbrain (r2-r4),eye field,spinal cord (thoracic),forelimb field
+context_landscape/cfg02,2,oracle,37.62894248962402,37.46651077270508,37.79137802124024,1.0,1.0,1.0,hindbrain (r2-r4),eye field,spinal cord (thoracic),forelimb field
+context_landscape/cfg02,2,marg,55.50959587097168,55.08151626586914,55.93766784667969,0.504453125,0.509375,0.49953125,hindbrain (r2-r4),eye field,spinal cord (thoracic),forelimb field
+context_landscape/cfg03,3,ours,32.91830348968506,32.41364860534668,33.42295742034912,1.0,1.0,1.0,endocardial cell,cranial neural crest (posterior),spinal cord (cervical),epicardium
+context_landscape/cfg03,3,gs,33.25201797485352,41.18321228027344,25.32082271575928,0.7475,0.4975,0.9975,endocardial cell,cranial neural crest (posterior),spinal cord (cervical),epicardium
+context_landscape/cfg03,3,gf,33.64875411987305,33.72989845275879,33.567604064941406,0.4712499999999999,0.4575,0.485,endocardial cell,cranial neural crest (posterior),spinal cord (cervical),epicardium
+context_landscape/cfg03,3,fm,50.533647537231445,50.55611610412598,50.51118278503418,0.52,0.5549999999999999,0.485,endocardial cell,cranial neural crest (posterior),spinal cord (cervical),epicardium
+context_landscape/cfg03,3,wot,37.21629524230957,45.81581115722656,28.616779327392575,0.76125,0.525,0.9975,endocardial cell,cranial neural crest (posterior),spinal cord (cervical),epicardium
+context_landscape/cfg03,3,moslin,38.18867874145508,40.68246650695801,35.69489097595215,0.9075,0.8425,0.9725,endocardial cell,cranial neural crest (posterior),spinal cord (cervical),epicardium
+context_landscape/cfg03,3,ours_meanpool,83.08720397949219,126.42232131958008,39.75207710266113,0.765,0.53,1.0,endocardial cell,cranial neural crest (posterior),spinal cord (cervical),epicardium
+context_landscape/cfg03,3,ours_nnpool,83.08720397949219,126.42232131958008,39.75207710266113,0.765,0.53,1.0,endocardial cell,cranial neural crest (posterior),spinal cord (cervical),epicardium
+context_landscape/cfg03,3,oracle,34.47417068481445,34.73703384399414,34.21130561828613,1.0,1.0,1.0,endocardial cell,cranial neural crest (posterior),spinal cord (cervical),epicardium
+context_landscape/cfg03,3,marg,55.62705993652344,55.61934280395508,55.63477897644043,0.504296875,0.5081249999999999,0.50046875,endocardial cell,cranial neural crest (posterior),spinal cord (cervical),epicardium
+context_landscape/cfg04,4,ours,44.04386520385742,40.79001045227051,47.2977180480957,1.0,1.0,1.0,telencephalon (dorsal),roof plate (posterior),trigeminal placode,midbrain GABAergic neuron
+context_landscape/cfg04,4,gs,42.09573554992676,50.9495964050293,33.24187088012695,0.7575000000000001,0.515,1.0,telencephalon (dorsal),roof plate (posterior),trigeminal placode,midbrain GABAergic neuron
+context_landscape/cfg04,4,gf,41.7004337310791,40.53980255126953,42.86106491088867,0.54,0.5700000000000001,0.51,telencephalon (dorsal),roof plate (posterior),trigeminal placode,midbrain GABAergic neuron
+context_landscape/cfg04,4,fm,62.477888107299805,62.0406551361084,62.91512107849121,0.5275,0.5275,0.5275,telencephalon (dorsal),roof plate (posterior),trigeminal placode,midbrain GABAergic neuron
+context_landscape/cfg04,4,wot,44.48867034912109,52.66285133361816,36.31448936462402,0.73875,0.48,0.9975,telencephalon (dorsal),roof plate (posterior),trigeminal placode,midbrain GABAergic neuron
+context_landscape/cfg04,4,moslin,54.85146903991699,66.25607490539551,43.44686126708984,0.79125,0.5875,0.995,telencephalon (dorsal),roof plate (posterior),trigeminal placode,midbrain GABAergic neuron
+context_landscape/cfg04,4,ours_meanpool,111.8886489868164,176.63406372070312,47.14323425292969,0.7475,0.495,1.0,telencephalon (dorsal),roof plate (posterior),trigeminal placode,midbrain GABAergic neuron
+context_landscape/cfg04,4,ours_nnpool,111.8886489868164,176.63406372070312,47.14323425292969,0.7475,0.495,1.0,telencephalon (dorsal),roof plate (posterior),trigeminal placode,midbrain GABAergic neuron
+context_landscape/cfg04,4,oracle,44.81276893615723,44.53694725036621,45.08858680725098,1.0,1.0,1.0,telencephalon (dorsal),roof plate (posterior),trigeminal placode,midbrain GABAergic neuron
+context_landscape/cfg04,4,marg,71.36388397216797,70.81638717651367,71.91138458251953,0.504453125,0.509375,0.49953125,telencephalon (dorsal),roof plate (posterior),trigeminal placode,midbrain GABAergic neuron
+context_landscape/cfg05,5,ours,30.227983474731445,28.795178413391117,31.660788536071777,1.0,1.0,1.0,hypothalamus,spinal cord (cervical),primitive erythrocyte,spinal cord (sacral)
+context_landscape/cfg05,5,gs,31.795933723449707,39.72554588317871,23.86631679534912,0.7675,0.535,1.0,hypothalamus,spinal cord (cervical),primitive erythrocyte,spinal cord (sacral)
+context_landscape/cfg05,5,gf,34.147926330566406,32.85588836669922,35.43996620178223,0.5,0.54,0.46,hypothalamus,spinal cord (cervical),primitive erythrocyte,spinal cord (sacral)
+context_landscape/cfg05,5,fm,51.49093246459961,55.047584533691406,47.934282302856445,0.49875,0.4625,0.5349999999999999,hypothalamus,spinal cord (cervical),primitive erythrocyte,spinal cord (sacral)
+context_landscape/cfg05,5,wot,37.28010749816895,47.171268463134766,27.388949394226078,0.7649999999999999,0.5325,0.9975,hypothalamus,spinal cord (cervical),primitive erythrocyte,spinal cord (sacral)
+context_landscape/cfg05,5,moslin,36.917348861694336,40.48403739929199,33.350664138793945,0.8987499999999999,0.8125,0.985,hypothalamus,spinal cord (cervical),primitive erythrocyte,spinal cord (sacral)
+context_landscape/cfg05,5,ours_meanpool,56.46929168701172,78.94606018066406,33.99251747131348,0.75,0.5,1.0,hypothalamus,spinal cord (cervical),primitive erythrocyte,spinal cord (sacral)
+context_landscape/cfg05,5,ours_nnpool,56.46929168701172,78.94606018066406,33.99251747131348,0.75,0.5,1.0,hypothalamus,spinal cord (cervical),primitive erythrocyte,spinal cord (sacral)
+context_landscape/cfg05,5,oracle,31.390589714050293,31.426039695739743,31.35513973236084,1.0,1.0,1.0,hypothalamus,spinal cord (cervical),primitive erythrocyte,spinal cord (sacral)
+context_landscape/cfg05,5,marg,57.19901466369629,56.65341758728027,57.744606018066406,0.504296875,0.5081249999999999,0.50046875,hypothalamus,spinal cord (cervical),primitive erythrocyte,spinal cord (sacral)
+context_landscape/cfg06,6,ours,38.37425804138184,38.1804084777832,38.56810188293457,1.0,1.0,1.0,telencephalon (dorsal),juxtacardiac field,nascent somite,hindbrain (isthmic organizer)
+context_landscape/cfg06,6,gs,46.33438682556152,61.79743385314941,30.871336936950684,0.7562500000000001,0.5125000000000001,1.0,telencephalon (dorsal),juxtacardiac field,nascent somite,hindbrain (isthmic organizer)
+context_landscape/cfg06,6,gf,53.462738037109375,54.77618789672852,52.14928817749024,0.4925,0.4825,0.5025,telencephalon (dorsal),juxtacardiac field,nascent somite,hindbrain (isthmic organizer)
+context_landscape/cfg06,6,fm,87.19263458251953,83.97884750366211,90.40641021728516,0.4562499999999999,0.52,0.3925,telencephalon (dorsal),juxtacardiac field,nascent somite,hindbrain (isthmic organizer)
+context_landscape/cfg06,6,wot,54.680137634277344,74.83566665649414,34.52461242675781,0.74625,0.4925,1.0,telencephalon (dorsal),juxtacardiac field,nascent somite,hindbrain (isthmic organizer)
+context_landscape/cfg06,6,moslin,49.28157043457031,56.52973937988281,42.033403396606445,0.91125,0.8325,0.99,telencephalon (dorsal),juxtacardiac field,nascent somite,hindbrain (isthmic organizer)
+context_landscape/cfg06,6,ours_meanpool,77.16849136352539,113.19868087768556,41.1383113861084,0.75,0.5,1.0,telencephalon (dorsal),juxtacardiac field,nascent somite,hindbrain (isthmic organizer)
+context_landscape/cfg06,6,ours_nnpool,77.16849136352539,113.19868087768556,41.1383113861084,0.75,0.5,1.0,telencephalon (dorsal),juxtacardiac field,nascent somite,hindbrain (isthmic organizer)
+context_landscape/cfg06,6,oracle,41.01976585388184,41.40946578979492,40.63006591796875,1.0,1.0,1.0,telencephalon (dorsal),juxtacardiac field,nascent somite,hindbrain (isthmic organizer)
+context_landscape/cfg06,6,marg,90.07932662963869,90.48047256469728,89.67819213867188,0.504453125,0.509375,0.49953125,telencephalon (dorsal),juxtacardiac field,nascent somite,hindbrain (isthmic organizer)
+context_landscape/cfg07,7,ours,54.54670906066895,52.745262145996094,56.34815788269043,1.0,1.0,1.0,nascent somite,telencephalon (dorsal),pharyngeal mesoderm,subthalamic nucleus neuron
+context_landscape/cfg07,7,gs,52.2957763671875,59.36029624938965,45.231258392333984,0.74875,0.4975,1.0,nascent somite,telencephalon (dorsal),pharyngeal mesoderm,subthalamic nucleus neuron
+context_landscape/cfg07,7,gf,52.34787178039551,51.59013557434082,53.10559844970703,0.49,0.515,0.4649999999999999,nascent somite,telencephalon (dorsal),pharyngeal mesoderm,subthalamic nucleus neuron
+context_landscape/cfg07,7,fm,74.15928268432617,78.28878784179688,70.02977752685547,0.57125,0.5275000000000001,0.615,nascent somite,telencephalon (dorsal),pharyngeal mesoderm,subthalamic nucleus neuron
+context_landscape/cfg07,7,wot,59.01570892333984,67.46568298339844,50.56574249267578,0.7450000000000001,0.4925,0.9975,nascent somite,telencephalon (dorsal),pharyngeal mesoderm,subthalamic nucleus neuron
+context_landscape/cfg07,7,moslin,59.69647026062012,62.31556701660156,57.07737731933594,0.925,0.86,0.99,nascent somite,telencephalon (dorsal),pharyngeal mesoderm,subthalamic nucleus neuron
+context_landscape/cfg07,7,ours_meanpool,89.85396194458008,127.91496276855467,51.79298210144043,0.75,0.5,1.0,nascent somite,telencephalon (dorsal),pharyngeal mesoderm,subthalamic nucleus neuron
+context_landscape/cfg07,7,ours_nnpool,89.85396194458008,127.91496276855467,51.79298210144043,0.75,0.5,1.0,nascent somite,telencephalon (dorsal),pharyngeal mesoderm,subthalamic nucleus neuron
+context_landscape/cfg07,7,oracle,55.461503982543945,55.37457466125488,55.54843521118164,0.9991015625,0.998828125,0.999375,nascent somite,telencephalon (dorsal),pharyngeal mesoderm,subthalamic nucleus neuron
+context_landscape/cfg07,7,marg,86.14180374145508,86.21051025390625,86.07311248779297,0.504140625,0.507890625,0.5003906250000001,nascent somite,telencephalon (dorsal),pharyngeal mesoderm,subthalamic nucleus neuron
+context_landscape/cfg08,8,ours,44.01075553894043,45.76681137084961,42.25470161437988,0.845,0.69,1.0,diencephalon,hindbrain (isthmic organizer),roof plate (anterior),vagal neural crest
+context_landscape/cfg08,8,gs,35.9713020324707,39.99157333374024,31.95102596282959,0.73625,0.535,0.9375,diencephalon,hindbrain (isthmic organizer),roof plate (anterior),vagal neural crest
+context_landscape/cfg08,8,gf,34.07782745361328,35.504570960998535,32.65109157562256,0.55875,0.4775,0.64,diencephalon,hindbrain (isthmic organizer),roof plate (anterior),vagal neural crest
+context_landscape/cfg08,8,fm,51.55369186401367,54.01729583740234,49.09008598327637,0.57125,0.5275,0.615,diencephalon,hindbrain (isthmic organizer),roof plate (anterior),vagal neural crest
+context_landscape/cfg08,8,wot,42.48954582214356,49.14060974121094,35.838483810424805,0.72375,0.525,0.9225,diencephalon,hindbrain (isthmic organizer),roof plate (anterior),vagal neural crest
+context_landscape/cfg08,8,moslin,46.13935470581055,50.35017967224121,41.92852783203125,0.815,0.73,0.8999999999999999,diencephalon,hindbrain (isthmic organizer),roof plate (anterior),vagal neural crest
+context_landscape/cfg08,8,ours_meanpool,64.64839172363281,89.1094970703125,40.18728065490723,0.7475,0.495,1.0,diencephalon,hindbrain (isthmic organizer),roof plate (anterior),vagal neural crest
+context_landscape/cfg08,8,ours_nnpool,64.64839172363281,89.1094970703125,40.18728065490723,0.7475,0.495,1.0,diencephalon,hindbrain (isthmic organizer),roof plate (anterior),vagal neural crest
+context_landscape/cfg08,8,oracle,41.1020393371582,40.74714088439941,41.45692825317383,0.9659375,0.96796875,0.96390625,diencephalon,hindbrain (isthmic organizer),roof plate (anterior),vagal neural crest
+context_landscape/cfg08,8,marg,59.17867469787598,58.9610538482666,59.396291732788086,0.5036328125,0.509140625,0.498125,diencephalon,hindbrain (isthmic organizer),roof plate (anterior),vagal neural crest
+context_landscape/cfg09,9,ours,53.34567451477051,51.04842758178711,55.64292335510254,0.995,0.99,1.0,axial progenitor,intermediate mesoderm (duct-associated),splanchnic mesoderm,facial branchiomotor neuron
+context_landscape/cfg09,9,gs,58.40671730041504,65.74231338500977,51.07113456726074,0.76625,0.5325,1.0,axial progenitor,intermediate mesoderm (duct-associated),splanchnic mesoderm,facial branchiomotor neuron
+context_landscape/cfg09,9,gf,53.23323631286621,53.43644142150879,53.030029296875,0.50625,0.4975,0.515,axial progenitor,intermediate mesoderm (duct-associated),splanchnic mesoderm,facial branchiomotor neuron
+context_landscape/cfg09,9,fm,75.86671447753906,79.247314453125,72.48611068725586,0.4925,0.535,0.45,axial progenitor,intermediate mesoderm (duct-associated),splanchnic mesoderm,facial branchiomotor neuron
+context_landscape/cfg09,9,wot,60.28946495056152,70.81664276123047,49.76229095458984,0.76,0.52,1.0,axial progenitor,intermediate mesoderm (duct-associated),splanchnic mesoderm,facial branchiomotor neuron
+context_landscape/cfg09,9,moslin,67.88798332214355,74.72678756713867,61.04917526245117,0.8325,0.705,0.96,axial progenitor,intermediate mesoderm (duct-associated),splanchnic mesoderm,facial branchiomotor neuron
+context_landscape/cfg09,9,ours_meanpool,104.15993881225586,141.0352554321289,67.28464126586914,0.75,0.5,1.0,axial progenitor,intermediate mesoderm (duct-associated),splanchnic mesoderm,facial branchiomotor neuron
+context_landscape/cfg09,9,ours_nnpool,104.15993881225586,141.0352554321289,67.28464126586914,0.75,0.5,1.0,axial progenitor,intermediate mesoderm (duct-associated),splanchnic mesoderm,facial branchiomotor neuron
+context_landscape/cfg09,9,oracle,57.20709991455078,56.978214263916016,57.43597984313965,0.9999609375,0.999921875,1.0,axial progenitor,intermediate mesoderm (duct-associated),splanchnic mesoderm,facial branchiomotor neuron
+context_landscape/cfg09,9,marg,90.03927230834961,89.90123748779297,90.17730331420898,0.5044140625,0.509296875,0.49953125,axial progenitor,intermediate mesoderm (duct-associated),splanchnic mesoderm,facial branchiomotor neuron

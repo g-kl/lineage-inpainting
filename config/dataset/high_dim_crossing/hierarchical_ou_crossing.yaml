@@ -1,0 +1,32 @@
+# High-dimensional crossing dataset: hierarchical-OU dynamics in which the
+# second-stage attractors of the two first-stage branches cross (attractors_2).
+# The 1-D latent is embedded into R^{proj_dim} along a fixed random direction
+# with variance-normalized noise (see datasets.synthetic.RandomProjector).
+_target_: datasets.hierarchical_ou.HierarchicalOUDataset
+
+n_generations: 9
+split_gen: 5
+gap: 2
+sigma: 0.1
+theta: 2.0
+branch_interval: 1.0
+steps_per_interval: 100
+obs_times: [5.0, 6.0, 7.0, 8.0, 9.0]
+seed: 0
+
+n_trees: 40
+
+attractors_1: [-1.0, 1.0]
+# YAML keys must be strings here; the dataset wrapper coerces them back
+# to floats before handing them to HierarchicalOUModifier.
+attractors_2:
+  "-1.0": [-1.5, 0.5]
+  "1.0":  [-0.5, 1.5]
+
+# High-dimensional embedding. proj_dim is the ambient dimension (override at
+# runtime to sweep, e.g. dataset.proj_dim=10/50/200). proj_noise is the
+# dimension-invariant total noise level (||eps||); the per-coordinate std is
+# proj_noise/sqrt(proj_dim) so the projected variance stays constant across D.
+proj_dim: 50
+proj_seed: 0
+proj_noise: 0.1

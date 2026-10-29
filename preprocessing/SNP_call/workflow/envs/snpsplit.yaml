@@ -1,0 +1,7 @@
+name: snpsplit
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - samtools=1.7
+  - snpsplit=0.3.4

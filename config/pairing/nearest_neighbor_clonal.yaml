@@ -1,0 +1,5 @@
+_target_: pairings.pairing.NearestNeighborPairing
+time_tolerance: null
+min_snap_time: null
+snap_window: 1            # own + adjacent bins, matches eval coupling
+clonal_reference: true    # pair only against clonally-tracked cells (lineage data)

@@ -1,0 +1,9 @@
+# Variant of nearest_neighbor_clonal.yaml with `stop_grad: true` -- detaches
+# the pool-side states before the snap so no splitter-loss gradient reaches
+# the pooler, only the marginal/aligner does.
+_target_: pairings.pairing.NearestNeighborPairing
+time_tolerance: null
+min_snap_time: null
+snap_window: 1
+clonal_reference: true
+stop_grad: true

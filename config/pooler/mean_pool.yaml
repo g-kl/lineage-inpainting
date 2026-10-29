@@ -1,0 +1,4 @@
+_target_: poolers.mean_pool.MeanPool
+
+dim: 50
+max_children: 4

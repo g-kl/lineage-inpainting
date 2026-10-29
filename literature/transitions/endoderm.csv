@@ -1,0 +1,10 @@
+source_type,target_type,confidence,reference
+gut,foregut,high,"Spence et al. (2011) Dev Dyn 240(3):501-520 doi:10.1002/dvdy.22540"
+gut,midgut,high,"Spence et al. (2011) Dev Dyn 240(3):501-520 doi:10.1002/dvdy.22540"
+gut,hindgut,high,"Spence et al. (2011) Dev Dyn 240(3):501-520 doi:10.1002/dvdy.22540"
+foregut,hepatoblast,high,"Zhao & Duncan (2005) Hepatology 41:956-967 doi:10.1002/hep.20691"
+foregut,pharyngeal endoderm,high,"Graham (2003) Dev Dyn 228:219-245 doi:10.1002/dvdy.10368"
+foregut,enteroendocrine progenitor,medium,"Li et al. (2014) Dev Cell 29(5):533-548 doi:10.1016/j.devcel.2014.04.032"
+midgut,enteroendocrine progenitor,medium,"Jenny et al. (2002) EMBO J 21(21):5812-5820 doi:10.1093/emboj/cdf567"
+hindgut,enteroendocrine progenitor,medium,"Jenny et al. (2002) EMBO J 21(21):5812-5820 doi:10.1093/emboj/cdf567"
+parietal endoderm,gut,low,"Kwon et al. (2008) Dev Cell 15(4):509-520 doi:10.1016/j.devcel.2008.07.017"

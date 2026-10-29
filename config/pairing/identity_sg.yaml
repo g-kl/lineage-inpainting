@@ -1,0 +1,5 @@
+# Identity pairing with the pool->split gradient cut. The splitter loss does
+# not flow back to the pooler at all (the pooler is then trained solely
+# by whatever aligner head consumes its outputs).
+_target_: pairings.pairing.IdentityPairing
+stop_grad: true

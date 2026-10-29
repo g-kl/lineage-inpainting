@@ -1,0 +1,140 @@
+cell_subtype,true_cell_type,n_cells,frac_ambiguous,top_confused_cell_type,top_confused_frac
+axial progenitor,axial progenitor,9629,0.26202097829473464,spinal cord (sacral),0.05556132516356839
+primitive streak,primitive streak,306,0.16339869281045752,epiblast,0.0915032679738562
+epiblast,epiblast,635,0.14960629921259844,rostral ectoderm,0.06141732283464567
+perineural endothelial cell,endothelial cell,2738,0.07523739956172389,sclerotome,0.01095690284879474
+rostral ectoderm,rostral ectoderm,914,0.07439824945295405,epiblast,0.022975929978118162
+spinal cord (sacral),spinal cord (sacral),8080,0.07363861386138613,spinal cord (lumbar),0.05173267326732673
+nascent mesoderm,nascent mesoderm,745,0.04697986577181208,extraembryonic mesoderm,0.020134228187919462
+spinal cord,spinal cord,2990,0.044481605351170565,spinal cord (thoracic),0.025418060200668897
+intermediate mesoderm,intermediate mesoderm,2828,0.027934936350777935,presomitic mesoderm,0.08415841584158416
+presomitic mesoderm,presomitic mesoderm,29011,0.027748095549963808,axial progenitor,0.017062493536934266
+surface ectoderm (posterior),surface ectoderm,2239,0.02456453774006253,epidermal progenitor,0.1272889682894149
+pharyngeal endoderm,pharyngeal endoderm,13027,0.0231058570660935,foregut,0.018653565671298073
+hindgut,hindgut,7896,0.017983789260385005,midgut,0.02077001013171226
+primordial germ cell,primordial germ cell,638,0.017241379310344827,surface ectoderm,0.003134796238244514
+spinal cord (lumbar),spinal cord (lumbar),22368,0.010863733905579398,spinal cord (thoracic),0.06647889842632332
+gut,gut,909,0.009900990099009901,pharyngeal endoderm,0.05500550055005501
+notochord,notochord,3730,0.0096514745308311,definative endoderm,0.0013404825737265416
+surface ectoderm (anterior),surface ectoderm,4613,0.007370474745285064,pre-placodal ectoderm,0.024062432256665944
+trigeminal sensory neuron,trigeminal sensory neuron,6382,0.0070510811657787525,trigeminal placode,0.0031338138514572234
+roof plate (anterior),roof plate,6251,0.007038873780195169,hindbrain (r1),0.020956646936490162
+extraembryonic ectoderm,extraembryonic ectoderm,342,0.005847953216374269,definative endoderm,0.005847953216374269
+epidermal progenitor (anterior),epidermal progenitor,15192,0.004870984728804634,trigeminal placode,0.009939441811479726
+megakaryocyte,megakaryocyte,838,0.00477326968973747,macrophage,0.0059665871121718375
+epibranchial placode,epibranchial placode,10154,0.004530234390388024,epidermal progenitor,0.02383297222769352
+definitive endoderm,definative endoderm,235,0.00425531914893617,visceral endoderm,0.02553191489361702
+frontonasal mesenchyme,frontonasal mesenchyme,46044,0.004126487707410303,cranial neural crest,0.003974459212926766
+spinal cord (thoracic),spinal cord (thoracic),73676,0.004099028177425484,spinal cord (cervical),0.06566588848471687
+nascent somite,nascent somite,14575,0.003704974271012007,presomitic mesoderm,0.05111492281303602
+pharyngeal arch mesenchyme (p1-p2),pharyngeal arch mesenchyme,47281,0.003553224339586726,frontonasal mesenchyme,0.002791819123960999
+visceral endoderm,visceral endoderm,1408,0.0035511363636363635,midgut,0.004971590909090909
+periocular mesoderm,periocular mesoderm,3950,0.0035443037974683543,head paraxial mesoderm,0.0389873417721519
+pharyngeal arch mesenchyme (p3-p4),pharyngeal arch mesenchyme,14867,0.0033631532925270735,cranial neural crest,0.002690522634021659
+somatic mesoderm (caudal),somatic mesoderm,5895,0.0030534351145038168,intermediate mesoderm,0.05106022052586938
+amniotic ectoderm,amniotic ectoderm,8753,0.0027419170570090255,epidermal progenitor,0.005712327202102137
+yolk sac endothelial cell,endothelial cell,370,0.002702702702702703,endothelial progenitor,0.03513513513513514
+head paraxial mesoderm,head paraxial mesoderm,67937,0.0026936720785433565,sclerotome,0.018414118963157044
+vagal neural crest,vagal neural crest,9686,0.0025810448069378484,trunk neural crest,0.22837084451786083
+paraventricular hypothalamic neuron,hypothalamic neuron,419,0.002386634844868735,hypothalamus,0.01909307875894988
+cranial neural crest (anterior),cranial neural crest,17118,0.0020446313821708144,pharyngeal arch mesenchyme,0.009755812594929315
+hindlimb field,hindlimb field,13444,0.002008330853912526,somatic mesoderm,0.09587920261826838
+mesothelium,mesothelium,506,0.001976284584980237,somatic mesoderm,0.17193675889328064
+midgut,midgut,6490,0.0018489984591679508,hindgut,0.022033898305084745
+hepatoblast,hepatoblast,2715,0.001841620626151013,foregut,0.009944751381215469
+otic placode,otic placode,6037,0.0018220970680801723,epibranchial placode,0.006625807520291536
+trigeminal ganglion neuron,trigeminal ganglion neuron,2806,0.001781895937277263,cranial neural crest,0.014255167498218105
+dorsal root ganglion progenitor,dorsal root ganglion progenitor,1703,0.0017615971814445098,trunk neural crest,0.13740458015267176
+lateral plate mesoderm,lateral plate mesoderm,1137,0.001759014951627089,splanchnic mesoderm,0.06684256816182937
+anterior mesoderm,anterior mesoderm,2387,0.0016757436112274822,head paraxial mesoderm,0.12023460410557185
+intermediate mesoderm (nephrogenic),intermediate mesoderm,12036,0.001661681621801263,somatic mesoderm,0.019109338650714524
+splanchnic mesoderm (gastric),splanchnic mesoderm,6254,0.001439078989446754,somatic mesoderm,0.003038055644387592
+splanchnic mesoderm,splanchnic mesoderm,21932,0.001413459784789349,somatic mesoderm,0.06483676819259529
+splanchnic mesoderm (intestinal),splanchnic mesoderm,15739,0.0013978016392401042,somatic mesoderm,0.023190799923756274
+epidermal progenitor (posterior),epidermal progenitor,37614,0.0013558781304833308,surface ectoderm,0.0046791088424522785
+splanchnic mesoderm (septum transversum),splanchnic mesoderm,6642,0.0013550135501355014,somatic mesoderm,0.051339957844022885
+somatic mesoderm,somatic mesoderm,20447,0.0012226732527999217,splanchnic mesoderm,0.057612363671932315
+sacral neural crest,sacral neural crest,3567,0.00112139052425007,trunk neural crest,0.11550322399775721
+dorsal root ganglion neuron,dorsal root ganglion neuron,2691,0.0011148272017837235,dorsal root ganglion progenitor,0.027127461910070604
+extraembryonic mesoderm,extraembryonic mesoderm,19061,0.0011017260374586854,somatic mesoderm,0.021195110434919468
+respiratory progenitor,foregut,2762,0.0010861694424330196,pharyngeal endoderm,0.05503258508327299
+somatic mesoderm (anterior),somatic mesoderm,25459,0.001060528693192977,forelimb field,0.025570525158097334
+epibranchial sensory neuron,epibranchial sensory neuron,2832,0.001059322033898305,epibranchial placode,0.012711864406779662
+trunk neural crest,trunk neural crest,11543,0.0010395910941696266,vagal neural crest,0.0745040284154899
+cranial neural crest (posterior),cranial neural crest,8108,0.000986679822397632,vagal neural crest,0.0402072027627035
+intermediate mesoderm (caudal),intermediate mesoderm,6095,0.0009844134536505333,somatic mesoderm,0.07776866283839212
+pancreatic-biliary progenitor,foregut,1067,0.0009372071227741331,midgut,0.041237113402061855
+hindbrain,hindbrain,1111,0.0009000900090009,spinal cord,0.05310531053105311
+epicardium,epicardium,2415,0.0008281573498964803,second heart field,0.02443064182194617
+second heart field,second heart field,6098,0.0008199409642505739,somatic mesoderm,0.03263365037717284
+pharyngeal mesoderm,pharyngeal mesoderm,17528,0.0007987220447284345,somatic mesoderm,0.01614559561843907
+olfactory placode,olfactory placode,12536,0.000797702616464582,epidermal progenitor,0.011965539246968731
+splanchnic mesoderm (cardiopulmonary),splanchnic mesoderm,10083,0.0007934146583358127,second heart field,0.01338887235941684
+allantois,allantois,15703,0.0007641851875437814,splanchnic mesoderm,0.04457746927338725
+left ventricle,first heart field,4564,0.0006573181419807187,second heart field,0.031113058720420684
+forelimb field,forelimb field,44643,0.0006495979212866519,somatic mesoderm,0.01836794122258809
+somatic mesoderm (posterior),somatic mesoderm,79645,0.0006403415154749199,hindlimb field,0.015405863519367192
+thyroid progenitor,foregut,1594,0.0006273525721455458,epidermal progenitor,0.0006273525721455458
+endothelial progenitor,endothelial progenitor,6729,0.0005944419676029127,endothelial cell,0.04770396790013375
+autonomic progenitor,autonomic progenitor,5462,0.0005492493592090809,vagal neural crest,0.032771878432808495
+dermomyotome,dermomyotome,92662,0.00044246832574302306,sclerotome,0.017806652133560683
+sclerotome,sclerotome,129101,0.00043376890961340344,dermomyotome,0.012803928706981356
+lens placode,lens placode,4716,0.00042408821034775233,trigeminal placode,0.033927056827820185
+pre-placodal ectoderm,pre-placodal ectoderm,4938,0.0004050222762251924,olfactory placode,0.024706358849736737
+eye field,eye field,20140,0.00039721946375372393,telencephalon,0.033118172790466735
+macrophage,macrophage,2647,0.00037778617302606723,arterial endothelial cell,0.004533434076312807
+hypaxial myogenic progenitor,hypaxial myogenic progenitor,8458,0.00035469378103570584,dermomyotome,0.026010877275951763
+telencephalon (dorsal),telencephalon,65188,0.0002761244400809965,eye field,0.00713321470209241
+endocardial cell,endocardial cell,3688,0.00027114967462039046,endothelial cell,0.004609544468546637
+atria,second heart field,11452,0.00026196297589940623,splanchnic mesoderm,0.029863779252532308
+juxtacardiac field,juxtacardiac field,4274,0.0002339728591483388,somatic mesoderm,0.06083294337856809
+trigeminal placode,trigeminal placode,13443,0.0002231644722160232,epidermal progenitor,0.017034888045823104
+apical ectodermal ridge,surface ectoderm,4521,0.00022119000221190003,epidermal progenitor,0.0789648307896483
+hypothalamus,hypothalamus,18557,0.0002155520827719998,telencephalon,0.03077005981570297
+diencephalon,diencephalon,23872,0.00020945040214477212,telencephalon,0.034140415549597854
+floor plate (anterior),floor plate,15215,0.00019717384160368058,hindbrain (r2-r4),0.026815642458100558
+midbrain,midbrain,42185,0.0001896408676069693,hindbrain (isthmic organizer),0.008012326656394453
+hindbrain (r5-r8),hindbrain (r5-r8),51649,0.00017425313171600613,spinal cord (cervical),0.14211310964394278
+telencephalon (ventral),telencephalon,7277,0.0001374192661811186,hypothalamus,0.004122577985433558
+hindbrain (r2-r4),hindbrain (r2-r4),51467,0.00011657955583189228,hindbrain (r5-r8),0.02356850020401422
+dl2-6 interneuron,spinal cord interneuron,9759,0.00010246951531919253,spinal cord (cervical),0.014858079721282919
+floor plate (posterior),floor plate,19520,0.00010245901639344262,spinal cord (thoracic),0.0125
+primitive erythrocyte,primitive erythrocyte,55563,8.998794161582348e-05,first heart field,7.199035329265878e-05
+spinal cord (cervical),spinal cord (cervical),74734,8.028474322262959e-05,spinal cord (thoracic),0.0908689485374796
+hindbrain (r1),hindbrain (r1),33182,6.027364233620638e-05,hindbrain (isthmic organizer),0.016123199324935205
+V1 interneuron,spinal cord interneuron,3993,0.0,spinal cord (cervical),0.014024542950162784
+V0 interneuron,spinal cord interneuron,5078,0.0,hindbrain (r2-r4),0.00866482867270579
+allantoic endothelial progenitor,allantoic endothelial progenitor,5805,0.0,allantois,0.006373815676141257
+V2 interneuron,spinal cord interneuron,2190,0.0,midbrain neuron,0.0013698630136986301
+arterial endothelial cell,arterial endothelial cell,2304,0.0,endothelial cell,0.047309027777777776
+V3 interneuron,spinal cord interneuron,616,0.0,floor plate,0.05357142857142857
+intermediate mesoderm (duct-associated),intermediate mesoderm,1314,0.0,,0.0
+hypothalamic neuron,hypothalamic neuron,1718,0.0,telencephalon,0.03259604190919674
+hematoendothelial progenitor,hematoendothelial progenitor,302,0.0,endothelial progenitor,0.08278145695364239
+foregut,foregut,1716,0.0,pharyngeal endoderm,0.07692307692307693
+hindbrain (isthmic organizer),hindbrain (isthmic organizer),9304,0.0,hindbrain (r1),0.08039552880481514
+autonomic neuron,autonomic neuron,622,0.0,autonomic progenitor,0.2459807073954984
+endothelial cell,endothelial cell,17724,0.0,endothelial progenitor,0.011566237869555405
+dl1 interneuron,spinal cord interneuron,3216,0.0,hindbrain (r2-r4),0.01896766169154229
+cranial neural crest,cranial neural crest,201,0.0,midbrain,0.029850746268656716
+cranial visceral neuron,cranial motor neuron,3174,0.0,floor plate,0.006931316950220542
+enteroendocrine progenitor,enteroendocrine progenitor,114,0.0,midgut,0.008771929824561403
+facial branchiomotor neuron,cranial motor neuron,973,0.0,hindbrain (r5-r8),0.010277492291880781
+first heart field,first heart field,1457,0.0,second heart field,0.10569663692518874
+forebrain,forebrain,1722,0.0,telencephalon,0.07897793263646923
+midbrain neuron,midbrain neuron,7392,0.0,midbrain,0.025703463203463204
+midbrain GABAergic neuron,midbrain neuron,230,0.0,midbrain,0.07391304347826087
+myotome,myotome,5029,0.0,dermomyotome,0.0650228673692583
+oculomotor neuron,cranial motor neuron,182,0.0,floor plate,0.03296703296703297
+olfactory sensory neuron,olfactory sensory neuron,814,0.0,olfactory placode,0.0171990171990172
+otic sensory neuron,otic sensory neuron,2170,0.0,trigeminal ganglion neuron,0.00783410138248848
+parietal endoderm,parietal endoderm,37,0.0,,0.0
+pharyngeal arch mesenchyme,pharyngeal arch mesenchyme,4740,0.0,cranial neural crest,0.029957805907172997
+right ventricle,second heart field,2628,0.0,first heart field,0.028538812785388126
+roof plate (posterior),roof plate,5368,0.0,spinal cord (thoracic),0.05011177347242921
+somatic motor neuron,somatic motor neuron,12734,0.0,spinal cord (cervical),0.008795351028741951
+splanchnic endothelial cell,endothelial cell,697,0.0,arterial endothelial cell,0.03012912482065997
+spinal cord interneuron progenitor,spinal cord interneuron,4740,0.0,spinal cord (cervical),0.016666666666666666
+subthalamic nucleus neuron,hypothalamic neuron,1395,0.0,floor plate,0.023655913978494623
+trigeminal branchiomotor neuron,cranial motor neuron,1346,0.0,hindbrain (r5-r8),0.017830609212481426
+trochlear neuron,cranial motor neuron,277,0.0,hypothalamic neuron,0.021660649819494584

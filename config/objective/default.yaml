@@ -1,0 +1,16 @@
+# Objective / loss configuration.
+#
+# This group is HASHED (it is NOT in hash.py's DEFAULT_EXCLUDE_KEYS, unlike
+# `training`). These knobs define the trained artifact, so changing any of
+# them forks the output directory. Run-control knobs (n_steps, device, ...)
+# stay under `training` and do not affect identity.
+split_weight: 1
+align_weight: 1
+# Stage-2 alignment: reuse the aligner on the splitter's one-step predictions,
+# not just the pooled states. 0 disables it (no extra forward cost). Set >0 to
+# enable; pair with split_weight=0 to train the splitter via the aligner alone.
+split_align_weight: 0
+# Split-loss scope: false = every non-anchor node of the tree (what every
+# released model trained); true = the observed layer only. A per-pairing list
+# ([true, false]) applies one value per arm of an alternating pairing.
+leaf_reconstruction_only: false

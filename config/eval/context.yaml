@@ -1,0 +1,24 @@
+# @package eval
+# Fate-bias context-scaling benchmark. Symmetric with crossing: one model
+# (--experiment, e.g. synbench_fb_unshared_vpsde_idnn_leaf) evaluated across
+# the sigma dataset axis.
+# Each model is loaded by config hash; sigma is read from cfg.dataset.sigma.
+#   python synthetic_evals/eval.py --eval context --experiment synbench_fb_unshared_vpsde_idnn_leaf
+kind: context
+datasets: [fate_bias_sig02, fate_bias_sig04, fate_bias_sig06, fate_bias_sig08]
+labels: [0.2, 0.4, 0.6, 0.8]
+n_eval_seeds: 5
+n_baseline_samples: 2
+n_flow_steps: 32       # bridge SDE discretization for the pool-split splitter
+eval_step: 10000       # checkpoint step to load per sigma (null = latest on disk).
+                       # pinned so every sigma is scored at the same training budget.
+baselines:
+  fm: true
+  genot: true
+  fm_steps: 5000
+  genot_steps: 5000
+  force_retrain: false
+  moscot: true           # Waddington-OT + moslin (no training; one OT solve per pair)
+  moscot_epsilon: 0.01   # entropic regularization
+  moslin_alpha: 0.5      # moslin fused weight: 0 = expression only, 1 = lineage only
+  moscot_max_cells: 2048 # cap per timepoint; the transport plan is dense

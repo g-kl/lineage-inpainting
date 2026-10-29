@@ -1,0 +1,86 @@
+# @package _global_
+#
+# High-dimensional crossing synthetic analogue of the main grid combo
+# bridge_unshared_vpsde_idnn_leaf_nosa_std_none: unshared pool+split, a
+# DeltaTreeFormer pooler (one-step) with a VPSDE BridgeDeltaTreeFlow splitter,
+# id/nn-alternating pairing, full-tree split objective, no split aligner, null
+# extender, slice marginal+CA+path aligner. Sized for the high_dim_crossing
+# datasets; model dim tracks dataset.proj_dim, so a single dataset.proj_dim=D
+# override sweeps the ambient dimension.
+
+defaults:
+  - override /dataset: high_dim_crossing/hierarchical_ou_crossing
+  - override /pooler: delta_tree_former
+  - override /splitter: bridge_delta_tree_flow_vpsde
+  - override /aligner: slice_marginal_ca_path
+  - override /pairing: id_nn_alt
+  - override /extender: none
+  - override /record_sampler: paired_offset_sample_offset
+  - override /training: default
+
+experiment_name: crossing_high_dim_unshared_vpsde_idnn_leaf
+share_pool_split: false
+
+# One-step DeltaTreeFormer pooler (no flow steps / bridge).
+pooler:
+  dim: ${dataset.proj_dim}
+  d_internal: 128
+  n_heads: 4
+  n_layers: 4
+  hidden: 512
+  attention_bias_init: 0.0
+  slice_direction: up
+
+# VPSDE BridgeDeltaTreeFlow splitter (bridge geometry inherited from the config).
+splitter:
+  dim: ${dataset.proj_dim}
+  d_internal: 128
+  n_heads: 4
+  n_layers: 4
+  hidden: 512
+  n_flow_steps: 8
+  attention_bias_init: 0.0
+  slice_direction: up
+
+# Slice lineage features re-gridded to the crossing obs_times.
+aligner:
+  features:
+    - _target_: aligners.stratified.TimeMarginalFeature
+      n_reference_samples: 4096
+      skip_observed: true
+      time_tolerance: null
+      clonal_reference: false
+
+    - _target_: aligners.slice.PathFeature
+      time_bins: [5.0, 6.0, 7.0, 8.0, 9.0]
+      n_samples: 16
+      representation: states
+
+    - _target_: aligners.slice.CommonAncestorFeature
+      time_bins: [5.0, 6.0, 7.0, 8.0, 9.0]
+      n_descendants: 2
+      n_samples: 16
+      representation: states
+
+# No split aligner.
+objective:
+  split_align_weight: 0
+  leaf_reconstruction_only: false
+
+optimizer:
+  lr: 1e-3
+  warmup_steps: 500
+  weight_decay: 0.01
+  adam_eps: 1e-6
+
+training:
+  n_steps: 20000
+  log_every: 200
+  save_every: 10000
+  n_trees: 64
+  n_records: 2
+
+record_sampler:
+  target_gap: 1.0
+  tol: 0.1
+  sample_time_gap: 1.0

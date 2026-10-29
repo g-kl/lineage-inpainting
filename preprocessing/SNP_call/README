@@ -1,0 +1,34 @@
+# SNP-call from Crispant embryos
+
+Written by Yusuke Kijima.
+
+This pipeline produces the per-read SNP tables used to demultiplex embryos from single-cell RNA-seq data under the CAST/B6 heterozygous sperm-injected strategy. It aligns reads with STAR, splits them by parental genome with SNPsplit, keeps unambiguous alignments, and assigns reads to SNPs and cell barcodes.
+
+## Outputs
+
+For each `{Condition}` and `{sample}` (e.g. `Tbx5`, `GEM1`):
+
+- `results/snp/{Condition}_{sample}_allSNP.tsv`: one row per (read, SNP), with genome of origin.
+- `results/barcodes/{Condition}_{sample}_read.BC.tsv`: read name to 10x cell barcode, restricted to barcodes that pass the 10x pipeline.
+
+Embryo assignment itself is done downstream by [analysis/pipelines/tbx5/demultiplexing/](../../analysis/pipelines/tbx5/demultiplexing/). Gzip both tables and place them in `../data/2608_crispants/demultiplexing/demux_fullsnp/` (relative to the repo root) before running it:
+
+```bash
+gzip -c results/snp/Tbx5_GEM1_allSNP.tsv > <data>/2608_crispants/demultiplexing/demux_fullsnp/Tbx5_GEM1_allSNP.tsv.gz
+gzip -c results/barcodes/Tbx5_GEM1_read.BC.tsv > <data>/2608_crispants/demultiplexing/demux_fullsnp/Tbx5_GEM1_read.BC.tsv.gz
+# likewise for GEM2
+```
+
+## How to run
+
+The pipeline takes FASTQ files and 10x CellRanger-processed data as input. All information should be written in the `config.yaml` file.
+
+Simply run:
+
+```bash
+snakemake --rerun-incomplete --use-conda --snakefile /path/to/workflow/Snakefile --configfile /path/to/config.yaml --conda-prefix /path/to/.snakemake/conda --cores 8
+```
+
+The result files are created in the same directory as the `config.yaml` file. You can specify a custom directory path for the `--conda-prefix` argument; it takes time for the first run as it creates its own conda environment under the specified path, but it runs faster for the later runs by providing the same prefix path.
+
+The rules use `/scratch/local` as a temporary directory for `sort` and STAR; change it to a local scratch path on your system.

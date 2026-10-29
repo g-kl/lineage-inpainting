@@ -1,0 +1,17 @@
+_target_: splitters.bridge_tree_flow.BridgeDeltaTreeFlow
+
+# Same residual-frame ambient BridgeDeltaTreeFlow as bridge_delta_tree_flow, but
+# the flow geometry is a variance-preserving SDE (stochastic reverse-SDE sampler)
+# instead of the deterministic CFM ODE. The model still predicts x_1 directly.
+dim: 50
+d_internal: 128
+n_heads: 4
+n_layers: 4
+hidden: 512
+n_flow_steps: 8
+attention_bias_init: 0.0
+slice_direction: up
+bridge:
+  _target_: splitters.bridges.vpsde.DiffusionBridge
+  beta_min: 0.1
+  beta_max: 20.0

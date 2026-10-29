@@ -1,0 +1,12 @@
+source_type,target_type,confidence,reference
+cranial neural crest,frontonasal mesenchyme,high,"Trainor (2005) Semin Cell Dev Biol 16:683-693 doi:10.1016/j.semcdb.2005.06.005"
+cranial neural crest,pharyngeal arch mesenchyme,high,"Trainor (2005) Semin Cell Dev Biol 16:683-693 doi:10.1016/j.semcdb.2005.06.005"
+cranial neural crest,trigeminal ganglion neuron,medium,"Serbedzija et al. (1992) Development 116:297-307; D'Amico-Martel & Noden (1983) Am J Anat 166:495-468"
+vagal neural crest,pharyngeal arch mesenchyme,high,"Hutchins et al. (2018) Dev Biol 444 Suppl 1:S36-S48 doi:10.1016/j.ydbio.2018.07.004"
+vagal neural crest,autonomic progenitor,medium,"Anderson et al. (2006) in Neural Crest Induction and Differentiation (ed. Saint-Jeannet) Springer; Durbec et al. (1996) Development 122:349-358"
+trunk neural crest,dorsal root ganglion progenitor,high,"Serbedzija et al. (1990) Development 108:605-612; Le Douarin & Kalcheim (1999) The Neural Crest 2nd ed. Cambridge Univ Press"
+trunk neural crest,autonomic progenitor,high,"Le Douarin & Kalcheim (1999) The Neural Crest 2nd ed. Cambridge Univ Press; Anderson (1993) Annu Rev Neurosci 16:129-158"
+trunk neural crest,dorsal root ganglion neuron,low,"Ma et al. (1999) Genes Dev 13:1717-1728 doi:10.1101/gad.13.13.1717 — NOTE: first DRG neurons appear E9.5 but most born E10.5+"
+sacral neural crest,autonomic progenitor,low,"Anderson et al. (2006) Cell Tissue Res 323:11-25 doi:10.1007/s00441-005-0047-6; Wang et al. (2011) J Neurosci 31:9466-9476"
+dorsal root ganglion progenitor,dorsal root ganglion neuron,medium,"Ma et al. (1999) Genes Dev 13:1717-1728 doi:10.1101/gad.13.13.1717; Marmigere & Ernfors (2007) Nat Rev Neurosci 8:114-127"
+autonomic progenitor,autonomic neuron,low,"Huber et al. (2009) Dev Biol 332:1-19 doi:10.1016/j.ydbio.2009.05.544; Anderson (1993) Annu Rev Neurosci 16:129-158"

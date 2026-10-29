@@ -1,0 +1,1085 @@
+{
+ "time_bins": [
+  7.5,
+  8.0,
+  8.5,
+  9.0
+ ],
+ "inner_bin": 7.5,
+ "cells": [
+  {
+   "cell_type": "spinal cord (cervical)",
+   "lineage": "neural ectoderm",
+   "germ_layer": "ectoderm",
+   "abundance": 74734,
+   "tfs": {
+    "8.0": [
+     "Pou2f2"
+    ],
+    "8.5": [
+     "Hoxb3",
+     "Hoxb4",
+     "Irx1"
+    ],
+    "9.0": [
+     "Hoxa4",
+     "Hes5",
+     "Neurog2"
+    ]
+   }
+  },
+  {
+   "cell_type": "spinal cord (thoracic)",
+   "lineage": "neural ectoderm",
+   "germ_layer": "ectoderm",
+   "abundance": 73676,
+   "tfs": {
+    "8.0": [
+     "Hoxb8",
+     "Hoxb9"
+    ],
+    "8.5": [
+     "Hoxc6",
+     "Plagl1",
+     "Hoxb9"
+    ],
+    "9.0": [
+     "Hes5",
+     "Hoxc9",
+     "Hoxc6"
+    ]
+   }
+  },
+  {
+   "cell_type": "telencephalon",
+   "lineage": "neural ectoderm",
+   "germ_layer": "ectoderm",
+   "abundance": 72465,
+   "tfs": {
+    "8.0": [
+     "Hesx1",
+     "Lhx5",
+     "Lhx2"
+    ],
+    "8.5": [
+     "Lhx2",
+     "Fezf1",
+     "Emx2"
+    ],
+    "9.0": [
+     "Nr2e1",
+     "Zic1",
+     "Dmrta1"
+    ]
+   }
+  },
+  {
+   "cell_type": "hindbrain (r5-r8)",
+   "lineage": "neural ectoderm",
+   "germ_layer": "ectoderm",
+   "abundance": 51649,
+   "tfs": {
+    "8.0": [
+     "Olig3"
+    ],
+    "8.5": [
+     "Hoxb3",
+     "Hoxa2",
+     "Rfx4"
+    ],
+    "9.0": [
+     "Hes5",
+     "Zfp536",
+     "Hoxb4"
+    ]
+   }
+  },
+  {
+   "cell_type": "hindbrain (r2-r4)",
+   "lineage": "neural ectoderm",
+   "germ_layer": "ectoderm",
+   "abundance": 51467,
+   "tfs": {
+    "8.0": [
+     "Olig3",
+     "Phox2a"
+    ],
+    "8.5": [
+     "Hoxa2",
+     "Fez1",
+     "Hes5"
+    ],
+    "9.0": [
+     "Hes5"
+    ]
+   }
+  },
+  {
+   "cell_type": "midbrain",
+   "lineage": "neural ectoderm",
+   "germ_layer": "ectoderm",
+   "abundance": 42185,
+   "tfs": {
+    "8.0": [
+     "Rfx4",
+     "Pax2",
+     "Lmx1b"
+    ],
+    "8.5": [
+     "Pax5",
+     "En2",
+     "Otx1"
+    ],
+    "9.0": []
+   }
+  },
+  {
+   "cell_type": "floor plate",
+   "lineage": "neural ectoderm",
+   "germ_layer": "ectoderm",
+   "abundance": 34735,
+   "tfs": {
+    "8.0": [
+     "Sox21",
+     "Lmx1b",
+     "Foxa2"
+    ],
+    "8.5": [
+     "Nkx2-9",
+     "Foxa1",
+     "Nkx2-2"
+    ],
+    "9.0": []
+   }
+  },
+  {
+   "cell_type": "hindbrain (r1)",
+   "lineage": "neural ectoderm",
+   "germ_layer": "ectoderm",
+   "abundance": 33182,
+   "tfs": {
+    "8.0": [
+     "Phox2a"
+    ],
+    "8.5": [
+     "Pax5",
+     "Irx2",
+     "Sox21"
+    ],
+    "9.0": []
+   }
+  },
+  {
+   "cell_type": "spinal cord interneuron",
+   "lineage": "neural ectoderm",
+   "germ_layer": "ectoderm",
+   "abundance": 29592,
+   "tfs": {
+    "8.0": [
+     "Sp4",
+     "Sall1",
+     "Pou2f2"
+    ],
+    "8.5": [
+     "Hoxa2",
+     "Hoxb3",
+     "Arid5b"
+    ],
+    "9.0": [
+     "Neurod1",
+     "Ebf2",
+     "Fhl2"
+    ]
+   }
+  },
+  {
+   "cell_type": "diencephalon",
+   "lineage": "neural ectoderm",
+   "germ_layer": "ectoderm",
+   "abundance": 23872,
+   "tfs": {
+    "8.0": [
+     "Lhx5",
+     "Pax2",
+     "Hesx1"
+    ],
+    "8.5": [
+     "Otx1",
+     "Emx2",
+     "Barhl2"
+    ],
+    "9.0": [
+     "Zic1",
+     "Zfp536",
+     "Nr2e1"
+    ]
+   }
+  },
+  {
+   "cell_type": "spinal cord (lumbar)",
+   "lineage": "neural ectoderm",
+   "germ_layer": "ectoderm",
+   "abundance": 22368,
+   "tfs": {
+    "8.0": [
+     "Hoxb8",
+     "Hoxb9",
+     "Hoxb4"
+    ],
+    "8.5": [
+     "Hoxa9",
+     "Hoxc9",
+     "Hoxc6"
+    ],
+    "9.0": [
+     "Hoxa10",
+     "Hoxc10",
+     "Hoxd9"
+    ]
+   }
+  },
+  {
+   "cell_type": "eye field",
+   "lineage": "neural ectoderm",
+   "germ_layer": "ectoderm",
+   "abundance": 20140,
+   "tfs": {
+    "8.0": [
+     "Hesx1",
+     "Zbtb16",
+     "Rax"
+    ],
+    "8.5": [
+     "Fezf1",
+     "Creb5",
+     "Lhx2"
+    ],
+    "9.0": [
+     "Six6",
+     "Nr2e1",
+     "Mitf"
+    ]
+   }
+  },
+  {
+   "cell_type": "hypothalamus",
+   "lineage": "neural ectoderm",
+   "germ_layer": "ectoderm",
+   "abundance": 18557,
+   "tfs": {
+    "8.0": [
+     "Hesx1",
+     "Lhx5",
+     "Six3"
+    ],
+    "8.5": [
+     "Nkx2-1",
+     "Foxd1",
+     "Lhx2"
+    ],
+    "9.0": [
+     "Nr2e1",
+     "Dbx1",
+     "Nkx2-4"
+    ]
+   }
+  },
+  {
+   "cell_type": "somatic motor neuron",
+   "lineage": "neural ectoderm",
+   "germ_layer": "ectoderm",
+   "abundance": 12734,
+   "tfs": {
+    "8.0": [
+     "Sox2",
+     "Bcl11a",
+     "Phox2a"
+    ],
+    "8.5": [
+     "Hes5",
+     "Ncoa1",
+     "Hoxb4"
+    ],
+    "9.0": [
+     "Ebf2",
+     "Neurog1",
+     "Neurod1"
+    ]
+   }
+  },
+  {
+   "cell_type": "roof plate",
+   "lineage": "neural ectoderm",
+   "germ_layer": "ectoderm",
+   "abundance": 11619,
+   "tfs": {
+    "8.0": [
+     "Olig3",
+     "Runx1",
+     "Rxrg"
+    ],
+    "8.5": [
+     "Irx2",
+     "Lmx1a",
+     "Rfx4"
+    ],
+    "9.0": [
+     "Zic1",
+     "Zic4"
+    ]
+   }
+  },
+  {
+   "cell_type": "hindbrain (isthmic organizer)",
+   "lineage": "neural ectoderm",
+   "germ_layer": "ectoderm",
+   "abundance": 9304,
+   "tfs": {
+    "8.0": [
+     "Rfx4",
+     "Pax2",
+     "Fgf15"
+    ],
+    "8.5": [
+     "Glis3",
+     "En2",
+     "Pax8"
+    ],
+    "9.0": [
+     "Junb",
+     "Zic1"
+    ]
+   }
+  },
+  {
+   "cell_type": "midbrain neuron",
+   "lineage": "neural ectoderm",
+   "germ_layer": "ectoderm",
+   "abundance": 7622,
+   "tfs": {
+    "8.0": [
+     "Pax2",
+     "Rfx4",
+     "Ncald"
+    ],
+    "8.5": [
+     "Pax5",
+     "En2",
+     "Nuak2"
+    ],
+    "9.0": [
+     "Ebf2",
+     "Insm1",
+     "Ascl1"
+    ]
+   }
+  },
+  {
+   "cell_type": "pharyngeal arch mesenchyme",
+   "lineage": "neural crest",
+   "germ_layer": "ectoderm",
+   "abundance": 66888,
+   "tfs": {
+    "8.0": [
+     "Pax2",
+     "Sox9",
+     "Tfap2a"
+    ],
+    "8.5": [
+     "Dlx2",
+     "Tfap2b",
+     "Mef2c"
+    ],
+    "9.0": [
+     "Foxd2",
+     "Fli1",
+     "Zbtb16"
+    ]
+   }
+  },
+  {
+   "cell_type": "frontonasal mesenchyme",
+   "lineage": "neural crest",
+   "germ_layer": "ectoderm",
+   "abundance": 46044,
+   "tfs": {
+    "8.0": [
+     "Pax2",
+     "Rfx4",
+     "Lmx1b"
+    ],
+    "8.5": [
+     "Sox10",
+     "Tfap2b",
+     "Mef2c"
+    ],
+    "9.0": [
+     "Alx4",
+     "Alx3",
+     "Bnc2"
+    ]
+   }
+  },
+  {
+   "cell_type": "cranial neural crest",
+   "lineage": "neural crest",
+   "germ_layer": "ectoderm",
+   "abundance": 25427,
+   "tfs": {
+    "8.0": [
+     "Tfap2a",
+     "Pax7"
+    ],
+    "8.5": [
+     "Tfap2b",
+     "Sox10",
+     "Mef2c"
+    ],
+    "9.0": [
+     "Foxd2",
+     "Ebf2"
+    ]
+   }
+  },
+  {
+   "cell_type": "trunk neural crest",
+   "lineage": "neural crest",
+   "germ_layer": "ectoderm",
+   "abundance": 11543,
+   "tfs": {
+    "8.0": [
+     "Hoxa5",
+     "Rxrg",
+     "Tlx2"
+    ],
+    "8.5": [
+     "Hoxb3",
+     "Foxd3",
+     "Msx3"
+    ],
+    "9.0": [
+     "Tfap2b",
+     "Foxd3",
+     "Hoxb9"
+    ]
+   }
+  },
+  {
+   "cell_type": "vagal neural crest",
+   "lineage": "neural crest",
+   "germ_layer": "ectoderm",
+   "abundance": 9686,
+   "tfs": {
+    "8.0": [
+     "Hoxa1",
+     "Olig3",
+     "Gbx1"
+    ],
+    "8.5": [
+     "Tfap2b",
+     "Sox10",
+     "Foxd3"
+    ],
+    "9.0": [
+     "Alx1",
+     "Meox1",
+     "Hoxb3"
+    ]
+   }
+  },
+  {
+   "cell_type": "epidermal progenitor",
+   "lineage": "surface ectoderm",
+   "germ_layer": "ectoderm",
+   "abundance": 52806,
+   "tfs": {
+    "8.0": [
+     "Irx2",
+     "Gata3",
+     "Prdm1"
+    ],
+    "8.5": [
+     "Trp63",
+     "Hoxc5",
+     "Hoxc6"
+    ],
+    "9.0": [
+     "Tfap2b"
+    ]
+   }
+  },
+  {
+   "cell_type": "trigeminal placode",
+   "lineage": "surface ectoderm",
+   "germ_layer": "ectoderm",
+   "abundance": 13443,
+   "tfs": {
+    "8.0": [
+     "Lmx1b",
+     "Tfap2a",
+     "Dlx6"
+    ],
+    "8.5": [
+     "Tfap2b",
+     "Foxi2",
+     "Irx2"
+    ],
+    "9.0": [
+     "Egr4",
+     "Jdp2",
+     "Egr3"
+    ]
+   }
+  },
+  {
+   "cell_type": "olfactory placode",
+   "lineage": "surface ectoderm",
+   "germ_layer": "ectoderm",
+   "abundance": 12536,
+   "tfs": {
+    "8.0": [
+     "Lmx1b",
+     "Hesx1",
+     "Dlx6"
+    ],
+    "8.5": [
+     "Foxg1",
+     "Six6",
+     "Dmrt3"
+    ],
+    "9.0": [
+     "Nr2e1",
+     "Mylk",
+     "Sox21"
+    ]
+   }
+  },
+  {
+   "cell_type": "surface ectoderm",
+   "lineage": "surface ectoderm",
+   "germ_layer": "ectoderm",
+   "abundance": 11373,
+   "tfs": {
+    "8.0": [
+     "Prdm1",
+     "Etv5",
+     "Foxc1"
+    ],
+    "8.5": [
+     "Trp63",
+     "Pitx1",
+     "Foxi2"
+    ],
+    "9.0": []
+   }
+  },
+  {
+   "cell_type": "epibranchial placode",
+   "lineage": "surface ectoderm",
+   "germ_layer": "ectoderm",
+   "abundance": 10154,
+   "tfs": {
+    "8.0": [
+     "Prdm1",
+     "Irx2",
+     "Irx1"
+    ],
+    "8.5": [
+     "Foxi2",
+     "Tbx1",
+     "Isl1"
+    ],
+    "9.0": [
+     "Jazf1"
+    ]
+   }
+  },
+  {
+   "cell_type": "amniotic ectoderm",
+   "lineage": "extraembryonic ectoderm",
+   "germ_layer": "ectoderm",
+   "abundance": 8753,
+   "tfs": {
+    "8.0": [
+     "Bnc1",
+     "Elf1",
+     "Wt1"
+    ],
+    "8.5": [
+     "Irx1",
+     "Junb",
+     "Ovol2"
+    ],
+    "9.0": []
+   }
+  },
+  {
+   "cell_type": "sclerotome",
+   "lineage": "paraxial mesoderm",
+   "germ_layer": "mesoderm",
+   "abundance": 129101,
+   "tfs": {
+    "8.0": [
+     "Meox1",
+     "Foxd1",
+     "Tcf15"
+    ],
+    "8.5": [
+     "Meox2",
+     "Nkx3-1",
+     "Foxd2"
+    ],
+    "9.0": [
+     "Zfp9"
+    ]
+   }
+  },
+  {
+   "cell_type": "dermomyotome",
+   "lineage": "paraxial mesoderm",
+   "germ_layer": "mesoderm",
+   "abundance": 92662,
+   "tfs": {
+    "8.0": [
+     "Meox1",
+     "Tcf15",
+     "Sim1"
+    ],
+    "8.5": [
+     "Foxd1",
+     "Meox2",
+     "Hoxa5"
+    ],
+    "9.0": [
+     "Hoxb9",
+     "Hoxc6",
+     "Hoxb8"
+    ]
+   }
+  },
+  {
+   "cell_type": "head paraxial mesoderm",
+   "lineage": "paraxial mesoderm",
+   "germ_layer": "mesoderm",
+   "abundance": 67937,
+   "tfs": {
+    "8.0": [
+     "Foxd1",
+     "Ebf2",
+     "Tbx1"
+    ],
+    "8.5": [
+     "Bnc2",
+     "Foxd2",
+     "Twist2"
+    ],
+    "9.0": []
+   }
+  },
+  {
+   "cell_type": "presomitic mesoderm",
+   "lineage": "paraxial mesoderm",
+   "germ_layer": "mesoderm",
+   "abundance": 29011,
+   "tfs": {
+    "8.0": [
+     "Hoxb8",
+     "Hoxb4",
+     "Hoxa4"
+    ],
+    "8.5": [
+     "Hoxa9",
+     "Hoxc6",
+     "Hoxc9"
+    ],
+    "9.0": [
+     "Ebf2",
+     "Hoxc10",
+     "Hoxa10"
+    ]
+   }
+  },
+  {
+   "cell_type": "nascent somite",
+   "lineage": "paraxial mesoderm",
+   "germ_layer": "mesoderm",
+   "abundance": 14575,
+   "tfs": {
+    "8.0": [
+     "Meox1",
+     "Hoxa2",
+     "Foxd1"
+    ],
+    "8.5": [
+     "Tcf15"
+    ],
+    "9.0": [
+     "Hoxa9",
+     "Hoxc9"
+    ]
+   }
+  },
+  {
+   "cell_type": "hypaxial myogenic progenitor",
+   "lineage": "paraxial mesoderm",
+   "germ_layer": "mesoderm",
+   "abundance": 8458,
+   "tfs": {
+    "8.0": [
+     "Tbx18",
+     "Foxd2",
+     "Fli1"
+    ],
+    "8.5": [
+     "Ncor2",
+     "Rorb",
+     "Myb"
+    ],
+    "9.0": [
+     "Myf5",
+     "Hoxb1",
+     "Hoxd1"
+    ]
+   }
+  },
+  {
+   "cell_type": "somatic mesoderm",
+   "lineage": "lateral plate mesoderm",
+   "germ_layer": "mesoderm",
+   "abundance": 131446,
+   "tfs": {
+    "8.0": [
+     "Lhx1",
+     "Hand2",
+     "Osr1"
+    ],
+    "8.5": [
+     "Alx1",
+     "Prrx1",
+     "Bnc2"
+    ],
+    "9.0": [
+     "Hoxc5"
+    ]
+   }
+  },
+  {
+   "cell_type": "splanchnic mesoderm",
+   "lineage": "lateral plate mesoderm",
+   "germ_layer": "mesoderm",
+   "abundance": 60650,
+   "tfs": {
+    "8.0": [
+     "Hand2",
+     "Bnc2",
+     "Pitx1"
+    ],
+    "8.5": [
+     "Osr1",
+     "Gata3",
+     "Hlx"
+    ],
+    "9.0": []
+   }
+  },
+  {
+   "cell_type": "second heart field",
+   "lineage": "lateral plate mesoderm",
+   "germ_layer": "mesoderm",
+   "abundance": 20178,
+   "tfs": {
+    "8.0": [
+     "Nkx2-5",
+     "Esrrg",
+     "Mef2c"
+    ],
+    "8.5": [
+     "Pitx2",
+     "Ppargc1a",
+     "Tbx5"
+    ],
+    "9.0": []
+   }
+  },
+  {
+   "cell_type": "endothelial cell",
+   "lineage": "mesoderm",
+   "germ_layer": "mesoderm",
+   "abundance": 21529,
+   "tfs": {
+    "8.0": [
+     "Elk3",
+     "Erg",
+     "Mef2c"
+    ],
+    "8.5": [
+     "Atf3",
+     "Creb5",
+     "Sox18"
+    ],
+    "9.0": [
+     "Tfec"
+    ]
+   }
+  },
+  {
+   "cell_type": "pharyngeal mesoderm",
+   "lineage": "mesoderm",
+   "germ_layer": "mesoderm",
+   "abundance": 17528,
+   "tfs": {
+    "8.0": [
+     "Ebf2",
+     "Nkx2-5",
+     "Prdm1"
+    ],
+    "8.5": [
+     "Scx",
+     "Tlx1",
+     "Snai2"
+    ],
+    "9.0": []
+   }
+  },
+  {
+   "cell_type": "endothelial progenitor",
+   "lineage": "mesoderm",
+   "germ_layer": "mesoderm",
+   "abundance": 6729,
+   "tfs": {
+    "8.0": [
+     "Mef2c",
+     "Erg",
+     "Zfp69"
+    ],
+    "8.5": [
+     "Sox18"
+    ],
+    "9.0": [
+     "Sox18"
+    ]
+   }
+  },
+  {
+   "cell_type": "extraembryonic mesoderm",
+   "lineage": "extraembryonic mesoderm",
+   "germ_layer": "mesoderm",
+   "abundance": 19061,
+   "tfs": {
+    "8.0": [
+     "Bnc2",
+     "Pitx1"
+    ],
+    "8.5": [],
+    "9.0": []
+   }
+  },
+  {
+   "cell_type": "allantois",
+   "lineage": "extraembryonic mesoderm",
+   "germ_layer": "mesoderm",
+   "abundance": 15703,
+   "tfs": {
+    "8.0": [
+     "Tbx4",
+     "Pitx1",
+     "Hoxa9"
+    ],
+    "8.5": [
+     "Prrx1",
+     "Pitx2",
+     "Hoxb7"
+    ],
+    "9.0": []
+   }
+  },
+  {
+   "cell_type": "intermediate mesoderm",
+   "lineage": "intermediate mesoderm",
+   "germ_layer": "mesoderm",
+   "abundance": 22273,
+   "tfs": {
+    "8.0": [
+     "Hoxa5",
+     "Osr1",
+     "Lhx1"
+    ],
+    "8.5": [
+     "Pax2",
+     "Pax8",
+     "Gata3"
+    ],
+    "9.0": []
+   }
+  },
+  {
+   "cell_type": "pharyngeal endoderm",
+   "lineage": "endoderm",
+   "germ_layer": "endoderm",
+   "abundance": 13027,
+   "tfs": {
+    "8.0": [
+     "Nkx2-3",
+     "Sox2",
+     "Pax9"
+    ],
+    "8.5": [
+     "Prrx2",
+     "Pax8",
+     "Ets2"
+    ],
+    "9.0": []
+   }
+  },
+  {
+   "cell_type": "hindgut",
+   "lineage": "endoderm",
+   "germ_layer": "endoderm",
+   "abundance": 7896,
+   "tfs": {
+    "8.0": [
+     "Hoxb9",
+     "Hoxb8",
+     "Hoxa7"
+    ],
+    "8.5": [
+     "Hoxc6",
+     "Hoxb7",
+     "Hoxc9"
+    ],
+    "9.0": [
+     "Foxd1",
+     "Hoxa5",
+     "Hoxc5"
+    ]
+   }
+  },
+  {
+   "cell_type": "foregut",
+   "lineage": "endoderm",
+   "germ_layer": "endoderm",
+   "abundance": 7139,
+   "tfs": {
+    "8.0": [
+     "Hhex",
+     "Rufy3",
+     "Smad6"
+    ],
+    "8.5": [
+     "Onecut2",
+     "Nr5a2",
+     "Rfx6"
+    ],
+    "9.0": [
+     "Onecut1",
+     "Zfp811",
+     "Nr5a2"
+    ]
+   }
+  },
+  {
+   "cell_type": "midgut",
+   "lineage": "endoderm",
+   "germ_layer": "endoderm",
+   "abundance": 6490,
+   "tfs": {
+    "8.0": [
+     "Cdx2",
+     "Foxa1",
+     "Pitx2"
+    ],
+    "8.5": [
+     "Nr5a2",
+     "Satb1",
+     "Rfx6"
+    ],
+    "9.0": [
+     "Pitx1",
+     "Nr5a2"
+    ]
+   }
+  },
+  {
+   "cell_type": "axial progenitor",
+   "lineage": "epiblast",
+   "germ_layer": "epiblast",
+   "abundance": 9629,
+   "tfs": {
+    "8.0": [
+     "Hoxb8",
+     "Hoxb9",
+     "Hoxb4"
+    ],
+    "8.5": [
+     "Hoxa9",
+     "Hoxc9",
+     "Hoxc6"
+    ],
+    "9.0": [
+     "Hoxa10",
+     "Hoxc10",
+     "Hoxd10"
+    ]
+   }
+  }
+ ],
+ "lineage_tfs": {
+  "neural ectoderm": [
+   "Myb",
+   "Lhx5",
+   "Sox2"
+  ],
+  "neural crest": [
+   "Dlx6",
+   "Olig1",
+   "Insm1"
+  ],
+  "surface ectoderm": [
+   "Olig1",
+   "Dlx6",
+   "Tfap2a"
+  ],
+  "extraembryonic ectoderm": [
+   "Foxi2",
+   "Tfcp2l1",
+   "Jdp2"
+  ],
+  "paraxial mesoderm": [
+   "Foxc1",
+   "Alx1",
+   "Lhx1"
+  ],
+  "lateral plate mesoderm": [
+   "Hand2",
+   "Isl1",
+   "Tbx20"
+  ],
+  "mesoderm": [
+   "Sox7",
+   "Tal1",
+   "Tbx1"
+  ],
+  "extraembryonic mesoderm": [
+   "Hlx",
+   "Hoxb8",
+   "Zfp9"
+  ],
+  "intermediate mesoderm": [
+   "Hoxa2",
+   "Mixl1",
+   "Tbx6"
+  ],
+  "endoderm": [
+   "Foxa2",
+   "Foxa1",
+   "Prdm1"
+  ],
+  "epiblast": [
+   "Hoxa2",
+   "Mixl1",
+   "Cdx1"
+  ]
+ },
+ "rank_by": "penetrance",
+ "top_per_bin": 3
+}

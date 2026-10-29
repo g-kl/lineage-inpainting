@@ -1,0 +1,29 @@
+## This is an example config file. Copy this file to other directory and modify accordingly every time you run the workflow.
+
+## Info
+## Condition and Samples are mandatory; outputs are named {Condition}_{sample}.
+## DO NOT use underscores for Samples!
+Condition: "Tbx5"
+Samples: ["GEM1", "GEM2"]
+
+## data
+# Barcodes: path to each sample's cell-barcode list (plain or gzipped; any '-N' suffix is stripped)
+# Do not use symbolic link here! Do not use underscores for the sample names!
+Barcodes:
+  GEM1: /<PROJECT_ROOT>/<CELLRANGER_RUN_DIR>/demux_rerun/Tbx5/Tbx5_1.cb.txt
+  GEM2: /<PROJECT_ROOT>/<CELLRANGER_RUN_DIR>/demux_rerun/Tbx5/Tbx5_2.cb.txt
+
+# FASTQ_prefix: path prefix; reads are <prefix>*_R1_001.fastq.gz and <prefix>*_R2_001.fastq.gz
+# Do not use underscores for the sample names!
+FASTQ_prefix:
+  GEM1: /<PROJECT_ROOT>/<RUN_DIR>/fastq_symlink/Tbx5/mpimg_L35067_AM-RNA-1585
+  GEM2: /<PROJECT_ROOT>/<RUN_DIR>/fastq_symlink/Tbx5/mpimg_L35068_AM-RNA-1586
+
+## previously generated files
+# genome_dir is the directory where the previously generated genome indices are stored (needed for alignment)
+genome_dir_path: /<REFERENCE_ROOT>/STAR
+
+# the following three files are needed while preparing the alignment for deconvolution
+all_snps_path: /<REFERENCE_ROOT>/all_SNPs_CAST_EiJ_GRCm38.txt.gz
+all_snps_bed_path: /<REFERENCE_ROOT>/all_SNPs_CAST_EiJ_GRCm38.bed
+SNPwhite_list_path: /<REFERENCE_ROOT>/WT_SNP_white.list.tsv

@@ -1,0 +1,5 @@
+_target_: poolers.nn_snapped_mean_pool.NNSnappedMeanPool
+
+dim: 50
+max_children: 128
+snap_leaves: False

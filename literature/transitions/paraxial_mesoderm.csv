@@ -1,0 +1,7 @@
+source_type,target_type,confidence,reference
+presomitic mesoderm,nascent somite,high,"Pourquié, 2001, Annual Review of Cell and Developmental Biology, doi:10.1146/annurev.cellbio.17.1.311; Aulehla & Pourquié, 2010, Current Opinion in Cell Biology, doi:10.1016/j.ceb.2010.09.002"
+nascent somite,dermomyotome,high,"Christ & Ordahl, 1995, Anatomy and Embryology, doi:10.1007/BF00187291; Brent & Tabin, 2002, Current Opinion in Genetics & Development, doi:10.1016/S0959-437X(02)00339-8"
+nascent somite,sclerotome,high,"Christ & Ordahl, 1995, Anatomy and Embryology, doi:10.1007/BF00187291; Brent & Tabin, 2002, Current Opinion in Genetics & Development, doi:10.1016/S0959-437X(02)00339-8"
+dermomyotome,myotome,high,"Kahane et al., 2013, Development, doi:10.1242/dev.092726; Buckingham, 2006, Current Opinion in Genetics & Development, doi:10.1016/j.gde.2006.08.008"
+dermomyotome,hypaxial myogenic progenitor,high,"Birchmeier & Brohmann, 2000, Current Opinion in Cell Biology, doi:10.1016/S0955-0674(00)00103-5; Vasyutina & Birchmeier, 2006, Development, doi:10.1242/dev.02585"
+head paraxial mesoderm,periocular mesoderm,medium,"Trainor & Tam, 1995, Development, PMID:7671820; Gage et al., 2005, Developmental Biology, doi:10.1016/j.ydbio.2005.01.034"

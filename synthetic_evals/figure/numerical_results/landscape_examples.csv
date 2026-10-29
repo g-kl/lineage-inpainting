@@ -1,0 +1,4 @@
+category,pA,pB,anchorA,A2,B1,anchorB,ot_coherence,fels_coherence
+ot,hindbrain (r5-r8),pharyngeal arch mesenchyme,spinal cord (cervical),hindbrain (r1),pharyngeal arch mesenchyme (p1-p2),frontonasal mesenchyme,0.7897567749023438,2.6112771034240723
+fels,hindbrain (r5-r8),pharyngeal arch mesenchyme,spinal cord (cervical),frontonasal mesenchyme,pharyngeal arch mesenchyme (p1-p2),hindbrain (r1),-0.789757251739502,0.8242487907409668
+path,hindbrain (r5-r8),pharyngeal arch mesenchyme,pharyngeal arch mesenchyme (p1-p2),frontonasal mesenchyme,spinal cord (cervical),hindbrain (r1),-2.4527411460876465,-2.6112771034240723

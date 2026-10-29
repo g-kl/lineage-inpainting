@@ -1,0 +1,10 @@
+# Per-read SNP and read-to-barcode tables, the inputs to
+# analysis/pipelines/tbx5/demultiplexing/.
+rule all:
+    input:
+        expand("results/snp/{Condition}_{sample}_allSNP.tsv", Condition=config["Condition"], sample=config["Samples"]),
+        expand("results/barcodes/{Condition}_{sample}_read.BC.tsv", Condition=config["Condition"], sample=config["Samples"]),
+
+
+include: "rules/SNP_based_cell_to_embryo_assignment.smk"
+include: "rules/prepare_alignment_for_deconvolution.smk"

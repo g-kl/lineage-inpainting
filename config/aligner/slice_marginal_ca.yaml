@@ -1,0 +1,25 @@
+# Slice-feature aligner: reference-bank marginal + common-ancestor triples on
+# the shared slice primitive (aligners/slice.py).
+#   - marginal: matches predicted cells against the real-cell bank.
+#   - common-ancestor: every ordered grid-time pair (t_i < t_j), ancestor at
+#     t_i and two descendants at t_j (one stratum per pair). Exchangeability
+#     is implicit in the without-replacement draws.
+_target_: aligners.stratified.StratifiedFeatureAligner
+
+loss: "energy"
+p: 2
+min_samples: 8
+
+features:
+  - _target_: aligners.stratified.TimeMarginalFeature
+    n_reference_samples: 4096
+    skip_observed: true
+    time_tolerance: null
+
+  - _target_: aligners.slice.CommonAncestorFeature
+    time_bins: [7.0, 7.5, 8.0, 8.5, 9.0, 9.5, 10.0]
+    n_descendants: 2
+    n_samples: 16
+    representation: states
+
+weights: [1.0, 1.0]

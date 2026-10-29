@@ -1,0 +1,797 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Completion and remasking from observed lineage records (deeper trees)</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/dreampulse/computer-modern-web-font@master/font/Serif/cmun-serif.css">
+  <script>
+    window.MathJax = {
+      tex: { inlineMath: [['\\(', '\\)'], ['$', '$']] },
+      svg: { fontCache: 'global' },
+      startup: { typeset: true }
+    };
+  </script>
+  <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+  <style>
+    :root {
+      --ink: #202124;
+      --muted: #667085;
+      --paper: #ffffff;
+      --panel: #ffffff;
+      --edge: #d7dce4;
+      --line: #7f8794;
+      --axis: #a8b0bd;
+      --purple: #6b5ed8;
+      --purple-soft: #f1edff;
+      --gold: #d89436;
+      --gold-soft: #fff1df;
+      --cm: 'Computer Modern Serif', 'CMU Serif', 'Latin Modern Roman', serif;
+    }
+
+    html,
+    body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: var(--cm);
+    }
+
+    .figure {
+      position: relative;
+      width: 1536px;
+      height: 1446px;
+      overflow: hidden;
+      background: #ffffff;
+    }
+
+    svg.canvas {
+      position: absolute;
+      inset: 0;
+      width: 1536px;
+      height: 1446px;
+    }
+
+    .math {
+      position: absolute;
+      color: var(--ink);
+      font-size: 30px;
+      line-height: 1;
+      pointer-events: none;
+    }
+
+    .math.small { font-size: 26px; }
+    .math.tiny { font-size: 19px; color: var(--muted); }
+    .math.muted { color: var(--muted); }
+
+    .math mjx-container svg {
+      position: static;
+      width: auto;
+      height: auto;
+    }
+
+    .panel {
+      fill: var(--panel);
+      stroke: #d9dde5;
+      stroke-width: 1.5;
+    }
+
+    .group-box {
+      fill: #f6f7fa;
+      stroke: #c3c9d3;
+      stroke-width: 1.7;
+    }
+
+    .raw-group {
+      fill: #ffffff;
+      stroke: #d9dde5;
+      stroke-width: 1.25;
+    }
+
+    .axis-line {
+      stroke: var(--axis);
+      stroke-width: 2.5;
+      fill: none;
+    }
+
+    .tick {
+      stroke: var(--axis);
+      stroke-width: 2.2;
+    }
+
+    .edge {
+      fill: none;
+      stroke: var(--edge);
+      stroke-width: 4.1;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    .edge.light {
+      stroke-width: 3.2;
+      opacity: 0.55;
+    }
+
+    .node {
+      stroke-width: 2.2;
+    }
+
+    .node.ghost {
+      fill: #e7e2f7;
+      stroke: #b4aae0;
+      stroke-width: 3.1;
+    }
+
+    .node.masked {
+      stroke-width: 2.4;
+      opacity: 1;
+    }
+
+    .slice-node {
+      stroke-width: 2.4;
+    }
+
+    .brace {
+      fill: none;
+      stroke: #8a93a3;
+      stroke-width: 2.0;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    .slice-ring {
+      fill: none;
+      stroke: var(--purple);
+      stroke-width: 4.2;
+      opacity: 0.95;
+    }
+
+    .time-band {
+      opacity: 1;
+    }
+
+    .time-band.obs { fill: var(--gold-soft); }
+    .time-band.mask { fill: var(--purple-soft); }
+
+    .time-line {
+      stroke: var(--line);
+      stroke-width: 1.9;
+      stroke-dasharray: 7 12;
+      opacity: 1;
+    }
+
+    .panel-title {
+      fill: #2b303a;
+      font-family: var(--cm);
+    }
+
+    .leader {
+      fill: none;
+      stroke: #aeb6c2;
+      stroke-width: 1.5;
+      stroke-linecap: round;
+      stroke-dasharray: 1.5 4.5;
+    }
+
+    .bracket {
+      fill: none;
+      stroke: #8a93a3;
+      stroke-width: 2.0;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    .bar-empty {
+      fill: #eef1f5;
+      stroke: #dfe4ec;
+      stroke-width: 0.8;
+    }
+  </style>
+</head>
+<body>
+<div class="figure" id="figure">
+  <svg class="canvas" viewBox="132 16 1536 1446" role="img" aria-label="Measured cell states and barcodes are assembled into lineage records, completed, and remasked at an observed generation for sampler training">
+    <defs>
+      <marker id="axis-arrow" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto">
+        <path d="M 0 0 L 9 4.5 L 0 9 z" fill="#a8b0bd"></path>
+      </marker>
+    </defs>
+
+    <rect data-background="true" x="0" y="0" width="1800" height="1480" fill="#ffffff"></rect>
+
+    <!-- data + preprocessing group box wraps the measured + reconstructed panels -->
+    <rect class="group-box" x="140" y="24" width="1520" height="664" rx="14"></rect>
+    <!-- model-fitting group box wraps the impute + sampler panels -->
+    <rect class="group-box" x="140" y="712" width="1520" height="742" rx="14"></rect>
+
+    <rect class="panel" x="160" y="80" width="1480" height="242" rx="10"></rect>
+    <rect class="panel" x="160" y="346" width="1480" height="320" rx="10"></rect>
+    <rect class="panel" x="160" y="768" width="1480" height="320" rx="10"></rect>
+    <rect class="panel" x="160" y="1112" width="1480" height="320" rx="10"></rect>
+
+    <text class="panel-title" x="164" y="62" font-size="37" fill="#2b303a" font-family="'Computer Modern Serif', 'CMU Serif', serif" text-anchor="start">data and preprocessing</text>
+    <text class="panel-title" x="164" y="750" font-size="37" fill="#2b303a" font-family="'Computer Modern Serif', 'CMU Serif', serif" text-anchor="start">model fitting</text>
+
+    <text class="panel-title" x="184" y="116" font-size="32" fill="#444b57" font-family="'Computer Modern Serif', 'CMU Serif', serif" text-anchor="start">measured states and lineage barcodes</text>
+    <text class="panel-title" x="184" y="382" font-size="32" fill="#444b57" font-family="'Computer Modern Serif', 'CMU Serif', serif" text-anchor="start">reconstructed trees with states at leaves</text>
+    <text class="panel-title" x="184" y="804" font-size="32" fill="#444b57" font-family="'Computer Modern Serif', 'CMU Serif', serif" text-anchor="start">impute internal node states</text>
+    <text class="panel-title" x="184" y="1148" font-size="32" fill="#444b57" font-family="'Computer Modern Serif', 'CMU Serif', serif" text-anchor="start">fit conditional sampler (generate masked states)</text>
+
+    <g id="raw-stage"></g>
+    <g id="observed-stage"></g>
+    <g id="imputed-stage"></g>
+    <g id="remasked-stage"></g>
+  </svg>
+</div>
+
+<script>
+(() => {
+  const NS = 'http://www.w3.org/2000/svg';
+  const svg = document.querySelector('svg.canvas');
+  const NSITES = 5;
+  const FONT = "'Computer Modern Serif', 'CMU Serif', serif";
+  const editPalette = ['#3f6fb0', '#e8a33d', '#c64b6e', '#4aa07a', '#8a63c0', '#d8c33f'];
+
+  // Reference time ticks. Real lineage trees are not ultrametric, so node
+  // y-positions only sit *near* these ticks (small per-node jitter), and the
+  // three embryos are observed at three different times: embryo 1 at t1,
+  // embryo 2 at t2, embryo 3 at t3. Every internal node still divides into
+  // >= 2 children (no out-degree-1), but the trees are not perfectly binary:
+  // some lineages divide twice between ticks, others divide once and persist.
+  const TICK = { t0: 50, t1: 120, t2: 188, t3: 256 };
+
+  // Conditioning generation: a horizontal cut between t1 and t2. The frontier it
+  // selects is the t1 generation of every tree -- the earliest observed time
+  // (embryo 1's leaves), matching the sampler whose sample time is
+  // min(leaf_time) over the chosen records. For embryos 2 and 3, t1 is an
+  // imputed internal generation with reconstructed leaves below it.
+  const GENERATION_Y = (TICK.t1 + TICK.t2) / 2;
+
+  // Shared leaf-state palette: warm (left subtrees) -> cool/green (right
+  // subtrees), so Felsenstein averaging gives consistent internal-node colours.
+  const trees = [
+    {
+      // embryo 1 (observed at t1): the right lineage does not divide as quickly,
+      // giving 3 cells. These leaves are the conditioning frontier.
+      seed: 11,
+      nodes: [
+        { id: 'e1_0', parent: null, x: 465, y: 50, kind: 'hidden', color: '#6b5ed8' },
+        { id: 'e1_A', parent: 'e1_0', x: 414, y: 88, kind: 'hidden', color: '#8d80e6' },
+        { id: 'e1_L1', parent: 'e1_A', x: 380, y: 120, kind: 'observed', color: '#d2603f' },
+        { id: 'e1_L2', parent: 'e1_A', x: 448, y: 120, kind: 'observed', color: '#df8f3a' },
+        { id: 'e1_L3', parent: 'e1_0', x: 516, y: 120, kind: 'observed', color: '#3f9a80' }
+      ]
+    },
+    {
+      // embryo 2 (observed at t2): the 3 cells alive at t1 each divide once more,
+      // giving 6 cells at t2. t1 cells are imputed, t2 leaves are reconstructed.
+      seed: 29,
+      nodes: [
+        { id: 'e2_0', parent: null, x: 905, y: 50, kind: 'hidden', color: '#6b5ed8' },
+        { id: 'e2_E1', parent: 'e2_0', x: 806, y: 88, kind: 'hidden', color: '#8d80e6' },
+        { id: 'e2_C1', parent: 'e2_E1', x: 745, y: 118, kind: 'hidden', color: '#a69bf0' },
+        { id: 'e2_C2', parent: 'e2_E1', x: 867, y: 124, kind: 'hidden', color: '#a69bf0' },
+        { id: 'e2_E2', parent: 'e2_0', x: 1005, y: 120, kind: 'hidden', color: '#9c91ec' },
+        { id: 'e2_L1', parent: 'e2_C1', x: 715, y: 188, kind: 'observed', color: '#d2603f' },
+        { id: 'e2_L2', parent: 'e2_C1', x: 775, y: 188, kind: 'observed', color: '#e0903a' },
+        { id: 'e2_L3', parent: 'e2_C2', x: 837, y: 188, kind: 'observed', color: '#dcab3c' },
+        { id: 'e2_L4', parent: 'e2_C2', x: 897, y: 188, kind: 'observed', color: '#7ba34c' },
+        { id: 'e2_L5', parent: 'e2_E2', x: 975, y: 188, kind: 'observed', color: '#3f9a6f' },
+        { id: 'e2_L6', parent: 'e2_E2', x: 1035, y: 188, kind: 'observed', color: '#2f8fa4' }
+      ]
+    },
+    {
+      // embryo 3 (observed at t3): the left lineages divide once (long branches
+      // straight to t3), the right lineage divides again at t2, giving 8 cells
+      // at t3. t1 cells are the imputed frontier, t3 leaves are reconstructed.
+      seed: 53,
+      nodes: [
+        { id: 'e3_0', parent: null, x: 1365, y: 50, kind: 'hidden', color: '#6b5ed8' },
+        { id: 'e3_E1', parent: 'e3_0', x: 1253, y: 88, kind: 'hidden', color: '#8d80e6' },
+        { id: 'e3_G1', parent: 'e3_E1', x: 1197, y: 124, kind: 'hidden', color: '#a69bf0' },
+        { id: 'e3_G2', parent: 'e3_E1', x: 1309, y: 119, kind: 'hidden', color: '#a69bf0' },
+        { id: 'e3_H', parent: 'e3_0', x: 1477, y: 121, kind: 'hidden', color: '#9c91ec' },
+        { id: 'e3_H1', parent: 'e3_H', x: 1421, y: 186, kind: 'hidden', color: '#b3a9f3' },
+        { id: 'e3_H2', parent: 'e3_H', x: 1533, y: 190, kind: 'hidden', color: '#b3a9f3' },
+        { id: 'e3_L1', parent: 'e3_G1', x: 1169, y: 256, kind: 'observed', color: '#ca4d33' },
+        { id: 'e3_L2', parent: 'e3_G1', x: 1225, y: 256, kind: 'observed', color: '#d76f3e' },
+        { id: 'e3_L3', parent: 'e3_G2', x: 1281, y: 256, kind: 'observed', color: '#e0973a' },
+        { id: 'e3_L4', parent: 'e3_G2', x: 1337, y: 256, kind: 'observed', color: '#d4ad3f' },
+        { id: 'e3_L5', parent: 'e3_H1', x: 1393, y: 256, kind: 'observed', color: '#6ba353' },
+        { id: 'e3_L6', parent: 'e3_H1', x: 1449, y: 256, kind: 'observed', color: '#3f9a6f' },
+        { id: 'e3_L7', parent: 'e3_H2', x: 1505, y: 256, kind: 'observed', color: '#2f9498' },
+        { id: 'e3_L8', parent: 'e3_H2', x: 1561, y: 256, kind: 'observed', color: '#327fa6' }
+      ]
+    }
+  ];
+
+  function el(tag, attrs = {}, parent = svg) {
+    const node = document.createElementNS(NS, tag);
+    for (const [key, value] of Object.entries(attrs)) {
+      node.setAttribute(key, value);
+    }
+    parent.appendChild(node);
+    return node;
+  }
+
+  function shifted(node, dx, dy) {
+    return { ...node, x: node.x + dx, y: node.y + dy };
+  }
+
+  function curve(a, b) {
+    const mid = (a.y + b.y) / 2;
+    return `M ${a.x} ${a.y} C ${a.x} ${mid}, ${b.x} ${mid}, ${b.x} ${b.y}`;
+  }
+
+  function mulberry32(seed) {
+    return function rng() {
+      let t = seed += 0x6D2B79F5;
+      t = Math.imul(t ^ (t >>> 15), t | 1);
+      t ^= t + Math.imul(t ^ (t >>> 7), t | 61);
+      return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+    };
+  }
+
+  function hexToRgb(hex) {
+    const raw = hex.replace('#', '');
+    return [
+      parseInt(raw.slice(0, 2), 16),
+      parseInt(raw.slice(2, 4), 16),
+      parseInt(raw.slice(4, 6), 16)
+    ];
+  }
+
+  function rgbToHex(rgb) {
+    return `#${rgb.map(v => Math.max(0, Math.min(255, Math.round(v))).toString(16).padStart(2, '0')).join('')}`;
+  }
+
+  function meanHex(colors) {
+    const total = colors.reduce((acc, color) => {
+      const rgb = hexToRgb(color);
+      return [acc[0] + rgb[0], acc[1] + rgb[1], acc[2] + rgb[2]];
+    }, [0, 0, 0]);
+    return rgbToHex(total.map(v => v / colors.length));
+  }
+
+  function amplifyHex(hex, factor = 1.28) {
+    const center = [142, 142, 142];
+    const rgb = hexToRgb(hex);
+    return rgbToHex(rgb.map((v, i) => center[i] + (v - center[i]) * factor));
+  }
+
+  // Blend a colour toward white by fraction t (t = 1 -> white).
+  function tint(hex, t) {
+    const rgb = hexToRgb(hex);
+    return rgbToHex(rgb.map(v => v + (255 - v) * t));
+  }
+
+  // A diagonal-hatch pattern in the node's own colour, used to mark imputed
+  // (inferred) internal states. Cached so each colour yields one pattern.
+  const hatchCache = new Map();
+  function hatchFill(color) {
+    if (hatchCache.has(color)) return hatchCache.get(color);
+    const defs = svg.querySelector('defs');
+    const id = `hatch-${color.replace('#', '')}`;
+    // Bolder, denser hatch so imputed internal states read clearly at the
+    // smaller node radius (and stay distinct from the hollow reconstructed nodes).
+    const w = 4.4;
+    const pat = el('pattern', {
+      id,
+      patternUnits: 'userSpaceOnUse',
+      width: w,
+      height: w,
+      patternTransform: 'rotate(45)'
+    }, defs);
+    el('rect', { x: 0, y: 0, width: w, height: w, fill: '#ffffff' }, pat);
+    el('line', { x1: 1.1, y1: 0, x2: 1.1, y2: w, stroke: color, 'stroke-width': 2.8 }, pat);
+    const ref = `url(#${id})`;
+    hatchCache.set(color, ref);
+    return ref;
+  }
+
+  // Horizontal curly brace over [xL, xR] with its end-points on the line y=yBody.
+  // dir = -1 -> over-brace (cusp points up, label above); dir = +1 -> under-brace.
+  function braceH(xL, xR, yBody, depth, dir) {
+    const xm = (xL + xR) / 2;
+    const q = Math.min(16, (xR - xL) * 0.16);
+    const yt = yBody + depth * dir;
+    const yc = yt + 7 * dir;
+    return `M ${xL} ${yBody}`
+      + ` Q ${xL} ${yt} ${xL + q} ${yt}`
+      + ` L ${xm - 6} ${yt}`
+      + ` Q ${xm} ${yt} ${xm} ${yc}`
+      + ` Q ${xm} ${yt} ${xm + 6} ${yt}`
+      + ` L ${xR - q} ${yt}`
+      + ` Q ${xR} ${yt} ${xR} ${yBody}`;
+  }
+
+  // Vertical curly brace over [yT, yB] with its end-points on the line x=xBody.
+  // dir = +1 -> cusp points right (label to the right); dir = -1 -> cusp left.
+  function braceV(yT, yB, xBody, depth, dir) {
+    const ym = (yT + yB) / 2;
+    const q = Math.min(16, (yB - yT) * 0.16);
+    const xt = xBody + depth * dir;
+    const xc = xt + 7 * dir;
+    return `M ${xBody} ${yT}`
+      + ` Q ${xt} ${yT} ${xt} ${yT + q}`
+      + ` L ${xt} ${ym - 6}`
+      + ` Q ${xt} ${ym} ${xc} ${ym}`
+      + ` Q ${xt} ${ym} ${xt} ${ym + 6}`
+      + ` L ${xt} ${yB - q}`
+      + ` Q ${xt} ${yB} ${xBody} ${yB}`;
+  }
+
+  function felsensteinColors(tree) {
+    const byId = new Map(tree.nodes.map(n => [n.id, n]));
+    const children = new Map(tree.nodes.map(n => [n.id, []]));
+    for (const n of tree.nodes) {
+      if (n.parent) children.get(n.parent).push(n.id);
+    }
+    const memo = new Map();
+
+    function colorFor(id) {
+      if (memo.has(id)) return memo.get(id);
+      const node = byId.get(id);
+      const childIds = children.get(id) || [];
+      const color = childIds.length === 0
+        ? node.color
+        : amplifyHex(meanHex(childIds.map(colorFor)));
+      memo.set(id, color);
+      return color;
+    }
+
+    for (const node of tree.nodes) colorFor(node.id);
+    return memo;
+  }
+
+  function buildBarcodes(tree) {
+    const rng = mulberry32(tree.seed);
+    const byId = new Map(tree.nodes.map(n => [n.id, n]));
+    const children = new Map(tree.nodes.map(n => [n.id, []]));
+    for (const n of tree.nodes) {
+      if (n.parent) children.get(n.parent).push(n.id);
+    }
+    for (const ids of children.values()) {
+      ids.sort((p, q) => byId.get(p).x - byId.get(q).x);
+    }
+
+    const edits = new Map();
+    const usedPairs = new Set();
+
+    function pickEdit(pathSites) {
+      for (let tries = 0; tries < 300; tries += 1) {
+        const site = Math.floor(rng() * NSITES);
+        if (pathSites.has(site)) continue;
+        const ci = Math.floor(rng() * editPalette.length);
+        const key = `${site}:${ci}`;
+        if (usedPairs.has(key)) continue;
+        usedPairs.add(key);
+        return { site, color: editPalette[ci] };
+      }
+      return null;
+    }
+
+    function countAt(depth) {
+      if (depth === 0) return tree.seed === 53 ? 2 : 1;
+      return 1 + Math.floor(rng() * 2);
+    }
+
+    function walk(id, depth, inherited) {
+      edits.set(id, inherited);
+      for (const kid of children.get(id)) {
+        const pathSites = new Set(inherited.map(e => e.site));
+        const childEdits = inherited.slice();
+        const nNew = countAt(depth);
+        for (let i = 0; i < nNew && pathSites.size < NSITES; i += 1) {
+          const edit = pickEdit(pathSites);
+          if (!edit) break;
+          childEdits.push(edit);
+          pathSites.add(edit.site);
+        }
+        walk(kid, depth + 1, childEdits);
+      }
+    }
+
+    const root = tree.nodes.find(n => !n.parent);
+    walk(root.id, 0, []);
+
+    const codes = new Map();
+    for (const n of tree.nodes) {
+      if (n.kind !== 'observed') continue;
+      const arr = new Array(NSITES).fill(null);
+      for (const edit of edits.get(n.id)) arr[edit.site] = edit.color;
+      codes.set(n.id, arr);
+    }
+    return codes;
+  }
+
+  function activeNodes(tree, sliceY) {
+    const byId = new Map(tree.nodes.map(n => [n.id, n]));
+    const children = new Map(tree.nodes.map(n => [n.id, []]));
+    for (const n of tree.nodes) {
+      if (n.parent) children.get(n.parent).push(n.id);
+    }
+    return tree.nodes
+      .filter(n => n.y <= sliceY)
+      .filter(n => children.get(n.id).every(childId => byId.get(childId).y > sliceY))
+      .map(n => n.id);
+  }
+
+  function drawBarcode(group, cx, y, code, opacity = 1, scale = 1) {
+    const w = 5.2 * scale, h = 15 * scale, gap = 2.7 * scale;
+    const total = NSITES * w + (NSITES - 1) * gap;
+    let x = cx - total / 2;
+    for (let i = 0; i < NSITES; i += 1) {
+      const fill = code[i];
+      el('rect', {
+        class: fill ? 'bar' : 'bar-empty',
+        x, y, width: w, height: h, rx: 1.4 * scale,
+        fill: fill || '#eef1f5',
+        opacity
+      }, group);
+      x += w + gap;
+    }
+  }
+
+  function drawAxis(group, y0) {
+    const ticks = [
+      { y: TICK.t0, label: 0 },
+      { y: TICK.t1, label: 1 },
+      { y: TICK.t2, label: 2 },
+      { y: TICK.t3, label: 3 }
+    ];
+    el('path', {
+      class: 'axis-line',
+      d: `M 230 ${y0 + TICK.t0} L 230 ${y0 + TICK.t3 + 12}`,
+      // 'marker-end': 'url(#axis-arrow)'
+    }, group);
+    for (const tick of ticks) {
+      el('line', { class: 'tick', x1: 220, y1: y0 + tick.y, x2: 240, y2: y0 + tick.y }, group);
+      addSvgTimeLabel(group, 204, y0 + tick.y + 7, tick.label);
+    }
+  }
+
+  function addSvgTimeLabel(group, x, y, index) {
+    const text = el('text', {
+      x,
+      y,
+      fill: '#667085',
+      'font-family': FONT,
+      'font-size': '27',
+      'text-anchor': 'end'
+    }, group);
+    const t = document.createElementNS(NS, 'tspan');
+    t.setAttribute('font-style', 'italic');
+    t.textContent = 't';
+    text.appendChild(t);
+    const sub = document.createElementNS(NS, 'tspan');
+    sub.setAttribute('baseline-shift', 'sub');
+    sub.setAttribute('font-size', '18');
+    sub.textContent = String(index);
+    text.appendChild(sub);
+  }
+
+  function addRawTimeLabel(group, x, y, index) {
+    const text = el('text', {
+      x,
+      y,
+      fill: '#667085',
+      'font-family': FONT,
+      'font-size': '26',
+      'text-anchor': 'end'
+    }, group);
+    const t = document.createElementNS(NS, 'tspan');
+    t.setAttribute('font-style', 'italic');
+    t.textContent = 't';
+    text.appendChild(t);
+    const sub = document.createElementNS(NS, 'tspan');
+    sub.setAttribute('baseline-shift', 'sub');
+    sub.setAttribute('font-size', '17');
+    sub.textContent = String(index);
+    text.appendChild(sub);
+  }
+
+  // Leaf spacing inside a raw embryo box, shrinking to fit the busier embryos.
+  function rawSpacing(count) {
+    return Math.min(86, (420 - 88) / Math.max(1, count - 1));
+  }
+  function rawBarScale(spacing) {
+    return Math.min(1.18, (spacing - 10) / 36.8);
+  }
+
+  function drawRawStage(selector, y0) {
+    const group = document.querySelector(selector);
+    const BOX_H = 176;
+    // Embryos are measured at three different times (embryo 1 at t1, embryo 2 at
+    // t2, embryo 3 at t3); each box shows the observed cells and lineage barcodes.
+    const boxes = [
+      { x: 220, y: y0 + 16, width: 420, height: BOX_H, label: 'embryo 1', time: 1 },
+      { x: 690, y: y0 + 16, width: 420, height: BOX_H, label: 'embryo 2', time: 2 },
+      { x: 1160, y: y0 + 16, width: 420, height: BOX_H, label: 'embryo 3', time: 3 }
+    ];
+
+    boxes.forEach(box => {
+      el('rect', {
+        class: 'raw-group',
+        x: box.x,
+        y: box.y,
+        width: box.width,
+        height: box.height,
+        rx: 8
+      }, group);
+      el('text', {
+        x: box.x + 20,
+        y: box.y + 28,
+        fill: '#667085',
+        'font-family': FONT,
+        'font-size': '27',
+        'text-anchor': 'start'
+      }, group).textContent = box.label;
+      addRawTimeLabel(group, box.x + box.width - 20, box.y + 28, box.time);
+    });
+
+    const rowY = y0 + 96;
+    const barTop = rowY + 30;
+    for (const [treeIndex, tree] of trees.entries()) {
+      const codes = buildBarcodes(tree);
+      const leaves = tree.nodes.filter(n => n.kind === 'observed');
+      const box = boxes[treeIndex];
+      const spacing = rawSpacing(leaves.length);
+      const barScale = rawBarScale(spacing);
+
+      for (const [leafIndex, leaf] of leaves.entries()) {
+        const cx = box.x + box.width / 2 + (leafIndex - (leaves.length - 1) / 2) * spacing;
+        el('circle', {
+          class: 'node',
+          cx,
+          cy: rowY,
+          r: 16,
+          fill: leaf.color,
+          stroke: leaf.color
+        }, group);
+        drawBarcode(group, cx, barTop, codes.get(leaf.id), 1, barScale);
+      }
+    }
+
+    // Encoding legend braces in the first embryo box: a brace over the circles
+    // labels "cell state", a brace under the bar strips labels "lineage barcode".
+    const box0 = boxes[0];
+    const leaves0 = trees[0].nodes.filter(n => n.kind === 'observed');
+    const spacing0 = rawSpacing(leaves0.length);
+    const barScale0 = rawBarScale(spacing0);
+    const halfSpan0 = ((leaves0.length - 1) / 2) * spacing0;
+    const cellL = box0.x + box0.width / 2 - halfSpan0 - 18;
+    const cellR = box0.x + box0.width / 2 + halfSpan0 + 18;
+    const barL = box0.x + box0.width / 2 - halfSpan0 - 22;
+    const barR = box0.x + box0.width / 2 + halfSpan0 + 22;
+    const barBottom = barTop + 15 * barScale0;
+    const labelFill = '#5a626f';
+
+    el('path', { class: 'brace', d: braceH(cellL, cellR, rowY - 20, 10, -1) }, group);
+    el('text', {
+      x: (cellL + cellR) / 2, y: rowY - 42, fill: labelFill,
+      'font-family': FONT, 'font-size': '26', 'text-anchor': 'middle'
+    }, group).textContent = 'cell state';
+
+    el('path', { class: 'brace', d: braceH(barL, barR, barBottom + 6, 8, 1) }, group);
+    el('text', {
+      x: (barL + barR) / 2, y: barBottom + 42, fill: labelFill,
+      'font-family': FONT, 'font-size': '26', 'text-anchor': 'middle'
+    }, group).textContent = 'lineage barcode';
+  }
+
+  function drawTree(group, tree, y0, mode) {
+    const nodes = tree.nodes.map(n => shifted(n, 0, y0));
+    const byId = new Map(nodes.map(n => [n.id, n]));
+    const selected = new Set(mode === 'remasked' ? activeNodes(tree, GENERATION_Y) : []);
+    const stateColor = felsensteinColors(tree);
+
+    for (const n of nodes) {
+      if (!n.parent) continue;
+      const parent = byId.get(n.parent);
+      const light = mode === 'remasked';
+      el('path', { class: light ? 'edge light' : 'edge', d: curve(parent, n) }, group);
+    }
+
+    for (const n of nodes) {
+      const color = stateColor.get(n.id);
+      if (mode === 'observed' && n.kind === 'hidden') {
+        el('circle', { class: 'node ghost', cx: n.x, cy: n.y, r: 8 }, group);
+      } else if (mode === 'imputed' && n.kind === 'hidden') {
+        // Imputed internal state: hatched in the node's own colour.
+        el('circle', {
+          class: 'node', cx: n.x, cy: n.y, r: 8,
+          fill: hatchFill(color), stroke: color, 'stroke-width': 2.2
+        }, group);
+      } else if (mode === 'remasked' && selected.has(n.id)) {
+        el('circle', { class: 'slice-node', cx: n.x, cy: n.y, r: 9, fill: color, stroke: color }, group);
+      } else if (mode === 'remasked') {
+        // Masked / reconstructed node: hollow (white) with a dashed outline in
+        // its colour -- visually distinct from the solid hatched imputed nodes.
+        el('circle', {
+          class: 'node masked', cx: n.x, cy: n.y, r: 8,
+          fill: '#ffffff', stroke: color, 'stroke-dasharray': '3.2 2.6'
+        }, group);
+      } else {
+        const r = n.kind === 'hidden' ? 8 : 9;
+        el('circle', { class: 'node', cx: n.x, cy: n.y, r, fill: color, stroke: color }, group);
+      }
+
+    }
+
+  }
+
+  // Leader + two-line label pointing at the middle tree's left-most t1 internal
+  // node (a purple ghost / hatched disc), anchoring the node-type label.
+  function drawTypeLabel(group, y0, lines) {
+    const tree = trees[1];
+    const cand = tree.nodes.filter(n => n.kind === 'hidden' && n.y > 105 && n.y < 145);
+    const target = cand.reduce((a, b) => (b.x < a.x ? b : a));
+    const nodeX = target.x, nodeY = y0 + target.y;
+    const labelCx = 615;
+    el('path', { class: 'leader', d: `M ${nodeX - 16} ${nodeY} L ${labelCx + 62} ${nodeY}` }, group);
+    const text = el('text', {
+      x: labelCx, y: nodeY, fill: '#5a626f',
+      'font-family': FONT, 'font-size': '26', 'text-anchor': 'middle'
+    }, group);
+    for (const [i, word] of lines.entries()) {
+      const span = document.createElementNS(NS, 'tspan');
+      span.setAttribute('x', labelCx);
+      span.setAttribute('dy', i === 0 ? '-5' : '30');
+      span.textContent = word;
+      text.appendChild(span);
+    }
+  }
+
+  // Horizontal under-brace beneath a set of leaf nodes, with a two-line label
+  // centred below it (matching the "cell state" / "lineage barcode" style).
+  function drawBottomLabel(group, y0, nodes, lines) {
+    const r = 14;
+    const xs = nodes.map(n => n.x);
+    const yLeaf = y0 + Math.max(...nodes.map(n => n.y));
+    const xL = Math.min(...xs) - r - 6;
+    const xR = Math.max(...xs) + r + 6;
+    const yBody = yLeaf + r + 8;
+    el('path', { class: 'brace', d: braceH(xL, xR, yBody, 10, 1) }, group);
+    const cx = (xL + xR) / 2;
+    const label = el('text', {
+      x: cx, y: yBody + 34, fill: '#5a626f',
+      'font-family': FONT, 'font-size': '26', 'text-anchor': 'middle'
+    }, group);
+    for (const [i, word] of lines.entries()) {
+      const span = document.createElementNS(NS, 'tspan');
+      span.setAttribute('x', cx);
+      span.setAttribute('dy', i === 0 ? '0' : '30');
+      span.textContent = word;
+      label.appendChild(span);
+    }
+  }
+
+  function drawStage(selector, y0, mode) {
+    const group = document.querySelector(selector);
+    drawAxis(group, y0);
+
+    for (const tree of trees) {
+      drawTree(group, tree, y0, mode);
+    }
+
+    if (mode === 'observed') drawTypeLabel(group, y0, ['unobserved', 'states']);
+    if (mode === 'imputed') drawTypeLabel(group, y0, ['imputed', 'states']);
+    if (mode === 'remasked') {
+      // input condition: embryo 1's observed t1 leaves are the frontier.
+      const condNodes = trees[0].nodes.filter(n => n.kind === 'observed');
+      drawBottomLabel(group, y0, condNodes, ['input', 'condition']);
+      // reconstructed states: the middle tree's masked t2 leaves.
+      const recNodes = trees[1].nodes.filter(n => n.kind === 'observed');
+      drawBottomLabel(group, y0, recNodes, ['reconstructed', 'states']);
+    }
+  }
+
+  drawRawStage('#raw-stage', 120);
+  drawStage('#observed-stage', 366, 'observed');
+  drawStage('#imputed-stage', 788, 'imputed');
+  drawStage('#remasked-stage', 1132, 'remasked');
+})();
+</script>
+</body>
+</html>

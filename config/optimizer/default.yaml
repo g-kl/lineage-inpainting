@@ -1,0 +1,13 @@
+# Optimizer / training-dynamics knobs.
+#
+# This group is HASHED (it is NOT in hash.py's DEFAULT_EXCLUDE_KEYS). Anything
+# here changes the trained artifact (lr schedule, regularisation, momentum
+# averaging), so toggling these forks the output directory. Run-control knobs
+# (n_steps, save_every, log_every, device) stay under `training` and do not
+# affect identity.
+lr: 1e-3
+weight_decay: 0.0
+adam_eps: 1e-8
+warmup_steps: 0
+max_grad_norm: 4.0
+ema_decay: 0.999

@@ -1,0 +1,16 @@
+_target_: splitters.bridge_tree_flow.BridgeDeltaTreeFlow
+
+# Residual-frame ambient BridgeDeltaTreeFlow: flow runs in `dim` space toward
+# (x_1 - baseline); the baseline + observed/masked role embedding come from the
+# Delta machinery. Flow geometry is owned by the bridge.
+dim: 50
+d_internal: 128
+n_heads: 4
+n_layers: 4
+hidden: 512
+n_flow_steps: 8
+attention_bias_init: 0.0
+slice_direction: up
+bridge:
+  _target_: splitters.bridges.flow_matching.CFMBridge
+  sigma: 0.0

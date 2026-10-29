@@ -1,0 +1,20 @@
+# Multi-seed fate-bias synthetic process. Each tree is an independent SDE
+# realization observed at a single randomly-chosen obs_time.
+_target_: datasets.fate_bias.FateBiasDataset
+
+n_generations: 10
+split_gen: 3              # fates commit at split_gen + n_primed_generations (9)
+n_primed_generations: 6
+sigma: 0.3                # overridden by fate_bias_sig0{2,4,6,8} (sigma scan)
+theta: 2.0
+mu_1_primed: 0.2
+mu_2_primed: -0.2
+mu_1: 1.0
+mu_2: -1.0
+fate_prob: 0.75
+branch_interval: 1.0
+steps_per_interval: 200
+obs_times: [5.0, 6.0, 7.0, 8.0, 9.0, 10.0]
+seed: 1000                # tree i uses seed + i
+n_trees: 200              # number of independent training trees
+ref_seed: 9999            # separate sim used to bind OT reference cells
